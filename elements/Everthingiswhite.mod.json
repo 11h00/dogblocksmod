@@ -1,0 +1,25 @@
+{
+  "_fv": 28,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "everything is..... white ?",
+    "achievementDescription": "you entered the white space, here, only peace and great moment. dont be afraid. we are here for you",
+    "achievementIcon": {
+      "value": "CUSTOM:Whitestone"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 100,
+    "achievementType": "task",
+    "parent": {
+      "value": "story/mine_diamond"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"102\" y=\"54\"><field name=\"dimension\">CUSTOM:Whitespace</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

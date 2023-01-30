@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dog33"
+      },
+      "name": "default"
+    }
+  }
+}

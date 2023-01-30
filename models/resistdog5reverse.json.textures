@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "resistdog5"
+      },
+      "name": "default"
+    }
+  }
+}

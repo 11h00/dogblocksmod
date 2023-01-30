@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dogwoods_log"
+    }
+  ],
+  "result": {
+    "item": "dogblockmod:dogwoods_planks",
+    "count": 4
+  }
+}

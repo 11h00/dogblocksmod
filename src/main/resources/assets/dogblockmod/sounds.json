@@ -1,0 +1,305 @@
+{
+  "whitezone": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "dogblockmod:white",
+        "stream": false
+      }
+    ]
+  },
+  "elevator_done": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "dogblockmod:elevator_done",
+        "stream": false
+      }
+    ]
+  },
+  "hescoming": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "dogblockmod:hescoming",
+        "stream": false
+      }
+    ]
+  },
+  "unlucky": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:youreunlucky",
+        "stream": false
+      }
+    ]
+  },
+  "nothing": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:nothing",
+        "stream": false
+      }
+    ]
+  },
+  "diamonboxopened": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "dogblockmod:diamondboxopened",
+        "stream": false
+      }
+    ]
+  },
+  "openbox": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:openbox",
+        "stream": false
+      }
+    ]
+  },
+  "mediumdoghurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:mediumdoghurt1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:mediumdoghurt2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:mediumdoghurt3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:mediumdoghurt4",
+        "stream": false
+      }
+    ]
+  },
+  "mediumdogdeath": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:mediumdogdeath1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:mediumdogdeath2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:mediumdogdeath3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:mediumdogdeath4",
+        "stream": false
+      }
+    ]
+  },
+  "bigdoghurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:bigdoghurt1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bigdoghurt2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bigdoghurt3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bigdoghurt4",
+        "stream": false
+      }
+    ]
+  },
+  "bigdogdeath": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:bigdogdeath1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bigdogdeath2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bigdogdeath3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bigdogdeath4",
+        "stream": false
+      }
+    ]
+  },
+  "bosshurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:bosshurt1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bosshurt2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bosshurt3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bosshurt4",
+        "stream": false
+      }
+    ]
+  },
+  "bossdeath": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:bossdeath1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bossdeath2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bossdeath3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:bossdeath4",
+        "stream": false
+      }
+    ]
+  },
+  "babydogkilled": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:death1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:death2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:death3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:death4",
+        "stream": false
+      }
+    ]
+  },
+  "babydogshurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:hurt1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:hurt2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:hurt3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:hurt4",
+        "stream": false
+      }
+    ]
+  },
+  "fz3bgm": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:floorz3",
+        "stream": false
+      }
+    ]
+  },
+  "floora1bgm": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:floora1",
+        "stream": false
+      }
+    ]
+  },
+  "floora2bgm": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:floora2",
+        "stream": false
+      }
+    ]
+  },
+  "flooraabgm": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:flooraa",
+        "stream": false
+      }
+    ]
+  },
+  "floorr1bgm": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:floorr1",
+        "stream": false
+      }
+    ]
+  },
+  "floora2altbgm": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:floora2alt",
+        "stream": false
+      }
+    ]
+  },
+  "dogtrap": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:dogtrap",
+        "stream": false
+      }
+    ]
+  },
+  "floorpe": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:floorpe",
+        "stream": false
+      }
+    ]
+  }
+}

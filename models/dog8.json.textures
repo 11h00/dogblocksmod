@@ -1,0 +1,34 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dog8_5"
+      },
+      "name": "default"
+    },
+    "dog84lives": {
+      "map": {
+        "0": "dog8_4"
+      },
+      "name": "dog84lives"
+    },
+    "dog83lives": {
+      "map": {
+        "0": "dog8_3"
+      },
+      "name": "dog83lives"
+    },
+    "dog82lives": {
+      "map": {
+        "0": "dog8_2"
+      },
+      "name": "dog82lives"
+    },
+    "dog81lives": {
+      "map": {
+        "0": "dog8_1"
+      },
+      "name": "dog81lives"
+    }
+  }
+}

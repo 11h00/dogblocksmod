@@ -1,0 +1,400 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dogshreeder",
+    "customModelName": "Normal",
+    "name": "dog shreeder",
+    "specialInfo": [
+      "next gen tool to destroy dog block even faster"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Special",
+    "harvestLevel": 3,
+    "efficiency": 13333.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 6.0,
+    "usageCount": 3200,
+    "blocksAffected": [
+      {
+        "value": "CUSTOM:Dog2"
+      },
+      {
+        "value": "CUSTOM:Dog4"
+      },
+      {
+        "value": "CUSTOM:Dog5"
+      },
+      {
+        "value": "CUSTOM:Dog6"
+      },
+      {
+        "value": "CUSTOM:Dog8"
+      },
+      {
+        "value": "CUSTOM:Dog9"
+      },
+      {
+        "value": "CUSTOM:Bigdog9"
+      },
+      {
+        "value": "CUSTOM:Verybigdog9"
+      },
+      {
+        "value": "CUSTOM:Dog9reverse"
+      },
+      {
+        "value": "CUSTOM:Bigdog9reverse"
+      },
+      {
+        "value": "CUSTOM:Verybigdog9reverse"
+      },
+      {
+        "value": "CUSTOM:Dog10"
+      },
+      {
+        "value": "CUSTOM:Dog10reverse"
+      },
+      {
+        "value": "CUSTOM:Dog11"
+      },
+      {
+        "value": "CUSTOM:Bidog10"
+      },
+      {
+        "value": "CUSTOM:Bigdog10reverse"
+      },
+      {
+        "value": "CUSTOM:Verybigdog10"
+      },
+      {
+        "value": "CUSTOM:Verybigdog10reverse"
+      },
+      {
+        "value": "CUSTOM:Darkliquit"
+      },
+      {
+        "value": "CUSTOM:Dog85lives"
+      },
+      {
+        "value": "CUSTOM:Dog84lives"
+      },
+      {
+        "value": "CUSTOM:Dog83lives"
+      },
+      {
+        "value": "CUSTOM:Dog82lives"
+      },
+      {
+        "value": "CUSTOM:Dog81lives"
+      },
+      {
+        "value": "CUSTOM:Dog14"
+      },
+      {
+        "value": "CUSTOM:Dog19"
+      },
+      {
+        "value": "CUSTOM:Dog15"
+      },
+      {
+        "value": "CUSTOM:Blackplant"
+      },
+      {
+        "value": "CUSTOM:Dog21"
+      },
+      {
+        "value": "CUSTOM:Dog23"
+      },
+      {
+        "value": "CUSTOM:Dog25"
+      },
+      {
+        "value": "CUSTOM:Dog26"
+      },
+      {
+        "value": "CUSTOM:Dog26reverse"
+      },
+      {
+        "value": "CUSTOM:Dog28"
+      },
+      {
+        "value": "CUSTOM:Dog29"
+      },
+      {
+        "value": "CUSTOM:Dog31"
+      },
+      {
+        "value": "CUSTOM:Dog33"
+      },
+      {
+        "value": "CUSTOM:Dog34"
+      },
+      {
+        "value": "CUSTOM:Sebdog"
+      },
+      {
+        "value": "CUSTOM:Dog12"
+      },
+      {
+        "value": "CUSTOM:Dog13"
+      },
+      {
+        "value": "CUSTOM:Dog35"
+      },
+      {
+        "value": "CUSTOM:Dog35big"
+      },
+      {
+        "value": "CUSTOM:Dog35verybig"
+      },
+      {
+        "value": "CUSTOM:Dog37"
+      },
+      {
+        "value": "CUSTOM:Dog37big"
+      },
+      {
+        "value": "CUSTOM:Dog37verybig"
+      },
+      {
+        "value": "CUSTOM:Dog39"
+      },
+      {
+        "value": "CUSTOM:Dog39big"
+      },
+      {
+        "value": "CUSTOM:Dog39verybig"
+      },
+      {
+        "value": "CUSTOM:Dog22"
+      },
+      {
+        "value": "CUSTOM:Dog310live"
+      },
+      {
+        "value": "CUSTOM:Dog39live"
+      },
+      {
+        "value": "CUSTOM:Dog38lives"
+      },
+      {
+        "value": "CUSTOM:Dog37lives"
+      },
+      {
+        "value": "CUSTOM:Dog36lives"
+      },
+      {
+        "value": "CUSTOM:Dog35lives"
+      },
+      {
+        "value": "CUSTOM:Dog34lives"
+      },
+      {
+        "value": "CUSTOM:Dog33lives"
+      },
+      {
+        "value": "CUSTOM:Dog32lives"
+      },
+      {
+        "value": "CUSTOM:Dog31lives"
+      },
+      {
+        "value": "CUSTOM:Ndog2"
+      },
+      {
+        "value": "CUSTOM:Ndog4"
+      },
+      {
+        "value": "CUSTOM:Ndog5"
+      },
+      {
+        "value": "CUSTOM:Ndog6"
+      },
+      {
+        "value": "CUSTOM:Ndog8"
+      },
+      {
+        "value": "CUSTOM:Ndog9"
+      },
+      {
+        "value": "CUSTOM:Ndog10"
+      },
+      {
+        "value": "CUSTOM:Ndog11"
+      },
+      {
+        "value": "CUSTOM:Ndog7"
+      },
+      {
+        "value": "CUSTOM:Ndog14"
+      },
+      {
+        "value": "CUSTOM:Ndog19"
+      },
+      {
+        "value": "CUSTOM:Ndog15"
+      },
+      {
+        "value": "CUSTOM:Ndog23"
+      },
+      {
+        "value": "CUSTOM:Ndog24"
+      },
+      {
+        "value": "CUSTOM:Ndog25"
+      },
+      {
+        "value": "CUSTOM:Ndog26"
+      },
+      {
+        "value": "CUSTOM:Ndog28"
+      },
+      {
+        "value": "CUSTOM:Ndog29"
+      },
+      {
+        "value": "CUSTOM:Ndog31"
+      },
+      {
+        "value": "CUSTOM:Ndog33"
+      },
+      {
+        "value": "CUSTOM:Ndog34"
+      },
+      {
+        "value": "CUSTOM:Nseb"
+      },
+      {
+        "value": "CUSTOM:Ndog12"
+      },
+      {
+        "value": "CUSTOM:Ndog13"
+      },
+      {
+        "value": "CUSTOM:Ndog35"
+      },
+      {
+        "value": "CUSTOM:Ndog37"
+      },
+      {
+        "value": "CUSTOM:Ndog39"
+      },
+      {
+        "value": "CUSTOM:Ndog22"
+      },
+      {
+        "value": "CUSTOM:Ndog3"
+      },
+      {
+        "value": "CUSTOM:Dog55"
+      },
+      {
+        "value": "CUSTOM:DOG56"
+      },
+      {
+        "value": "CUSTOM:Dog57"
+      },
+      {
+        "value": "CUSTOM:Dog58"
+      },
+      {
+        "value": "CUSTOM:Dog60"
+      },
+      {
+        "value": "CUSTOM:Dog61"
+      },
+      {
+        "value": "CUSTOM:Dog595lives"
+      },
+      {
+        "value": "CUSTOM:Dog594lives"
+      },
+      {
+        "value": "CUSTOM:Dog593lives"
+      },
+      {
+        "value": "CUSTOM:Dog592lives"
+      },
+      {
+        "value": "CUSTOM:Dog591lives"
+      },
+      {
+        "value": "CUSTOM:Dog63"
+      },
+      {
+        "value": "CUSTOM:Dog64"
+      },
+      {
+        "value": "CUSTOM:Dog65"
+      },
+      {
+        "value": "CUSTOM:Dog66"
+      },
+      {
+        "value": "CUSTOM:Dog67"
+      },
+      {
+        "value": "CUSTOM:Dog68"
+      },
+      {
+        "value": "CUSTOM:Dog69"
+      },
+      {
+        "value": "CUSTOM:Dog70"
+      },
+      {
+        "value": "CUSTOM:Dog71"
+      },
+      {
+        "value": "CUSTOM:Dog72"
+      },
+      {
+        "value": "CUSTOM:Dog73"
+      },
+      {
+        "value": "CUSTOM:Dog74"
+      },
+      {
+        "value": "CUSTOM:Dog75"
+      },
+      {
+        "value": "CUSTOM:Dog76"
+      },
+      {
+        "value": "CUSTOM:Dog77"
+      },
+      {
+        "value": "CUSTOM:Dog78"
+      },
+      {
+        "value": "CUSTOM:Dog79"
+      },
+      {
+        "value": "CUSTOM:Dog80"
+      },
+      {
+        "value": "CUSTOM:Bigdog8spawn"
+      },
+      {
+        "value": "CUSTOM:Dog81"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Whiteores"
+      },
+      {
+        "value": "CUSTOM:Blackstonepart"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

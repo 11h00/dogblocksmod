@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "dogblockmod:block/blackplant"
+    },
+    "half=lower": {
+      "model": "dogblockmod:block/blackplant_bottom"
+    }
+  }
+}

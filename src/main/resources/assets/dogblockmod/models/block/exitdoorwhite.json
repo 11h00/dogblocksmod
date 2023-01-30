@@ -1,0 +1,10 @@
+{
+  "parent": "dogblockmod:custom/exitdoor",
+  "textures": {
+    "all": "dogblockmod:blocks/cyan",
+    "particle": "dogblockmod:blocks/cyan",
+    "0": "dogblockmod:blocks/cyan",
+    "1": "dogblockmod:blocks/black",
+    "2": "dogblockmod:blocks/stairs"
+  }
+}

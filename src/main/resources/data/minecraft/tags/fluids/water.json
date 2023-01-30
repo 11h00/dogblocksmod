@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "dogblockmod:dogbloodblock",
+    "dogblockmod:dogbloodblock_flowing",
+    "dogblockmod:darkliquit",
+    "dogblockmod:darkliquit_flowing",
+    "dogblockmod:magicwater",
+    "dogblockmod:magicwater_flowing",
+    "dogblockmod:unknownliquid",
+    "dogblockmod:unknownliquid_flowing"
+  ]
+}

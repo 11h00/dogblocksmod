@@ -1,0 +1,82 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "do6"
+      },
+      "name": "default"
+    },
+    "dog9": {
+      "map": {
+        "0": "dog9"
+      },
+      "name": "dog9"
+    },
+    "dog9reverse": {
+      "map": {
+        "0": "dog9_"
+      },
+      "name": "dog9reverse"
+    },
+    "dog10": {
+      "map": {
+        "0": "dog13"
+      },
+      "name": "dog10"
+    },
+    "dog10reverse": {
+      "map": {
+        "0": "dog13_"
+      },
+      "name": "dog10reverse"
+    },
+    "dog20": {
+      "map": {
+        "0": "dog20"
+      },
+      "name": "dog20"
+    },
+    "dog35": {
+      "map": {
+        "0": "dog35"
+      },
+      "name": "dog35"
+    },
+    "dog36": {
+      "map": {
+        "0": "dog36"
+      },
+      "name": "dog36"
+    },
+    "dog37": {
+      "map": {
+        "0": "dog37"
+      },
+      "name": "dog37"
+    },
+    "dog39": {
+      "map": {
+        "0": "dog39"
+      },
+      "name": "dog39"
+    },
+    "longdogbody": {
+      "map": {
+        "0": "longdog1body"
+      },
+      "name": "longdogbody"
+    },
+    "longdoghead": {
+      "map": {
+        "0": "longdog1head"
+      },
+      "name": "longdoghead"
+    },
+    "dog4": {
+      "map": {
+        "0": "dog1"
+      },
+      "name": "dog4"
+    }
+  }
+}

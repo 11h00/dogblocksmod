@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bugdog"
+      },
+      "name": "default"
+    },
+    "reversed": {
+      "map": {
+        "0": "bugdogreverse"
+      },
+      "name": "reversed"
+    }
+  }
+}

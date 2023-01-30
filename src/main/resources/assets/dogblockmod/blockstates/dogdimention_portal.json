@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dogblockmod:block/dogdimention_portal_ew"
+    },
+    "axis=x": {
+      "model": "dogblockmod:block/dogdimention_portal_ns"
+    }
+  }
+}

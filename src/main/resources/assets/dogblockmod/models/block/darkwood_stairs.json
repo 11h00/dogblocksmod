@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "dogblockmod:blocks/darkwood_planks",
+    "top": "dogblockmod:blocks/darkwood_planks",
+    "side": "dogblockmod:blocks/darkwood_planks"
+  }
+}

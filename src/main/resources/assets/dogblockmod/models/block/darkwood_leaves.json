@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dogblockmod:blocks/darkwood_leaves",
+    "particle": "dogblockmod:blocks/darkwood_leaves"
+  }
+}

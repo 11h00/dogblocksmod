@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dogblockmod:whiteores"
+    },
+    "1": {
+      "item": "dogblockmod:whiteores"
+    },
+    "2": {
+      "item": "dogblockmod:whiteores"
+    },
+    "3": {
+      "item": "dogblockmod:whiteores"
+    },
+    "4": {
+      "item": "dogblockmod:whiteores"
+    },
+    "5": {
+      "item": "dogblockmod:whiteores"
+    },
+    "6": {
+      "item": "dogblockmod:whiteores"
+    },
+    "7": {
+      "item": "dogblockmod:whiteores"
+    },
+    "8": {
+      "item": "dogblockmod:whiteores"
+    }
+  },
+  "result": {
+    "item": "dogblockmod:whiteores_block",
+    "count": 1
+  }
+}

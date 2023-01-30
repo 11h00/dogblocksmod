@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "dogblockmod:dogwoods_planks"
+    },
+    "1": {
+      "item": "dogblockmod:dogwoods_planks"
+    },
+    "2": {
+      "item": "dogblockmod:dogwoods_planks"
+    }
+  },
+  "result": {
+    "item": "dogblockmod:dogwoods_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dogblockmod:blocks/dogwoods_log_top",
+    "up": "dogblockmod:blocks/dogwoods_log_top",
+    "north": "dogblockmod:blocks/dogwoods_log_side",
+    "east": "dogblockmod:blocks/dogwoods_log_side",
+    "south": "dogblockmod:blocks/dogwoods_log_side",
+    "west": "dogblockmod:blocks/dogwoods_log_side",
+    "particle": "dogblockmod:blocks/dogwoods_log_top"
+  }
+}

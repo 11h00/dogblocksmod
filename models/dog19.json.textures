@@ -1,0 +1,70 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dog19"
+      },
+      "name": "default"
+    },
+    "d10": {
+      "map": {
+        "0": "hdog11"
+      },
+      "name": "d10"
+    },
+    "d9": {
+      "map": {
+        "0": "hdog10"
+      },
+      "name": "d9"
+    },
+    "d8": {
+      "map": {
+        "0": "hdog9"
+      },
+      "name": "d8"
+    },
+    "dd7": {
+      "map": {
+        "0": "hdog8"
+      },
+      "name": "dd7"
+    },
+    "d6": {
+      "map": {
+        "0": "hdog7"
+      },
+      "name": "d6"
+    },
+    "d5": {
+      "map": {
+        "0": "hdog6"
+      },
+      "name": "d5"
+    },
+    "d4": {
+      "map": {
+        "0": "hdog3"
+      },
+      "name": "d4"
+    },
+    "d3": {
+      "map": {
+        "0": "hdog4"
+      },
+      "name": "d3"
+    },
+    "d2": {
+      "map": {
+        "0": "hdog2"
+      },
+      "name": "d2"
+    },
+    "d1": {
+      "map": {
+        "0": "hdog1"
+      },
+      "name": "d1"
+    }
+  }
+}

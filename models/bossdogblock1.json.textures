@@ -1,0 +1,58 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bossblockdog1life9"
+      },
+      "name": "default"
+    },
+    "life3": {
+      "map": {
+        "0": "bossblockdog1life3"
+      },
+      "name": "life3"
+    },
+    "life2": {
+      "map": {
+        "0": "bossblockdog1life2"
+      },
+      "name": "life2"
+    },
+    "life1": {
+      "map": {
+        "0": "bossblockdog1life1"
+      },
+      "name": "life1"
+    },
+    "life7": {
+      "map": {
+        "0": "bossblockdog1life7"
+      },
+      "name": "life7"
+    },
+    "life6": {
+      "map": {
+        "0": "bossblockdog1life6"
+      },
+      "name": "life6"
+    },
+    "life5": {
+      "map": {
+        "0": "bossblockdog1life5"
+      },
+      "name": "life5"
+    },
+    "life4": {
+      "map": {
+        "0": "bossblockdog1life4"
+      },
+      "name": "life4"
+    },
+    "life8": {
+      "map": {
+        "0": "bossblockdog1life8"
+      },
+      "name": "life8"
+    }
+  }
+}

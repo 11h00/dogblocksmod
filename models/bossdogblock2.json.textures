@@ -1,0 +1,88 @@
+{
+  "mappings": {
+    "l1": {
+      "map": {
+        "0": "bossblockdog2life1"
+      },
+      "name": "l1"
+    },
+    "l2": {
+      "map": {
+        "0": "bossblockdog2life2"
+      },
+      "name": "l2"
+    },
+    "l3": {
+      "map": {
+        "0": "bossblockdog2life3"
+      },
+      "name": "l3"
+    },
+    "l4": {
+      "map": {
+        "0": "bossblockdog2life4"
+      },
+      "name": "l4"
+    },
+    "l5": {
+      "map": {
+        "0": "bossblockdog2life5"
+      },
+      "name": "l5"
+    },
+    "l10": {
+      "map": {
+        "0": "bossblockdog2life10"
+      },
+      "name": "l10"
+    },
+    "l6": {
+      "map": {
+        "0": "bossblockdog2life6"
+      },
+      "name": "l6"
+    },
+    "l7": {
+      "map": {
+        "0": "bossblockdog2life7"
+      },
+      "name": "l7"
+    },
+    "l12": {
+      "map": {
+        "0": "bossblockdog2life12"
+      },
+      "name": "l12"
+    },
+    "l8": {
+      "map": {
+        "0": "bossblockdog2life8"
+      },
+      "name": "l8"
+    },
+    "l11": {
+      "map": {
+        "0": "bossblockdog2life11"
+      },
+      "name": "l11"
+    },
+    "l9": {
+      "map": {
+        "0": "bossblockdog2life9"
+      },
+      "name": "l9"
+    },
+    "l13": {
+      "map": {
+        "0": "bossblockdog2life13"
+      },
+      "name": "l13"
+    },
+    "default": {
+      "map": {
+        "0": "bossblockdog2life14"
+      },
+      "name": "default"
+    }
+  }
+}

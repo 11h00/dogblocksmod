@@ -1,0 +1,8 @@
+{
+  "parent": "dogblockmod:custom/dog64",
+  "textures": {
+    "all": "dogblockmod:blocks/dog64",
+    "particle": "dogblockmod:blocks/red",
+    "0": "dogblockmod:blocks/dog64"
+  }
+}

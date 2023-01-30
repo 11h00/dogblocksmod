@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dogblockmod:blackores_block"
+    },
+    {
+      "item": "dogblockmod:blackores_block"
+    },
+    {
+      "item": "dogblockmod:blackores_block"
+    },
+    {
+      "item": "dogblockmod:blackores_block"
+    }
+  ],
+  "result": {
+    "item": "dogblockmod:blackblock",
+    "count": 1
+  }
+}

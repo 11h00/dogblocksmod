@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dogblockmod:blocks/darkwood_planks",
+    "particle": "dogblockmod:blocks/darkwood_planks"
+  }
+}

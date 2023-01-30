@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dogblockmod:darkwood_planks"
+    }
+  ],
+  "result": {
+    "item": "dogblockmod:darkwood_button",
+    "count": 1
+  }
+}

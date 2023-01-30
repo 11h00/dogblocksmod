@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dogblockmod:blocks/whitegrassbottom",
+    "up": "dogblockmod:blocks/whitegrasstop",
+    "north": "dogblockmod:blocks/whitegrassside",
+    "east": "dogblockmod:blocks/whitegrassside",
+    "south": "dogblockmod:blocks/whitegrassside",
+    "west": "dogblockmod:blocks/whitegrassside",
+    "particle": "dogblockmod:blocks/whitegrassbottom"
+  }
+}

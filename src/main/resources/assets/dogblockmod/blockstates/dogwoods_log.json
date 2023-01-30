@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dogblockmod:block/dogwoods_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dogblockmod:block/dogwoods_log"
+    },
+    "axis=z": {
+      "model": "dogblockmod:block/dogwoods_log",
+      "x": 90
+    }
+  }
+}

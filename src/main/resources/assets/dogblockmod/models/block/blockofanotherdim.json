@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dogblockmod:blocks/blockdecona",
+    "particle": "dogblockmod:blocks/blockdecona"
+  }
+}

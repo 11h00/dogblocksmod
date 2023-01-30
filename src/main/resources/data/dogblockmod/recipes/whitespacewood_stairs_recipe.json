@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dogblockmod:whitespacewood_planks"
+    },
+    "3": {
+      "item": "dogblockmod:whitespacewood_planks"
+    },
+    "4": {
+      "item": "dogblockmod:whitespacewood_planks"
+    },
+    "6": {
+      "item": "dogblockmod:whitespacewood_planks"
+    },
+    "7": {
+      "item": "dogblockmod:whitespacewood_planks"
+    },
+    "8": {
+      "item": "dogblockmod:whitespacewood_planks"
+    }
+  },
+  "result": {
+    "item": "dogblockmod:whitespacewood_stairs",
+    "count": 4
+  }
+}

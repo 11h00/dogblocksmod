@@ -1,0 +1,8 @@
+{
+  "parent": "dogblockmod:custom/exdog2_reverse",
+  "textures": {
+    "all": "dogblockmod:blocks/ex_dog2",
+    "particle": "dogblockmod:blocks/red",
+    "1": "dogblockmod:blocks/ex_dog2"
+  }
+}

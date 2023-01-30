@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dogblockmod:blocks/whiteores_ore",
+    "particle": "dogblockmod:blocks/whiteores_ore"
+  }
+}

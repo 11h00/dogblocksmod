@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "dogblockmod:blocks/black_tile",
+    "top": "dogblockmod:blocks/black_tile",
+    "side": "dogblockmod:blocks/black_tile"
+  }
+}

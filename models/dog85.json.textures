@@ -1,0 +1,34 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dog85"
+      },
+      "name": "default"
+    },
+    "live3": {
+      "map": {
+        "0": "dog85_2"
+      },
+      "name": "live3"
+    },
+    "live2": {
+      "map": {
+        "0": "dog85_1"
+      },
+      "name": "live2"
+    },
+    "live4": {
+      "map": {
+        "0": "dog85_4"
+      },
+      "name": "live4"
+    },
+    "live5": {
+      "map": {
+        "0": "dog85_5"
+      },
+      "name": "live5"
+    }
+  }
+}

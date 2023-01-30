@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "dogblockmod:darkwood_planks"
+    },
+    "1": {
+      "item": "dogblockmod:darkwood_planks"
+    }
+  },
+  "result": {
+    "item": "dogblockmod:darkwood_pressure_plate",
+    "count": 1
+  }
+}

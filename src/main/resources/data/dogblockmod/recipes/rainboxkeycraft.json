@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dogblockmod:ranboxlines"
+    },
+    "1": {
+      "item": "dogblockmod:ranboxlines"
+    },
+    "2": {
+      "item": "dogblockmod:ranboxlines"
+    },
+    "3": {
+      "item": "dogblockmod:ranboxlines"
+    },
+    "4": {
+      "item": "dogblockmod:ranboxlines"
+    },
+    "5": {
+      "item": "dogblockmod:ranboxlines"
+    },
+    "6": {
+      "item": "dogblockmod:ranboxlines"
+    },
+    "7": {
+      "item": "dogblockmod:ranboxlines"
+    },
+    "8": {
+      "item": "dogblockmod:ranboxlines"
+    }
+  },
+  "result": {
+    "item": "dogblockmod:rainbowkey",
+    "count": 1
+  }
+}

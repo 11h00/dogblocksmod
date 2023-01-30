@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dogblockmod:anogem"
+    },
+    "1": {
+      "item": "dogblockmod:anogem"
+    },
+    "2": {
+      "item": "dogblockmod:anogem"
+    },
+    "3": {
+      "item": "dogblockmod:anogem"
+    },
+    "4": {
+      "item": "dogblockmod:anogem"
+    },
+    "5": {
+      "item": "dogblockmod:anogem"
+    },
+    "6": {
+      "item": "dogblockmod:anogem"
+    },
+    "7": {
+      "item": "dogblockmod:anogem"
+    },
+    "8": {
+      "item": "dogblockmod:anogem"
+    }
+  },
+  "result": {
+    "item": "dogblockmod:blockofanotherdim",
+    "count": 2
+  }
+}

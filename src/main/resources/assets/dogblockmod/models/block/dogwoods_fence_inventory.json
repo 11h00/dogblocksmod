@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "dogblockmod:blocks/dogwoods_planks",
+    "particle": "dogblockmod:blocks/dogwoods_planks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "dogblockmod:custom/bigdog",
+  "textures": {
+    "all": "dogblockmod:blocks/longdog1body",
+    "particle": "dogblockmod:blocks/red",
+    "0": "dogblockmod:blocks/longdog1body"
+  }
+}

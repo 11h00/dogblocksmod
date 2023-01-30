@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "exdog6"
+      },
+      "name": "default"
+    },
+    "resistdog1": {
+      "map": {
+        "0": "resistdog1"
+      },
+      "name": "resistdog1"
+    },
+    "resistoog2": {
+      "map": {
+        "0": "resistdog2"
+      },
+      "name": "resistoog2"
+    },
+    "resistdog3": {
+      "map": {
+        "0": "resistdog3"
+      },
+      "name": "resistdog3"
+    },
+    "resistdog4": {
+      "map": {
+        "0": "resistdog4"
+      },
+      "name": "resistdog4"
+    },
+    "resistdog6": {
+      "map": {
+        "0": "exdog6"
+      },
+      "name": "resistdog6"
+    },
+    "resistdog7": {
+      "map": {
+        "0": "exdog7"
+      },
+      "name": "resistdog7"
+    },
+    "resistdog8": {
+      "map": {
+        "0": "exdog8"
+      },
+      "name": "resistdog8"
+    }
+  }
+}

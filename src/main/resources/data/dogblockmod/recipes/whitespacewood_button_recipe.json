@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dogblockmod:whitespacewood_planks"
+    }
+  ],
+  "result": {
+    "item": "dogblockmod:whitespacewood_button",
+    "count": 1
+  }
+}

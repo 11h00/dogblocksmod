@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dogblockmod:blocks/whitespacewood_leaves",
+    "particle": "dogblockmod:blocks/whitespacewood_leaves"
+  }
+}

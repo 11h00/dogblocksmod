@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dogblockmod:block/dogtrapblockslab"
+    },
+    "type=top": {
+      "model": "dogblockmod:block/dogtrapblockslab_top"
+    },
+    "type=double": {
+      "model": "dogblockmod:block/dogtrapblockslab_full"
+    }
+  }
+}

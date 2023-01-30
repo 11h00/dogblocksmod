@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dogblockmod:whiteores_block"
+    }
+  ],
+  "result": {
+    "item": "dogblockmod:whiteores",
+    "count": 9
+  }
+}

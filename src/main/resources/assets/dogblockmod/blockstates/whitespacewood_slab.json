@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dogblockmod:block/whitespacewood_slab"
+    },
+    "type=top": {
+      "model": "dogblockmod:block/whitespacewood_slab_top"
+    },
+    "type=double": {
+      "model": "dogblockmod:block/whitespacewood_slab_full"
+    }
+  }
+}

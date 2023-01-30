@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "dogblockmod:blocks/whitespacewood_planks",
+    "particle": "dogblockmod:blocks/whitespacewood_planks"
+  }
+}

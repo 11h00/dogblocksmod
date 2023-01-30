@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "merde2"
+      },
+      "name": "default"
+    },
+    "mathiasreverse": {
+      "map": {
+        "0": "merde2_"
+      },
+      "name": "mathiasreverse"
+    }
+  }
+}

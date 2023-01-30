@@ -1,0 +1,64 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": ""
+      },
+      "name": "default"
+    },
+    "part1": {
+      "map": {
+        "0": "finaldogpart1"
+      },
+      "name": "part1"
+    },
+    "part2": {
+      "map": {
+        "0": "finaldogpart2"
+      },
+      "name": "part2"
+    },
+    "part3": {
+      "map": {
+        "0": "finaldogpart3"
+      },
+      "name": "part3"
+    },
+    "part4": {
+      "map": {
+        "0": "finaldogpart4"
+      },
+      "name": "part4"
+    },
+    "part5": {
+      "map": {
+        "0": "finaldogpart5"
+      },
+      "name": "part5"
+    },
+    "part6": {
+      "map": {
+        "0": "finaldogpart6"
+      },
+      "name": "part6"
+    },
+    "part7": {
+      "map": {
+        "0": "finaldogpart7"
+      },
+      "name": "part7"
+    },
+    "part8": {
+      "map": {
+        "0": "finaldogpart8"
+      },
+      "name": "part8"
+    },
+    "part9": {
+      "map": {
+        "0": "finaldogpart9"
+      },
+      "name": "part9"
+    }
+  }
+}

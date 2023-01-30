@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:whitespacewood_log"
+    }
+  ],
+  "result": {
+    "item": "dogblockmod:whitespacewood_planks",
+    "count": 4
+  }
+}

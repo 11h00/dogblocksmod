@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cyan",
+        "1": "black",
+        "2": "stairs"
+      },
+      "name": "default"
+    }
+  }
+}

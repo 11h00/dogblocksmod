@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dogblockmod:blocks/darkwood_log_side",
+    "particle": "dogblockmod:blocks/darkwood_log_side"
+  }
+}
