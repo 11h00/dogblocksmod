@@ -29,7 +29,7 @@ public class Bigdog1Renderer {
 
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("dogblockmod:textures/merde2.png");
+						return new ResourceLocation("dogblockmod:textures/entities/merde2.png");
 					}
 				};
 			});

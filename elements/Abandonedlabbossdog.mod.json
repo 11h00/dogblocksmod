@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "livingentity",
   "definition": {
     "mobName": "abandoned lab boss dog",
@@ -52,6 +52,7 @@
     "movementSpeed": 0.19999999999999998,
     "armorBaseValue": 15.0,
     "trackingRange": 164,
+    "followRange": 16,
     "health": 1000,
     "xpAmount": 175,
     "waterMob": false,

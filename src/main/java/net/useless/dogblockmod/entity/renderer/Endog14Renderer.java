@@ -29,7 +29,7 @@ public class Endog14Renderer {
 
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("dogblockmod:textures/endog14.png");
+						return new ResourceLocation("dogblockmod:textures/entities/endog14.png");
 					}
 				};
 			});

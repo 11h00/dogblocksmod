@@ -29,7 +29,7 @@ public class Bossdog2Renderer {
 
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("dogblockmod:textures/bossdog2.png");
+						return new ResourceLocation("dogblockmod:textures/entities/bossdog2.png");
 					}
 				};
 			});

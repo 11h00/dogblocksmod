@@ -87,9 +87,7 @@ public class Bigdog4Block extends DogblockmodModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.or(makeCuboidShape(-8, 0, -8, 24, 32, 24)
-
-			)
+			return VoxelShapes.or(makeCuboidShape(-8, 0, -8, 24, 32, 24))
 
 					.withOffset(offset.x, offset.y, offset.z);
 		}

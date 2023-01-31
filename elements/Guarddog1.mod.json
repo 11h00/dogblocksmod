@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "livingentity",
   "definition": {
     "mobName": "guard dog 1",
@@ -52,6 +52,7 @@
     "movementSpeed": 0.15,
     "armorBaseValue": 0.0,
     "trackingRange": 50,
+    "followRange": 16,
     "health": 100,
     "xpAmount": 150,
     "waterMob": false,

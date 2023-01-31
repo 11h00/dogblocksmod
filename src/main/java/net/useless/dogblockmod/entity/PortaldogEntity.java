@@ -65,6 +65,7 @@ public class PortaldogEntity extends DogblockmodModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 650);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 25);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 0);
+			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			event.put(entity, ammma.create());
 		}
 	}

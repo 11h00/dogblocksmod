@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "livingentity",
   "definition": {
     "mobName": "Dog 7",
@@ -52,6 +52,7 @@
     "movementSpeed": 0.19999999999999998,
     "armorBaseValue": 25.0,
     "trackingRange": 64,
+    "followRange": 16,
     "health": 550,
     "xpAmount": 75,
     "waterMob": false,

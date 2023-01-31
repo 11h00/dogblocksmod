@@ -29,7 +29,7 @@ public class Guarddog1Renderer {
 
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("dogblockmod:textures/guarddog1.png");
+						return new ResourceLocation("dogblockmod:textures/entities/guarddog1.png");
 					}
 				};
 			});

@@ -29,7 +29,7 @@ public class AbandonedlabbossdogRenderer {
 
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("dogblockmod:textures/abandonedlabbossdog.png");
+						return new ResourceLocation("dogblockmod:textures/entities/abandonedlabbossdog.png");
 					}
 				};
 			});

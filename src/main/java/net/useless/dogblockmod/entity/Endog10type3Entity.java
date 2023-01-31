@@ -81,6 +81,7 @@ public class Endog10type3Entity extends DogblockmodModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 360);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 15);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
+			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 10);
 			event.put(entity, ammma.create());
 		}

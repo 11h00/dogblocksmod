@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "livingentity",
   "definition": {
     "mobName": " dog 11",
@@ -52,6 +52,7 @@
     "movementSpeed": 0.25,
     "armorBaseValue": 35.0,
     "trackingRange": 170,
+    "followRange": 16,
     "health": 450,
     "xpAmount": 25,
     "waterMob": false,

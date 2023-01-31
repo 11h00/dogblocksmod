@@ -58,6 +58,7 @@ public class Giantdog6Entity extends DogblockmodModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 1024);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 100);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 0);
+			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 4);
 			event.put(entity, ammma.create());
 		}

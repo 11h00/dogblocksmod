@@ -29,7 +29,7 @@ public class Disabledguarddog2Renderer {
 
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("dogblockmod:textures/dog10.png");
+						return new ResourceLocation("dogblockmod:textures/entities/dog10.png");
 					}
 				};
 			});

@@ -29,7 +29,7 @@ public class TameableportaldogRenderer {
 
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("dogblockmod:textures/endog15.png");
+						return new ResourceLocation("dogblockmod:textures/entities/endog15.png");
 					}
 				};
 			});

@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "livingentity",
   "definition": {
     "mobName": "dog 10 type 3",
@@ -52,6 +52,7 @@
     "movementSpeed": 0.19999999999999998,
     "armorBaseValue": 10.0,
     "trackingRange": 164,
+    "followRange": 16,
     "health": 260,
     "xpAmount": 175,
     "waterMob": false,

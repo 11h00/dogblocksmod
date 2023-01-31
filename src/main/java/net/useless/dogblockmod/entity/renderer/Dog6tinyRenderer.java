@@ -29,7 +29,7 @@ public class Dog6tinyRenderer {
 
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("dogblockmod:textures/dog6.png");
+						return new ResourceLocation("dogblockmod:textures/entities/dog6.png");
 					}
 				};
 			});

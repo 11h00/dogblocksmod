@@ -75,6 +75,7 @@ public class Dog7tinyEntity extends DogblockmodModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 300);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 11.299999999999999);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 6);
+			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			event.put(entity, ammma.create());
 		}
 	}

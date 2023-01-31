@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "livingentity",
   "definition": {
     "mobName": "tiny dog 7",
@@ -52,6 +52,7 @@
     "movementSpeed": 0.25,
     "armorBaseValue": 11.299999999999999,
     "trackingRange": 64,
+    "followRange": 16,
     "health": 300,
     "xpAmount": 40,
     "waterMob": false,

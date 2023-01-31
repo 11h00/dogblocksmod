@@ -62,6 +62,7 @@ public class Bossdog2Entity extends DogblockmodModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 600);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 15);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
+			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 5.5);
 			event.put(entity, ammma.create());
 		}
