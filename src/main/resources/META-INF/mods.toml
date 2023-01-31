@@ -1,16 +1,17 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Academic Free License v3.0"
+license="Public Domain"
 
 [[mods]]
 modId="dogblockmod"
 version="1.0.5"
 displayName="the dog block mod"
-credits="this mod is made for fun, you can add me on twitter @isphyxal  (if i didnt changed the username since lol)"
-displayURL="https://mcreator.net"
-authors="isphyxal "
+credits="my name is mathias and im 21 year old lol, you can check my website to know a little more about me ;)"
+displayURL="https://mathias777.com"
+logoFile="logo.png"
+authors="mathias777"
 description='''
-a useless mod who spawn dog block in your world, ps. i dont have any idea if these photos are free to use, i just found all of them in random website and google images, sub to my channel if you liked this mod lol, more update to come
+this mod will add dog blocs in your world and much more 
 '''
 
 [[dependencies.dogblockmod]]
