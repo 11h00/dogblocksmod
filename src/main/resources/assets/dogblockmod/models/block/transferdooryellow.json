@@ -1,0 +1,9 @@
+{
+  "parent": "dogblockmod:custom/transfer_door",
+  "textures": {
+    "all": "dogblockmod:blocks/black",
+    "particle": "dogblockmod:blocks/black",
+    "0": "dogblockmod:blocks/orangeframes",
+    "1": "dogblockmod:blocks/black"
+  }
+}

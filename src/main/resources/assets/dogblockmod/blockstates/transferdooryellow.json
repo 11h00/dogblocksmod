@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dogblockmod:block/transferdooryellow"
+    },
+    "facing=east": {
+      "model": "dogblockmod:block/transferdooryellow",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dogblockmod:block/transferdooryellow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dogblockmod:block/transferdooryellow",
+      "y": 270
+    }
+  }
+}

@@ -10008,6 +10008,33 @@
         ]
       },
       "path": "~/specialdim"
+    },
+    {
+      "name": "Transferdoorblue",
+      "type": "block",
+      "sortid": 1000,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transferdoorblue",
+      "path": "~/doors/transferdoors"
+    },
+    {
+      "name": "Transferdoorgreen",
+      "type": "block",
+      "sortid": 1001,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transferdoorgreen",
+      "path": "~/doors/transferdoors"
+    },
+    {
+      "name": "Transferdooryellow",
+      "type": "block",
+      "sortid": 1002,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transferdooryellow",
+      "path": "~/doors/transferdoors"
     }
   ],
   "variable_elements": [
@@ -10460,6 +10487,7 @@
       "item.dogblockmod.brownspace": "Floorz 3 Portal Igniter",
       "block.dogblockmod.dog_8spawn": "dog 8 spawn",
       "block.dogblockmod.blockofanotherdim": "Blockofanotherdim",
+      "block.dogblockmod.transferdoorgreen": "transfer door - green space",
       "entity.dogblockmod.veryverybigdog_6": "very very big dog 6",
       "item.dogblockmod.endog_10type_3_spawn_egg": "dog 10 type 4 Spawn Egg",
       "subtitles.fz3bgm": "",
@@ -10557,6 +10585,7 @@
       "block.dogblockmod.dog_12": "Dog 12",
       "item.dogblockmod.dog_13bigreverse_spawn_egg": "dog 13 big Spawn Egg",
       "block.dogblockmod.dog_31": "Dog 31",
+      "block.dogblockmod.transferdooryellow": "transfer door - yellow space",
       "item.dogblockmod.verybigdog_1_spawn_egg": "very big dog 1 Spawn Egg",
       "block.dogblockmod.whiteores_ore": "Whiteores Ore",
       "item.dogblockmod.dog_1_spawn_egg": "Dog 1  Spawn Egg",
@@ -10665,6 +10694,7 @@
       "block.dogblockmod.resistdog_8": "resist dog 8",
       "block.dogblockmod.dog_6spawn": "dog 6 spawn",
       "block.dogblockmod.resistdog_4reverse": "resist dog 3",
+      "block.dogblockmod.transferdoorblue": "transfer door - blue space",
       "subtitles.babydogdeath": "",
       "block.dogblockmod.blackblocknw": "black block",
       "item.dogblockmod.doglinerprojectile": "Dog liner projectile",
