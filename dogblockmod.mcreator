@@ -9870,6 +9870,144 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "resistdog_20"
+    },
+    {
+      "name": "Bluewallunbreakable",
+      "type": "block",
+      "sortid": 988,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewallunbreakable",
+      "path": "~/doors/keys/dungeonblock"
+    },
+    {
+      "name": "Bluefloorunbreakable",
+      "type": "block",
+      "sortid": 989,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluefloorunbreakable",
+      "path": "~/doors/keys/dungeonblock"
+    },
+    {
+      "name": "Bluewall",
+      "type": "block",
+      "sortid": 990,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluewall",
+      "path": "~/doors/keys/dungeonblock"
+    },
+    {
+      "name": "Bluefloor",
+      "type": "block",
+      "sortid": 991,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluefloor",
+      "path": "~/doors/keys/dungeonblock"
+    },
+    {
+      "name": "Redwallunbreakable",
+      "type": "block",
+      "sortid": 992,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwallunbreakable",
+      "path": "~/doors/keys/dungeonblock"
+    },
+    {
+      "name": "Redfloorunbreakable",
+      "type": "block",
+      "sortid": 993,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redfloorunbreakable",
+      "path": "~/doors/keys/dungeonblock"
+    },
+    {
+      "name": "Dogtrap2",
+      "type": "dimension",
+      "sortid": 994,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dogtrap_2",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/specialdim"
+    },
+    {
+      "name": "Dogtrap2biome",
+      "type": "biome",
+      "sortid": 995,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dogtrap_2biome",
+      "path": "~/specialdim"
+    },
+    {
+      "name": "Dogtrap2genstruc",
+      "type": "procedure",
+      "sortid": 996,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dogtrap_2genstruc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specialdim"
+    },
+    {
+      "name": "Brownspace",
+      "type": "dimension",
+      "sortid": 997,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brownspace",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/specialdim"
+    },
+    {
+      "name": "Brownspacebiome",
+      "type": "biome",
+      "sortid": 998,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brownspacebiome",
+      "path": "~/specialdim"
+    },
+    {
+      "name": "Brownspacegenstruc",
+      "type": "procedure",
+      "sortid": 999,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brownspacegenstruc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specialdim"
     }
   ],
   "variable_elements": [
@@ -10266,6 +10404,7 @@
       "item.dogblockmod.orangekey": "orange key",
       "block.dogblockmod.dog_85lives": "Dog 8",
       "entity.dogblockmod.resistdog_20": "resist dog 20 mob",
+      "block.dogblockmod.redfloorunbreakable": "unbreakable blue floor",
       "item.dogblockmod.brownkey": "brown key",
       "item.dogblockmod.bulkminer": "Bulk miner",
       "block.dogblockmod.dog_98": "Dog 98",
@@ -10302,6 +10441,7 @@
       "block.dogblockmod.dogtrapblock": "dog trap block",
       "block.dogblockmod.resistdog_7reverse": "resist dog 6 reverse",
       "block.dogblockmod.dogtrapblockslab": "dog trap block",
+      "biome.dogblockmod.dogtrap_2biome": "dog trap",
       "block.dogblockmod.dog_310live": "Dog 3",
       "block.dogblockmod.graydoorbottom": "gray door",
       "block.dogblockmod.dog_1spawn": "dog 1 spawn",
@@ -10317,6 +10457,7 @@
       "block.dogblockmod.purpledoorbottom": "purple door",
       "block.dogblockmod.redgrass": "red grass",
       "entity.dogblockmod.veryverybigdog_1": "very very big dog 1",
+      "item.dogblockmod.brownspace": "Floorz 3 Portal Igniter",
       "block.dogblockmod.dog_8spawn": "dog 8 spawn",
       "block.dogblockmod.blockofanotherdim": "Blockofanotherdim",
       "entity.dogblockmod.veryverybigdog_6": "very very big dog 6",
@@ -10336,6 +10477,7 @@
       "block.dogblockmod.dogwoods_stairs": "Dogwoods Stairs",
       "block.dogblockmod.brownfloorunbreakable": "unbreakable Brown floor",
       "item.dogblockmod.whitestonetools_axe": "Whitestonetools Axe",
+      "block.dogblockmod.bluewallunbreakable": "unbreakable blue wall",
       "subtitles.babydogshurt": "",
       "item.dogblockmod.endog_13reverse_spawn_egg": "dog 13 Spawn Egg",
       "item.dogblockmod.endog_10type_4_spawn_egg": "dog 10 type 5 Spawn Egg",
@@ -10373,8 +10515,10 @@
       "block.dogblockmod.dog_5": "Dog 5",
       "block.dogblockmod.dog_4": "Dog 4",
       "item.dogblockmod.niante": "Niante",
+      "block.dogblockmod.redwallunbreakable": "unbreakable blue wall",
       "block.dogblockmod.dog_2": "Dog 2",
       "entity.dogblockmod.dog_1tiny": "tiny dog 1",
+      "block.dogblockmod.bluefloorunbreakable": "unbreakable blue floor",
       "entity.dogblockmod.dog_11tiny": "tiny dog 11",
       "item.dogblockmod.theblackout": "Theblackout Portal Igniter",
       "biome.dogblockmod.flooraabiome": "floorAA",
@@ -10461,6 +10605,7 @@
       "item.dogblockmod.yellowkey": "yellow key",
       "item.dogblockmod.dog_11verytiny_spawn_egg": "very tiny dog 11 Spawn Egg",
       "block.dogblockmod.raindowdoortop": "rainbow bottom top",
+      "item.dogblockmod.dogtrap_2": "Floorz 3 Portal Igniter",
       "item.dogblockmod.bigdog_1_spawn_egg": "big dog 1 Spawn Egg",
       "block.dogblockmod.blackdoorbottom": "black door",
       "block.dogblockmod.purpledoortop": "purple door top",
@@ -10541,6 +10686,7 @@
       "block.dogblockmod.dog_93": "Dog 93",
       "block.dogblockmod.dogwoods_log": "Dogwoods Log",
       "block.dogblockmod.dog_92": "Dog 92",
+      "biome.dogblockmod.brownspacebiome": "dog trap",
       "block.dogblockmod.rainbowlinesunbreakable": "rainbow lines unbreakable",
       "item.dogblockmod.treekey": "tree key",
       "block.dogblockmod.rainbowportal": "rainbow portal",
@@ -10638,6 +10784,7 @@
       "item.dogblockmod.floor_1": "Floor 1 Portal Igniter",
       "block.dogblockmod.dog_21reverse": "Dog 21",
       "subtitles.bossdogdeath": "",
+      "block.dogblockmod.bluefloor": "blue floor",
       "block.dogblockmod.dog_85lives_5": "Dog 85",
       "block.dogblockmod.dog_85lives_4": "Dog 85",
       "block.dogblockmod.dog_101": "Dog 101",
@@ -10683,6 +10830,7 @@
       "block.dogblockmod.exdog_5reverse": "ex dog 5",
       "item.dogblockmod.blackores_ingot": "black ingot",
       "block.dogblockmod.dog_34lives": "Dog 3",
+      "block.dogblockmod.bluewall": "blue wall",
       "block.dogblockmod.reddoortop": "red door top",
       "block.dogblockmod.blackblock": "black",
       "item.dogblockmod.endog_13_spawn_egg": "dog 13 Spawn Egg",

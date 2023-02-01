@@ -64,7 +64,7 @@ public class UnknownportalEntityCollidesInTheBlockProcedure {
 						return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 					}
 				}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null) {
-			randomseedid = (MathHelper.nextInt(new Random(), 1, 9));
+			randomseedid = (MathHelper.nextInt(new Random(), 1, 11));
 			{
 				List<Entity> _entfound = world
 						.getEntitiesWithinAABB(Entity.class,
@@ -283,6 +283,54 @@ public class UnknownportalEntityCollidesInTheBlockProcedure {
 									if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
 										RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
 												new ResourceLocation("dogblockmod:floorra"));
+										ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
+										if (nextWorld != null) {
+											((ServerPlayerEntity) _ent).connection
+													.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+											((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(),
+													nextWorld.getSpawnPoint().getY() + 1, nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw,
+													_ent.rotationPitch);
+											((ServerPlayerEntity) _ent).connection
+													.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
+											for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
+												((ServerPlayerEntity) _ent).connection
+														.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
+											}
+											((ServerPlayerEntity) _ent).connection
+													.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
+										}
+									}
+								}
+							} else if (randomseedid == 10) {
+								{
+									Entity _ent = entityiterator;
+									if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
+										RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
+												new ResourceLocation("dogblockmod:dogtrap_2"));
+										ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
+										if (nextWorld != null) {
+											((ServerPlayerEntity) _ent).connection
+													.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+											((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(),
+													nextWorld.getSpawnPoint().getY() + 1, nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw,
+													_ent.rotationPitch);
+											((ServerPlayerEntity) _ent).connection
+													.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
+											for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
+												((ServerPlayerEntity) _ent).connection
+														.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
+											}
+											((ServerPlayerEntity) _ent).connection
+													.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
+										}
+									}
+								}
+							} else if (randomseedid == 11) {
+								{
+									Entity _ent = entityiterator;
+									if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
+										RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
+												new ResourceLocation("dogblockmod:brownspace"));
 										ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
 										if (nextWorld != null) {
 											((ServerPlayerEntity) _ent).connection

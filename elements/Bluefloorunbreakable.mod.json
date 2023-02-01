@@ -2,23 +2,23 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "finaldogpart2",
+    "texture": "bluefloor",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "finaldog:part2",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "red",
+    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -33,30 +33,30 @@
         "subtract": false
       }
     ],
-    "name": "final dog",
+    "name": "unbreakable blue floor",
     "specialInfo": [],
     "hardness": 5.0,
-    "resistance": 35.0,
+    "resistance": 50.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Dogtab"
+      "value": "CUSTOM:Strangedungeon"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -77,28 +77,28 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
-      "value": "CUSTOM:nothing"
+      "value": ""
     },
     "fallSound": {
-      "value": "entity.player.big_fall"
+      "value": ""
     },
     "hitSound": {
-      "value": "entity.shulker.hurt"
+      "value": ""
     },
     "placeSound": {
-      "value": "block.deepslate.place"
+      "value": ""
     },
     "stepSound": {
-      "value": "entity.shulker.hurt_closed"
+      "value": ""
     },
     "luminance": 0,
-    "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "unbreakable": true,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -123,25 +123,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockAdded": {
-      "name": "Finaldogpart2BlockAdded"
-    },
-    "onDestroyedByPlayer": {
-      "name": "Finaldogdestroy"
-    },
-    "onRedstoneOn": {
-      "name": "Finaldogdestroy"
-    },
-    "onHitByProjectile": {
-      "name": "Finaldogdestroy"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 2,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 60
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

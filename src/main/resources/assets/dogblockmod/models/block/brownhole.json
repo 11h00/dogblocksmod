@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "dogblockmod:blocks/brownhole",
-    "particle": "dogblockmod:blocks/brownhole"
+    "down": "dogblockmod:blocks/black",
+    "up": "dogblockmod:blocks/brownfloor",
+    "north": "dogblockmod:blocks/brownhole",
+    "east": "dogblockmod:blocks/brownhole",
+    "south": "dogblockmod:blocks/brownhole",
+    "west": "dogblockmod:blocks/brownhole",
+    "particle": "dogblockmod:blocks/black"
   }
 }
