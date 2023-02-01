@@ -21,17 +21,17 @@ import net.minecraft.entity.Entity;
 import java.util.Map;
 import java.util.Collections;
 
-public class Dogtrap2genstrucProcedure {
+public class RedspacegenstructProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				DogblockmodMod.LOGGER.warn("Failed to load dependency world for procedure Dogtrap2genstruc!");
+				DogblockmodMod.LOGGER.warn("Failed to load dependency world for procedure Redspacegenstruct!");
 			return;
 		}
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				DogblockmodMod.LOGGER.warn("Failed to load dependency entity for procedure Dogtrap2genstruc!");
+				DogblockmodMod.LOGGER.warn("Failed to load dependency entity for procedure Redspacegenstruct!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -59,7 +59,7 @@ public class Dogtrap2genstrucProcedure {
 			private void run() {
 				if (world instanceof ServerWorld) {
 					Template template = ((ServerWorld) world).getStructureTemplateManager()
-							.getTemplateDefaulted(new ResourceLocation("dogblockmod", "dogtrap2"));
+							.getTemplateDefaulted(new ResourceLocation("dogblockmod", "red_zone"));
 					if (template != null) {
 						template.func_237144_a_((ServerWorld) world, new BlockPos(95, 95, 95),
 								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false),
@@ -68,9 +68,9 @@ public class Dogtrap2genstrucProcedure {
 				}
 				{
 					Entity _ent = entity;
-					_ent.setPositionAndUpdate(117, 97, 103);
+					_ent.setPositionAndUpdate(100, 98, 100);
 					if (_ent instanceof ServerPlayerEntity) {
-						((ServerPlayerEntity) _ent).connection.setPlayerLocation(117, 97, 103, _ent.rotationYaw, _ent.rotationPitch,
+						((ServerPlayerEntity) _ent).connection.setPlayerLocation(100, 98, 100, _ent.rotationYaw, _ent.rotationPitch,
 								Collections.emptySet());
 					}
 				}

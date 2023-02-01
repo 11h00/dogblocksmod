@@ -10035,6 +10035,81 @@
       "locked_code": false,
       "registry_name": "transferdooryellow",
       "path": "~/doors/transferdoors"
+    },
+    {
+      "name": "Redspace",
+      "type": "dimension",
+      "sortid": 1003,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redspace",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/specialdim"
+    },
+    {
+      "name": "Redspacebiome",
+      "type": "biome",
+      "sortid": 1004,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redspacebiome",
+      "path": "~/specialdim"
+    },
+    {
+      "name": "Redspacegenstruct",
+      "type": "procedure",
+      "sortid": 1005,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redspacegenstruct",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specialdim"
+    },
+    {
+      "name": "TransferdoorEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 1006,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transferdoor_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/doors/transferdoors"
     }
   ],
   "variable_elements": [
@@ -10431,7 +10506,7 @@
       "item.dogblockmod.orangekey": "orange key",
       "block.dogblockmod.dog_85lives": "Dog 8",
       "entity.dogblockmod.resistdog_20": "resist dog 20 mob",
-      "block.dogblockmod.redfloorunbreakable": "unbreakable blue floor",
+      "block.dogblockmod.redfloorunbreakable": "unbreakable red floor",
       "item.dogblockmod.brownkey": "brown key",
       "item.dogblockmod.bulkminer": "Bulk miner",
       "block.dogblockmod.dog_98": "Dog 98",
@@ -10465,6 +10540,7 @@
       "entity.dogblockmod.dog_13bigreverse": "dog 13 big",
       "block.dogblockmod.resistdog_3reverse": "resist dog 3",
       "item.dogblockmod.dogshreederv_2": "dog shreeder",
+      "item.dogblockmod.redspace": "Floorz 3 Portal Igniter",
       "block.dogblockmod.dogtrapblock": "dog trap block",
       "block.dogblockmod.resistdog_7reverse": "resist dog 6 reverse",
       "block.dogblockmod.dogtrapblockslab": "dog trap block",
@@ -10543,7 +10619,7 @@
       "block.dogblockmod.dog_5": "Dog 5",
       "block.dogblockmod.dog_4": "Dog 4",
       "item.dogblockmod.niante": "Niante",
-      "block.dogblockmod.redwallunbreakable": "unbreakable blue wall",
+      "block.dogblockmod.redwallunbreakable": "unbreakable red wall",
       "block.dogblockmod.dog_2": "Dog 2",
       "entity.dogblockmod.dog_1tiny": "tiny dog 1",
       "block.dogblockmod.bluefloorunbreakable": "unbreakable blue floor",
@@ -10856,6 +10932,7 @@
       "item.dogblockmod.bigdog_6_spawn_egg": "big dog 6 Spawn Egg",
       "block.dogblockmod.ndog_33": "Dog 33",
       "block.dogblockmod.ndog_30": "Dog 30",
+      "biome.dogblockmod.redspacebiome": "dog trap",
       "block.dogblockmod.ndog_31": "Dog 31",
       "block.dogblockmod.exdog_5reverse": "ex dog 5",
       "item.dogblockmod.blackores_ingot": "black ingot",
