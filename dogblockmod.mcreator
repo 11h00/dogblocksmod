@@ -9796,6 +9796,15 @@
       "locked_code": false,
       "registry_name": "bowlpouri",
       "path": "~/structures"
+    },
+    {
+      "name": "Transferdoor",
+      "type": "block",
+      "sortid": 981,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transferdoor",
+      "path": "~/doors/transferdoors"
     }
   ],
   "variable_elements": [
@@ -10083,6 +10092,7 @@
       "block.dogblockmod.dog_32lives": "Dog 3",
       "block.dogblockmod.blackstairs": "Black stairs",
       "block.dogblockmod.greendoorbottom": "green door",
+      "block.dogblockmod.transferdoor": "transfer door - red space",
       "block.dogblockmod.resistdog_5bigreverse": "resist dog 5",
       "block.dogblockmod.bigdog_8spawn": "big dog 8 spawn",
       "biome.dogblockmod.floora_2biome": "floorA1",
