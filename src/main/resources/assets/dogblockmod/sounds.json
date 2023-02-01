@@ -301,5 +301,32 @@
         "stream": false
       }
     ]
+  },
+  "red_space": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:red_space",
+        "stream": false
+      }
+    ]
+  },
+  "blue_space": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:blue_space",
+        "stream": false
+      }
+    ]
+  },
+  "brown_space": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:brown_space",
+        "stream": false
+      }
+    ]
   }
 }
