@@ -48,9 +48,9 @@ public class RedspaceDimension extends DogblockmodModElements.ModElement {
 	public void init(FMLCommonSetupEvent event) {
 		Set<Block> replaceableBlocks = new HashSet<>();
 		replaceableBlocks.add(Blocks.AIR);
-		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("dogblockmod:brownspacebiome")).getGenerationSettings()
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("dogblockmod:redspacebiome")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
-		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("dogblockmod:brownspacebiome")).getGenerationSettings()
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("dogblockmod:redspacebiome")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
 		DeferredWorkQueue.runLater(() -> {
 			try {

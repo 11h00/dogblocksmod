@@ -68,9 +68,9 @@ public class RedspacegenstructProcedure {
 				}
 				{
 					Entity _ent = entity;
-					_ent.setPositionAndUpdate(100, 98, 100);
+					_ent.setPositionAndUpdate(107, 97, 105);
 					if (_ent instanceof ServerPlayerEntity) {
-						((ServerPlayerEntity) _ent).connection.setPlayerLocation(100, 98, 100, _ent.rotationYaw, _ent.rotationPitch,
+						((ServerPlayerEntity) _ent).connection.setPlayerLocation(107, 97, 105, _ent.rotationYaw, _ent.rotationPitch,
 								Collections.emptySet());
 					}
 				}

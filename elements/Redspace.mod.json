@@ -4,7 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:Brownspacebiome"
+        "value": "CUSTOM:Redspacebiome"
       }
     ],
     "worldGenType": "Normal world gen",

@@ -36,7 +36,7 @@
       },
       "biomes": [
         {
-          "biome": "dogblockmod:brownspacebiome",
+          "biome": "dogblockmod:redspacebiome",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
