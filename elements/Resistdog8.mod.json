@@ -36,7 +36,7 @@
     "name": "resist dog 8",
     "specialInfo": [],
     "hardness": 3.5,
-    "resistance": 35.0,
+    "resistance": 0.0,
     "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
@@ -125,6 +125,9 @@
     "fluidRestrictions": [],
     "onDestroyedByPlayer": {
       "name": "Resistdog8BlockDestroyedByPlayer"
+    },
+    "onDestroyedByExplosion": {
+      "name": "Dogexplosion"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

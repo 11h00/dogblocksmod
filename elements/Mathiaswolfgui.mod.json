@@ -1,0 +1,168 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 184,
+    "height": 167,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Mathias friend wolf",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Mathias friend wolf",
+          "x": 165,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "bark",
+          "onClick": {
+            "name": "Wolfbark"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "bark",
+          "x": 127,
+          "y": 154
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Action",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Action",
+          "x": 199,
+          "y": 144
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "howl",
+          "onClick": {
+            "name": "Wolfhowl"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "howl",
+          "x": 174,
+          "y": 154
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Pet",
+          "width": 40,
+          "height": 20,
+          "name": "Pet",
+          "x": 221,
+          "y": 154
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Hi, i am a assistant wolf friend",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Hi, i am a assistant wolf friend",
+          "x": 129,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "i am made just for you !",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "i am made just for you !",
+          "x": 129,
+          "y": 70
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16724788,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 128,
+          "y": 128
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Im unique and can't be obtained",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Im unique and can't be obtained",
+          "x": 129,
+          "y": 82
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "So please protect me !",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "So please protect me !",
+          "x": 129,
+          "y": 96
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "tp my friend wolf to me",
+          "width": 144,
+          "height": 20,
+          "name": "tp my friend wolf to me",
+          "x": 127,
+          "y": 177
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

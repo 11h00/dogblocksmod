@@ -70,7 +70,6 @@ public class DogblockmodModVariables {
 
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "dogblockmod_worldvars";
-		public double finaldog_hp = 2500.0;
 
 		public WorldVariables() {
 			super(DATA_NAME);
@@ -82,12 +81,10 @@ public class DogblockmodModVariables {
 
 		@Override
 		public void read(CompoundNBT nbt) {
-			finaldog_hp = nbt.getDouble("finaldog_hp");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
-			nbt.putDouble("finaldog_hp", finaldog_hp);
 			return nbt;
 		}
 
@@ -111,6 +108,8 @@ public class DogblockmodModVariables {
 
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "dogblockmod_mapvars";
+		public double finaldog_hp = 2500.0;
+		public boolean didgotthefreewolf = false;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -122,10 +121,14 @@ public class DogblockmodModVariables {
 
 		@Override
 		public void read(CompoundNBT nbt) {
+			finaldog_hp = nbt.getDouble("finaldog_hp");
+			didgotthefreewolf = nbt.getBoolean("didgotthefreewolf");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
+			nbt.putDouble("finaldog_hp", finaldog_hp);
+			nbt.putBoolean("didgotthefreewolf", didgotthefreewolf);
 			return nbt;
 		}
 

@@ -111,7 +111,7 @@ public class Disabledguarddog2Entity extends DogblockmodModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new FollowOwnerGoal(this, 1, (float) 2, (float) 50, false));
+			this.goalSelector.addGoal(1, new FollowOwnerGoal(this, 1, (float) 4, (float) 60, false));
 			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
 			this.goalSelector.addGoal(3, new OwnerHurtByTargetGoal(this));
 			this.goalSelector.addGoal(4, new OwnerHurtTargetGoal(this));

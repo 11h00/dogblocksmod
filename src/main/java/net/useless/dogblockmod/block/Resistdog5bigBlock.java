@@ -66,8 +66,8 @@ public class Resistdog5bigBlock extends DogblockmodModElements.ModElement {
 							() -> new SoundEvent(new ResourceLocation("entity.shulker.hurt_closed")), () -> new SoundEvent(new ResourceLocation("")),
 							() -> new SoundEvent(new ResourceLocation("entity.shulker.hurt")),
 							() -> new SoundEvent(new ResourceLocation("entity.player.big_fall"))))
-					.hardnessAndResistance(5.85f, 35f).setLightLevel(s -> 0).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()
-					.notSolid().setOpaque((bs, br, bp) -> false));
+					.hardnessAndResistance(5.85f, 0f).setLightLevel(s -> 0).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid()
+					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("resistdog_5big");
 		}
 

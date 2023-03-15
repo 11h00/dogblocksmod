@@ -36,7 +36,7 @@
     "name": "resist dog 5",
     "specialInfo": [],
     "hardness": 13.95,
-    "resistance": 35.0,
+    "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

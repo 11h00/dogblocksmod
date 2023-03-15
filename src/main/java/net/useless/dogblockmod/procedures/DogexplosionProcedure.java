@@ -1,6 +1,6 @@
 package net.useless.dogblockmod.procedures;
 
-import net.useless.dogblockmod.block.Verybigdog10reverseBlock;
+import net.useless.dogblockmod.block.Dog123Block;
 import net.useless.dogblockmod.DogblockmodMod;
 
 import net.minecraft.world.IWorld;
@@ -36,6 +36,6 @@ public class DogexplosionProcedure {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		world.playEvent(2001, new BlockPos(x, y, z), Block.getStateId(Verybigdog10reverseBlock.block.getDefaultState()));
+		world.playEvent(2001, new BlockPos(x, y, z), Block.getStateId(Dog123Block.block.getDefaultState()));
 	}
 }

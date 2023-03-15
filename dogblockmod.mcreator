@@ -10110,6 +10110,243 @@
         ]
       },
       "path": "~/doors/transferdoors"
+    },
+    {
+      "name": "Enwolf1",
+      "type": "livingentity",
+      "sortid": 1007,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enwolf_1",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Enwolf2",
+      "type": "livingentity",
+      "sortid": 1008,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enwolf_2",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Enwolf2formathiasbruh",
+      "type": "livingentity",
+      "sortid": 1009,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enwolf_2formathiasbruh",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Enwolf2formathiasbruhEntityIsHurt",
+      "type": "procedure",
+      "sortid": 1010,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enwolf_2formathiasbruh_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/entiti"
+    },
+    {
+      "name": "Inira",
+      "type": "procedure",
+      "sortid": 1011,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inira",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wolfbark",
+      "type": "procedure",
+      "sortid": 1012,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfbark",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti"
+    },
+    {
+      "name": "Wolfhowl",
+      "type": "procedure",
+      "sortid": 1013,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfhowl",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti"
+    },
+    {
+      "name": "Mathiaswolfgui",
+      "type": "gui",
+      "sortid": 1012,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mathiaswolfgui",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Tpmywolf",
+      "type": "procedure",
+      "sortid": 1014,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpmywolf",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/entiti"
+    },
+    {
+      "name": "Resistdog6EntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 1015,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resistdog_6_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/resistdog"
+    },
+    {
+      "name": "Friendwolfdestroyblock",
+      "type": "procedure",
+      "sortid": 1016,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendwolfdestroyblock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10122,8 +10359,14 @@
     {
       "name": "finaldog_hp",
       "type": "number",
-      "scope": "world",
+      "scope": "map",
       "value": "2500.0"
+    },
+    {
+      "name": "didgotthefreewolf",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -10732,6 +10975,7 @@
       "item.dogblockmod.disableddog_11_spawn_egg": "disabled dog 11 Spawn Egg",
       "block.dogblockmod.dogdimgrass": "fragile grass",
       "block.dogblockmod.dog_58": "Dog 58",
+      "item.dogblockmod.enwolf_2_spawn_egg": "wolf 2 Spawn Egg",
       "block.dogblockmod.dog_55": "Dog 55",
       "block.dogblockmod.dog_57": "Dog 57",
       "block.dogblockmod.dog_56": "Dog 56",
@@ -10809,6 +11053,7 @@
       "block.dogblockmod.orangedoorbottom": "orange door",
       "item.dogblockmod.flooraa": "Floorz 3 Portal Igniter",
       "block.dogblockmod.dog_143": "Dog 143",
+      "entity.dogblockmod.enwolf_2formathiasbruh": "wolf 2 for mathias bruh",
       "block.dogblockmod.darkwood_log": "Darkwood Log",
       "block.dogblockmod.dog_144": "Dog 144",
       "block.dogblockmod.dog_145": "Dog 145",
@@ -10866,6 +11111,8 @@
       "block.dogblockmod.ndog_105": "Dog 105",
       "block.dogblockmod.bugdog": "bug dog",
       "item.dogblockmod.verybigdog_6_spawn_egg": "very big dog 6 Spawn Egg",
+      "entity.dogblockmod.enwolf_1": "wolf 1",
+      "entity.dogblockmod.enwolf_2": "wolf 2",
       "block.dogblockmod.starlyskyunbreakable": "starlysky unbreakable",
       "block.dogblockmod.dog_9reverse": "Dog 9 reverse",
       "subtitles.brown_space": "",
@@ -10917,6 +11164,7 @@
       "block.dogblockmod.ndog_22": "Dog 22",
       "entity.dogblockmod.dog_6tiny": "tiny dog 6",
       "item.dogblockmod.bossdog_3_spawn_egg": "boss dog 3 Spawn Egg",
+      "item.dogblockmod.enwolf_1_spawn_egg": "wolf 1 Spawn Egg",
       "block.dogblockmod.diamonddogbox": "diamond dog box",
       "block.dogblockmod.whitespacegrass": "white space grass",
       "block.dogblockmod.dogwoods_leaves": "Dogwoods Leaves",
@@ -10946,6 +11194,7 @@
       "block.dogblockmod.sebdog": "dog36",
       "block.dogblockmod.dog_121": "Dog 121",
       "block.dogblockmod.resistdog_5big": "resist dog 5",
+      "item.dogblockmod.enwolf_2formathiasbruh_spawn_egg": "wolf 2 for mathias bruh Spawn Egg",
       "block.dogblockmod.dog_122": "Dog 122",
       "block.dogblockmod.dog_82lives": "Dog 8",
       "block.dogblockmod.dog_123": "Dog 123",

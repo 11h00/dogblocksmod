@@ -50,13 +50,25 @@ public class Disabledguarddog2PlayerCollidesWithThisEntityProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
-		if (((entity instanceof TameableEntity) ? ((TameableEntity) entity).isTamed() : false) == false) {
-			if (world instanceof ServerWorld) {
-				((ServerWorld) world).spawnParticle(ParticleTypes.HEART, x, y, z, (int) 10, 2, 2, 2, 1);
+		if ((entity.getDisplayName().getString()).equals("mathias777")) {
+			if (((entity instanceof TameableEntity) ? ((TameableEntity) entity).isTamed() : false) == false) {
+				if (world instanceof ServerWorld) {
+					((ServerWorld) world).spawnParticle(ParticleTypes.HEART, x, y, z, (int) 10, 2, 2, 2, 1);
+				}
+				if ((entity instanceof TameableEntity) && (sourceentity instanceof PlayerEntity)) {
+					((TameableEntity) entity).setTamed(true);
+					((TameableEntity) entity).setTamedBy((PlayerEntity) sourceentity);
+				}
 			}
-			if ((entity instanceof TameableEntity) && (sourceentity instanceof PlayerEntity)) {
-				((TameableEntity) entity).setTamed(true);
-				((TameableEntity) entity).setTamedBy((PlayerEntity) sourceentity);
+		} else if ((entity.getDisplayName().getString()).equals("Dev")) {
+			if (((entity instanceof TameableEntity) ? ((TameableEntity) entity).isTamed() : false) == false) {
+				if (world instanceof ServerWorld) {
+					((ServerWorld) world).spawnParticle(ParticleTypes.HEART, x, y, z, (int) 10, 2, 2, 2, 1);
+				}
+				if ((entity instanceof TameableEntity) && (sourceentity instanceof PlayerEntity)) {
+					((TameableEntity) entity).setTamed(true);
+					((TameableEntity) entity).setTamedBy((PlayerEntity) sourceentity);
+				}
 			}
 		}
 	}

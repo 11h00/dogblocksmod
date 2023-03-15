@@ -2,6 +2,7 @@
 package net.useless.dogblockmod.block;
 
 import net.useless.dogblockmod.procedures.Resistdog5BlockDestroyedByPlayerProcedure;
+import net.useless.dogblockmod.procedures.DestroyeddogProcedure;
 import net.useless.dogblockmod.itemgroup.DogtabItemGroup;
 import net.useless.dogblockmod.DogblockmodModElements;
 
@@ -14,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
+import net.minecraft.world.Explosion;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.ResourceLocation;
@@ -64,8 +66,8 @@ public class Resistdog5Block extends DogblockmodModElements.ModElement {
 							() -> new SoundEvent(new ResourceLocation("entity.shulker.hurt_closed")), () -> new SoundEvent(new ResourceLocation("")),
 							() -> new SoundEvent(new ResourceLocation("entity.shulker.hurt")),
 							() -> new SoundEvent(new ResourceLocation("entity.player.big_fall"))))
-					.hardnessAndResistance(3.85f, 41f).setLightLevel(s -> 0).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()
-					.notSolid().setOpaque((bs, br, bp) -> false));
+					.hardnessAndResistance(3.85f, 0f).setLightLevel(s -> 0).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid()
+					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("resistdog_5");
 		}
 
@@ -99,6 +101,19 @@ public class Resistdog5Block extends DogblockmodModElements.ModElement {
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
+		}
+
+		@Override
+		public void onExplosionDestroy(World world, BlockPos pos, Explosion e) {
+			super.onExplosionDestroy(world, pos, e);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+
+			DestroyeddogProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

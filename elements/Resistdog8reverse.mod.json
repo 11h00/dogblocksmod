@@ -36,7 +36,7 @@
     "name": "resist dog 6 reverse",
     "specialInfo": [],
     "hardness": 5.0,
-    "resistance": 35.0,
+    "resistance": 0.0,
     "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {

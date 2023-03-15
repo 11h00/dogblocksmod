@@ -62,7 +62,7 @@ public class Resistdog5bigreverseBlock extends DogblockmodModElements.ModElement
 							() -> new SoundEvent(new ResourceLocation("entity.shulker.hurt_closed")), () -> new SoundEvent(new ResourceLocation("")),
 							() -> new SoundEvent(new ResourceLocation("entity.shulker.hurt")),
 							() -> new SoundEvent(new ResourceLocation("entity.player.big_fall"))))
-					.hardnessAndResistance(13.95f, 35f).setLightLevel(s -> 0).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()
+					.hardnessAndResistance(13.95f, 0f).setLightLevel(s -> 0).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()
 					.notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("resistdog_5bigreverse");
 		}
