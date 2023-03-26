@@ -81,8 +81,8 @@ public class Disabledguarddog2Entity extends DogblockmodModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.35);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 50);
-			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 13);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 20);
+			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 8);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			event.put(entity, ammma.create());

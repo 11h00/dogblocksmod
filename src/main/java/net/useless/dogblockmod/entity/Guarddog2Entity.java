@@ -57,8 +57,8 @@ public class Guarddog2Entity extends DogblockmodModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.2);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 50);
-			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 12.5);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 15);
+			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 3);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 8);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 5.5);

@@ -5,7 +5,7 @@
     "structure": "hiddenportal",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 1000,
+    "spawnProbability": 3000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Underground",

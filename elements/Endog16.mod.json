@@ -45,7 +45,7 @@
       "value": ""
     },
     "mobBehaviourType": "Mob",
-    "mobCreatureType": "UNDEFINED",
+    "mobCreatureType": "UNDEAD",
     "attackStrength": 5,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,

@@ -7,6 +7,8 @@ import net.useless.dogblockmod.DogblockmodMod;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
@@ -72,33 +74,42 @@ public class IniraProcedure {
 			if (DogblockmodModVariables.MapVariables.get(world).didgotthefreewolf == false) {
 				DogblockmodModVariables.MapVariables.get(world).didgotthefreewolf = (true);
 				DogblockmodModVariables.MapVariables.get(world).syncData(world);
-				if (world instanceof ServerWorld) {
-					Entity entityToSpawn = new Enwolf2formathiasbruhEntity.CustomEntity(Enwolf2formathiasbruhEntity.entity, (World) world);
-					entityToSpawn.setLocationAndAngles(x, y, z, (float) 0, (float) 0);
-					entityToSpawn.setRenderYawOffset((float) 0);
-					entityToSpawn.setRotationYawHead((float) 0);
-					entityToSpawn.setMotion(0, 0, 0);
-					if (entityToSpawn instanceof MobEntity)
-						((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
-								SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
-					world.addEntity(entityToSpawn);
-				}
-			}
-		} else if ((entity.getDisplayName().getString()).equals("Dev")) {
-			if (DogblockmodModVariables.MapVariables.get(world).didgotthefreewolf == false) {
-				DogblockmodModVariables.MapVariables.get(world).didgotthefreewolf = (true);
-				DogblockmodModVariables.MapVariables.get(world).syncData(world);
-				if (world instanceof ServerWorld) {
-					Entity entityToSpawn = new Enwolf2formathiasbruhEntity.CustomEntity(Enwolf2formathiasbruhEntity.entity, (World) world);
-					entityToSpawn.setLocationAndAngles(x, y, z, (float) 0, (float) 0);
-					entityToSpawn.setRenderYawOffset((float) 0);
-					entityToSpawn.setRotationYawHead((float) 0);
-					entityToSpawn.setMotion(0, 0, 0);
-					if (entityToSpawn instanceof MobEntity)
-						((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
-								SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
-					world.addEntity(entityToSpawn);
-				}
+				new Object() {
+					private int ticks = 0;
+					private float waitTicks;
+					private IWorld world;
+
+					public void start(IWorld world, int waitTicks) {
+						this.waitTicks = waitTicks;
+						MinecraftForge.EVENT_BUS.register(this);
+						this.world = world;
+					}
+
+					@SubscribeEvent
+					public void tick(TickEvent.ServerTickEvent event) {
+						if (event.phase == TickEvent.Phase.END) {
+							this.ticks += 1;
+							if (this.ticks >= this.waitTicks)
+								run();
+						}
+					}
+
+					private void run() {
+						if (world instanceof ServerWorld) {
+							Entity entityToSpawn = new Enwolf2formathiasbruhEntity.CustomEntity(Enwolf2formathiasbruhEntity.entity, (World) world);
+							entityToSpawn.setLocationAndAngles(x, y, z, (float) 0, (float) 0);
+							entityToSpawn.setRenderYawOffset((float) 0);
+							entityToSpawn.setRotationYawHead((float) 0);
+							entityToSpawn.setMotion(0, 0, 0);
+							if (entityToSpawn instanceof MobEntity)
+								((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world,
+										world.getDifficultyForLocation(entityToSpawn.getPosition()), SpawnReason.MOB_SUMMONED,
+										(ILivingEntityData) null, (CompoundNBT) null);
+							world.addEntity(entityToSpawn);
+						}
+						MinecraftForge.EVENT_BUS.unregister(this);
+					}
+				}.start(world, (int) 20);
 			}
 		}
 	}

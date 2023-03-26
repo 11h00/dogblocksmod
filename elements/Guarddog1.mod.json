@@ -53,7 +53,7 @@
     "armorBaseValue": 0.0,
     "trackingRange": 50,
     "followRange": 16,
-    "health": 100,
+    "health": 125,
     "xpAmount": 150,
     "waterMob": false,
     "flyingMob": false,
@@ -78,7 +78,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "Items.DIAMOND"
+      "value": "Items.PORKCHOP"
     },
     "livingSound": {
       "value": ""

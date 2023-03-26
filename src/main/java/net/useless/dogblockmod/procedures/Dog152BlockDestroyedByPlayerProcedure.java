@@ -1,6 +1,6 @@
 package net.useless.dogblockmod.procedures;
 
-import net.useless.dogblockmod.entity.PortaldogEntity;
+import net.useless.dogblockmod.entity.Portaldog6lifeEntity;
 import net.useless.dogblockmod.DogblockmodMod;
 
 import net.minecraft.world.server.ServerWorld;
@@ -42,7 +42,7 @@ public class Dog152BlockDestroyedByPlayerProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		if (world instanceof ServerWorld) {
-			Entity entityToSpawn = new PortaldogEntity.CustomEntity(PortaldogEntity.entity, (World) world);
+			Entity entityToSpawn = new Portaldog6lifeEntity.CustomEntity(Portaldog6lifeEntity.entity, (World) world);
 			entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 			if (entityToSpawn instanceof MobEntity)
 				((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),

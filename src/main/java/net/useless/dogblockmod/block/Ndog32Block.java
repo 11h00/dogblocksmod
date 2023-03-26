@@ -92,7 +92,7 @@ public class Ndog32Block extends DogblockmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(Items.DIAMOND));
+			return Collections.singletonList(new ItemStack(Items.EMERALD));
 		}
 
 		@Override

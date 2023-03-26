@@ -61,8 +61,8 @@ public class Endog19Entity extends DogblockmodModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.35);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 200);
-			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 25);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 45);
+			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			event.put(entity, ammma.create());
@@ -103,7 +103,7 @@ public class Endog19Entity extends DogblockmodModElements.ModElement {
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
-			return CreatureAttribute.UNDEFINED;
+			return CreatureAttribute.UNDEAD;
 		}
 
 		@Override

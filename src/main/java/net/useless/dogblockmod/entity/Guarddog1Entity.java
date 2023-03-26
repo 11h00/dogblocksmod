@@ -59,7 +59,7 @@ public class Guarddog1Entity extends DogblockmodModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.15);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 100);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 125);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 2);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
@@ -112,7 +112,7 @@ public class Guarddog1Entity extends DogblockmodModElements.ModElement {
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
 			super.dropSpecialItems(source, looting, recentlyHitIn);
-			this.entityDropItem(new ItemStack(Items.DIAMOND));
+			this.entityDropItem(new ItemStack(Items.PORKCHOP));
 		}
 
 		@Override

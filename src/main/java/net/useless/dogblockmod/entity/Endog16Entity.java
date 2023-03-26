@@ -103,7 +103,7 @@ public class Endog16Entity extends DogblockmodModElements.ModElement {
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
-			return CreatureAttribute.UNDEFINED;
+			return CreatureAttribute.UNDEAD;
 		}
 
 		@Override

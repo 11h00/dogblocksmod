@@ -93,6 +93,10 @@ public class DogblockmodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "blue_space")));
 		sounds.put(new ResourceLocation("dogblockmod", "brown_space"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "brown_space")));
+		sounds.put(new ResourceLocation("dogblockmod", "harddog_hurt"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "harddog_hurt")));
+		sounds.put(new ResourceLocation("dogblockmod", "harddog_death"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "harddog_death")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("dogblockmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

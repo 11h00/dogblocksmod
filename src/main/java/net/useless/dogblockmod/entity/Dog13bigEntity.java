@@ -55,7 +55,7 @@ import java.util.AbstractMap;
 public class Dog13bigEntity extends DogblockmodModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(170).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(0.4f, 6.2f)).build("dog_13big").setRegistryName("dog_13big");
+			.size(0.3f, 5.5f)).build("dog_13big").setRegistryName("dog_13big");
 
 	public Dog13bigEntity(DogblockmodModElements instance) {
 		super(instance, 652);

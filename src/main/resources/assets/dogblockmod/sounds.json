@@ -328,5 +328,47 @@
         "stream": false
       }
     ]
+  },
+  "harddog_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "dogblockmod:harddog_hurt1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:harddog_hurt2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:harddog_hurt3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:harddog_hurt4",
+        "stream": false
+      }
+    ]
+  },
+  "harddog_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "dogblockmod:harddog_death1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:harddog_death2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:harddog_death3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:harddog_death4",
+        "stream": false
+      }
+    ]
   }
 }
