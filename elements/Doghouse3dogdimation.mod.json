@@ -5,7 +5,7 @@
     "structure": "doghouse3",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 750,
+    "spawnProbability": 900,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

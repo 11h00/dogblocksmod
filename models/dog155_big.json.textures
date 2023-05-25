@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hardestdog"
+      },
+      "name": "default"
+    },
+    "life3": {
+      "map": {
+        "0": "dog155_3"
+      },
+      "name": "life3"
+    },
+    "life2": {
+      "map": {
+        "0": "dog155_2"
+      },
+      "name": "life2"
+    },
+    "life1": {
+      "map": {
+        "0": "dog155_1"
+      },
+      "name": "life1"
+    },
+    "life5": {
+      "map": {
+        "0": "dog155_5"
+      },
+      "name": "life5"
+    },
+    "life4": {
+      "map": {
+        "0": "dog155_4"
+      },
+      "name": "life4"
+    }
+  }
+}

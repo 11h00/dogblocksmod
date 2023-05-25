@@ -1,0 +1,46 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": ""
+      },
+      "name": "default"
+    },
+    "life3": {
+      "map": {
+        "0": "wolfblock_3life"
+      },
+      "name": "life3"
+    },
+    "life5": {
+      "map": {
+        "0": "wolfblock_5life"
+      },
+      "name": "life5"
+    },
+    "life4": {
+      "map": {
+        "0": "wolfblock_4life"
+      },
+      "name": "life4"
+    },
+    "life2": {
+      "map": {
+        "0": "wolfblock_2life"
+      },
+      "name": "life2"
+    },
+    "life1": {
+      "map": {
+        "0": "wolfblock_1life"
+      },
+      "name": "life1"
+    },
+    "life0": {
+      "map": {
+        "0": "wolfblock_0life"
+      },
+      "name": "life0"
+    }
+  }
+}

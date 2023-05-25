@@ -370,5 +370,56 @@
         "stream": false
       }
     ]
+  },
+  "cryingdog": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:crying",
+        "stream": false
+      }
+    ]
+  },
+  "patiencedoghurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "dogblockmod:patiencedog_hurt1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:patiencedog_hurt2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:patiencedog_hurt3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:patiencedog_hurt4",
+        "stream": false
+      }
+    ]
+  },
+  "patiencedog_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "dogblockmod:patiencedog_death1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:patiencedog_death2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:patiencedog_death3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:patiencedog_death4",
+        "stream": false
+      }
+    ]
   }
 }

@@ -11836,6 +11836,1935 @@
       "locked_code": false,
       "registry_name": "n_altdog_97",
       "path": "~/dogs/normal dim dog block"
+    },
+    {
+      "name": "Endog23",
+      "type": "livingentity",
+      "sortid": 1099,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_23",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Endog24",
+      "type": "livingentity",
+      "sortid": 1100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_24",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Engiantdog1",
+      "type": "livingentity",
+      "sortid": 1101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engiantdog_1",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Engiantdog2",
+      "type": "livingentity",
+      "sortid": 1102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engiantdog_2",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Alwaystrue",
+      "type": "procedure",
+      "sortid": 1104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alwaystrue",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": []
+      },
+      "path": "~/entiti"
+    },
+    {
+      "name": "Tameabledog23PlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 1105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tameabledog_23_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/entiti"
+    },
+    {
+      "name": "Endog25",
+      "type": "livingentity",
+      "sortid": 1107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_25"
+    },
+    {
+      "name": "Endog26",
+      "type": "livingentity",
+      "sortid": 1108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_26"
+    },
+    {
+      "name": "Endog27",
+      "type": "livingentity",
+      "sortid": 1109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_27"
+    },
+    {
+      "name": "Endog28",
+      "type": "livingentity",
+      "sortid": 1110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_28"
+    },
+    {
+      "name": "Endog29",
+      "type": "livingentity",
+      "sortid": 1111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_29"
+    },
+    {
+      "name": "Finalbossdog",
+      "type": "livingentity",
+      "sortid": 1112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Veryharddog23",
+      "type": "livingentity",
+      "sortid": 1113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "veryharddog_23",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Afraidendog26",
+      "type": "livingentity",
+      "sortid": 1114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "afraidendog_26"
+    },
+    {
+      "name": "Finalbossdog1life",
+      "type": "livingentity",
+      "sortid": 1115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_1life",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog2life",
+      "type": "livingentity",
+      "sortid": 1116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_2life",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog3life",
+      "type": "livingentity",
+      "sortid": 1117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_3life",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog4life",
+      "type": "livingentity",
+      "sortid": 1118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_4life",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog5life",
+      "type": "livingentity",
+      "sortid": 1119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_5life",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog6life",
+      "type": "livingentity",
+      "sortid": 1120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_6life",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog7life",
+      "type": "livingentity",
+      "sortid": 1121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_7life",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog8life",
+      "type": "livingentity",
+      "sortid": 1122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_8life",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog9life",
+      "type": "livingentity",
+      "sortid": 1123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_9life",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog10life",
+      "type": "livingentity",
+      "sortid": 1124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_10life",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog11life",
+      "type": "livingentity",
+      "sortid": 1125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_11life",
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog11lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_11life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog10lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_10life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog9lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_9life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog8lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_8life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog7lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_7life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog6lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_6life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog5lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_5life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog4lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_4life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog3lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_3life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog2lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_2life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdog1lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdog_1life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/finalbossdog"
+    },
+    {
+      "name": "Finalbossdungeondogdimention",
+      "type": "structure",
+      "sortid": 1137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdungeondogdimention",
+      "path": "~/structures"
+    },
+    {
+      "name": "Finalbossdungeon",
+      "type": "structure",
+      "sortid": 1138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finalbossdungeon",
+      "path": "~/structures"
+    },
+    {
+      "name": "UnluckyEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 1139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlucky_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Unlucky",
+      "type": "block",
+      "sortid": 1139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlucky"
+    },
+    {
+      "name": "Test1",
+      "type": "livingentity",
+      "sortid": 1140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_1",
+      "path": "~/tests"
+    },
+    {
+      "name": "Test2",
+      "type": "livingentity",
+      "sortid": 1141,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "test_2",
+      "path": "~/tests"
+    },
+    {
+      "name": "Patiencedog0life",
+      "type": "livingentity",
+      "sortid": 1142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_0life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog1life",
+      "type": "livingentity",
+      "sortid": 1143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_1life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog2life",
+      "type": "livingentity",
+      "sortid": 1144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_2life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog3life",
+      "type": "livingentity",
+      "sortid": 1145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_3life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog4life",
+      "type": "livingentity",
+      "sortid": 1146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_4life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog5life",
+      "type": "livingentity",
+      "sortid": 1147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_5life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog6life",
+      "type": "livingentity",
+      "sortid": 1148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_6life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog7life",
+      "type": "livingentity",
+      "sortid": 1149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_7life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog8life",
+      "type": "livingentity",
+      "sortid": 1150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_8life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog9life",
+      "type": "livingentity",
+      "sortid": 1151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_9life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog10life",
+      "type": "livingentity",
+      "sortid": 1152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_10life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog11life",
+      "type": "livingentity",
+      "sortid": 1153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_11life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog12life",
+      "type": "livingentity",
+      "sortid": 1154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_12life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog13life",
+      "type": "livingentity",
+      "sortid": 1155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_13life",
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog13lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_13life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog12lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_12life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog11lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_11life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog10lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_10life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog9lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_9life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog8lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_8life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog7lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_7life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog6lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_6life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog5lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_5life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog4lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_4life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog3lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_3life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog2lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_2life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedog1lifeEntityDies",
+      "type": "procedure",
+      "sortid": 1168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedog_1life_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/entiti/patiencedog"
+    },
+    {
+      "name": "Patiencedoghouse",
+      "type": "structure",
+      "sortid": 1169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedoghouse",
+      "path": "~/structures"
+    },
+    {
+      "name": "Patiencedoghousenormal",
+      "type": "structure",
+      "sortid": 1170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patiencedoghousenormal",
+      "path": "~/structures"
+    },
+    {
+      "name": "UnluckyAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 1171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlucky_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wolfblock5life",
+      "type": "block",
+      "sortid": 1172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfblock_5life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolfblock4life",
+      "type": "block",
+      "sortid": 1173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfblock_4life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolf5animation",
+      "type": "procedure",
+      "sortid": 1174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_5animation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolfblokl3life",
+      "type": "block",
+      "sortid": 1175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfblokl_3life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolfblock2life",
+      "type": "block",
+      "sortid": 1176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfblock_2life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolfblock1life",
+      "type": "block",
+      "sortid": 1177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfblock_1life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolfblock",
+      "type": "block",
+      "sortid": 1178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfblock",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolfblockreverse",
+      "type": "block",
+      "sortid": 1179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolfblockreverse",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolf4animation",
+      "type": "procedure",
+      "sortid": 1180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_4animation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolf3animation",
+      "type": "procedure",
+      "sortid": 1181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_3animation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolf2animation",
+      "type": "procedure",
+      "sortid": 1182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_2animation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolf1animation",
+      "type": "procedure",
+      "sortid": 1183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_1animation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Wolf0animation",
+      "type": "procedure",
+      "sortid": 1184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_0animation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog1555life",
+      "type": "block",
+      "sortid": 1185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_1555life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog1554life",
+      "type": "block",
+      "sortid": 1186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_1554life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog1553life",
+      "type": "block",
+      "sortid": 1187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_1553life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog1552life",
+      "type": "block",
+      "sortid": 1188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_1552life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog1551life",
+      "type": "block",
+      "sortid": 1189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_1551life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog155reverse",
+      "type": "block",
+      "sortid": 1190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_155reverse",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog155",
+      "type": "block",
+      "sortid": 1191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_155",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog1555lifeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_1555life_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog1554lifeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_1554life_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog1553lifeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_1553life_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog1552lifeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_1552life_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog1551lifeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_1551life_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Dog155BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_155_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog1555life",
+      "type": "block",
+      "sortid": 1198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_1555life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog1555lifeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_1555life_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog1554life",
+      "type": "block",
+      "sortid": 1200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_1554life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog1553life",
+      "type": "block",
+      "sortid": 1201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_1553life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog1552life",
+      "type": "block",
+      "sortid": 1202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_1552life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog1551life",
+      "type": "block",
+      "sortid": 1203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_1551life",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog1554lifeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_1554life_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog1553lifeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_1553life_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog1552lifeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_1552life_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog155",
+      "type": "block",
+      "sortid": 1207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_155",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog155reverse",
+      "type": "block",
+      "sortid": 1208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_155reverse",
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog1551lifeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_1551life_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Bigdog155BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigdog_155_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/wolfblock"
+    },
+    {
+      "name": "Abandonedlabbossdogfriend",
+      "type": "livingentity",
+      "sortid": 1210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abandonedlabbossdogfriend",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Dog156",
+      "type": "block",
+      "sortid": 1211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_156",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Endog30",
+      "type": "livingentity",
+      "sortid": 1212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_30"
+    },
+    {
+      "name": "Endog31",
+      "type": "livingentity",
+      "sortid": 1213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_31"
+    },
+    {
+      "name": "Randomkeys",
+      "type": "loottable",
+      "sortid": 1214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomkeys"
     }
   ],
   "variable_elements": [
@@ -12112,6 +14041,36 @@
       ],
       "category": "hostile",
       "subtitle": ""
+    },
+    {
+      "name": "cryingdog",
+      "files": [
+        "crying"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "patiencedoghurt",
+      "files": [
+        "patiencedog_hurt1",
+        "patiencedog_hurt2",
+        "patiencedog_hurt3",
+        "patiencedog_hurt4"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "patiencedog_death",
+      "files": [
+        "patiencedog_death1",
+        "patiencedog_death2",
+        "patiencedog_death3",
+        "patiencedog_death4"
+      ],
+      "category": "hostile",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -12122,110 +14081,489 @@
       "entity.dogblockmod.giantdog_6": "giant dog 6",
       "entity.dogblockmod.giantdog_1": "giant big dog 1",
       "itemGroup.tabdogtab": "Dogtab",
-      "item.dogblockmod.endog_133life_spawn_egg": "entity dog 13 Spawn Egg",
       "entity.dogblockmod.portaldog": "portal dog",
-      "block.dogblockmod.dog_35verybig": "very big dog 35",
-      "item.dogblockmod.whitestonetools_sword": "Whitestonetools Sword",
-      "item.dogblockmod.floora_1": "Floorz 3 Portal Igniter",
+      "item.dogblockmod.endog_133life_spawn_egg": "entity dog 13 Spawn Egg",
+      "entity.dogblockmod.finalbossdog_8life": "final dog",
       "block.dogblockmod.dog_39verybig": "very big dog 39",
-      "block.dogblockmod.dog_594lives": "Dog 59",
       "item.dogblockmod.shrouk": "Shrouk",
+      "item.dogblockmod.finalbossdog_2life_spawn_egg": "final dog Spawn Egg",
       "block.dogblockmod.verybigdog_10": "very big dog 10",
       "item.dogblockmod.toaistone": "Toai",
       "block.dogblockmod.burrieddogshreederblade": "burried dog shreeder blade",
       "block.dogblockmod.destroyeddogblock": "destroyed dog block",
-      "item.dogblockmod.diabox": "diamond box key",
       "subtitles.unlucky": "",
       "biome.dogblockmod.floora_2altbiome": "floorA2?",
       "item.dogblockmod.enwolf_15lives_spawn_egg": "wolf 1 - 5 lives Spawn Egg",
-      "block.dogblockmod.ranboxlines": "rainbow lines",
+      "subtitles.patiencedoghurt": "",
       "biome.dogblockmod.exdog_8biome": "dog4 biome",
-      "item.dogblockmod.floorr_1": "Floorz 3 Portal Igniter",
-      "entity.dogblockmod.disabledadultdog_11": "disabled adult dog 11",
-      "item.dogblockmod.endog_6_spawn_egg": "Dog 6 Spawn Egg",
-      "block.dogblockmod.blackores_ore": "Blackores Ore",
-      "block.dogblockmod.darkwood_slab": "Darkwood Slab",
+      "block.dogblockmod.unlucky": "Unlucky",
       "entity.dogblockmod.enwolf_13lives": "wolf 1 - 3 lives",
       "subtitles.dogtrap": "",
-      "entity.dogblockmod.abandonedlabbossdog": "abandoned lab boss dog",
       "item.dogblockmod.dog_13big_spawn_egg": "dog 13 big Spawn Egg",
-      "entity.dogblockmod.portaldog_2life": "portal dog",
       "subtitles.floora2bgm": "",
-      "item.dogblockmod.bossdog_2_spawn_egg": "boss dog 2 Spawn Egg",
-      "item.dogblockmod.portaldog_5life_spawn_egg": "portal dog Spawn Egg",
-      "item.dogblockmod.dogbloodblock_bucket": "dog blood",
       "item.dogblockmod.endog_221life_spawn_egg": "entity dog 22 Spawn Egg",
-      "item.dogblockmod.disabledguarddog_2_spawn_egg": "disabled guard dog 2 Spawn Egg",
-      "block.dogblockmod.resistdog_2reverse": "resist dog 2 reverse",
       "block.dogblockmod.whitespacewood_leaves": "Whitespacewood Leaves",
-      "block.dogblockmod.cyandoorbottom": "cyan door",
       "block.dogblockmod.resistdog_6reverse": "resist dog 6 reverse",
-      "block.dogblockmod.exitdoorwhite": "exit door of white space",
       "block.dogblockmod.nseb": "dog36",
       "block.dogblockmod.darkwood_fence_gate": "Darkwood Fence Gate",
-      "subtitles.babydogkilled": "",
-      "item.dogblockmod.veryverybigdog_6_spawn_egg": "very very big dog 6 Spawn Egg",
       "item.dogblockmod.resistdog_20_spawn_egg": "resist dog 20 mob Spawn Egg",
-      "item.dogblockmod.portaldog_6life_spawn_egg": "portal dog - 6 life Spawn Egg",
-      "block.dogblockmod.dog_36lives": "Dog 3",
       "item.dogblockmod.endog_132life_spawn_egg": "entity dog 13 Spawn Egg",
       "block.dogblockmod.cloudblock": "cloud block",
-      "item.dogblockmod.endog_10type_5_spawn_egg": "dog 10 type 6 Spawn Egg",
-      "subtitles.nothing": "",
+      "block.dogblockmod.dog_1555life": "dog 155",
       "entity.dogblockmod.endog_1212life": "entity dog 13",
       "item.dogblockmod.whitestonetools_pickaxe": "Whitestonetools Pickaxe",
       "subtitles.blue_space": "",
       "advancements.everthingiswhite.title": "everything is..... white ?",
-      "item.dogblockmod.endog_1212life_spawn_egg": "entity dog 13 Spawn Egg",
+      "item.dogblockmod.finalbossdog_1life_spawn_egg": "final dog Spawn Egg",
+      "entity.dogblockmod.finalbossdog_9life": "final dog",
+      "entity.dogblockmod.veryharddog_23": "dog 23 hard",
+      "item.dogblockmod.endog_30_spawn_egg": "dog 30 mob Spawn Egg",
       "block.dogblockmod.brownwall": "Brown wall",
       "block.dogblockmod.blackbriks": "dark stone",
-      "block.dogblockmod.ndog_126": "Dog 126",
       "entity.dogblockmod.endog_224life": "entity dog 22",
-      "block.dogblockmod.ndog_133": "Dog 133",
       "entity.dogblockmod.endog_129life": "entity dog 13",
-      "block.dogblockmod.ndog_132": "Dog 132",
-      "block.dogblockmod.ndog_130": "Dog 130",
-      "item.dogblockmod.whiteores": "Whiteores",
-      "item.dogblockmod.heart": "Heart",
       "entity.dogblockmod.endog_135life": "entity dog 13",
+      "item.dogblockmod.heart": "Heart",
+      "item.dogblockmod.whiteores": "Whiteores",
       "block.dogblockmod.skyblock": "Sky block",
-      "block.dogblockmod.xblock": "X block",
       "biome.dogblockmod.dogtrapbiome": "dog trap",
       "block.dogblockmod.dog_32lives": "Dog 3",
       "block.dogblockmod.blackstairs": "Black stairs",
       "block.dogblockmod.greendoorbottom": "green door",
       "block.dogblockmod.transferdoor": "transfer door - red space",
       "block.dogblockmod.resistdog_5bigreverse": "resist dog 5",
+      "block.dogblockmod.dog_155reverse": "dog reversed",
+      "block.dogblockmod.burrieddogshreederstick": "burried dog shreeder stick",
+      "entity.dogblockmod.endog_13reverse": "dog 13",
+      "subtitles.bigdogdeath": "",
+      "item.dogblockmod.endog_134life_spawn_egg": "entity dog 13 Spawn Egg",
+      "subtitles.elevator_done": "",
+      "item.dogblockmod.unknownliquid_bucket": "unknown liquit 1 bucket",
+      "block.dogblockmod.bigdog_1551life": "big dog block 155",
+      "block.dogblockmod.verybigdog_9reverse": "very big dog 9 reverse",
+      "block.dogblockmod.bigdog_9": "big dog 9",
+      "block.dogblockmod.whitespacewood_log": "Whitespacewood Log",
+      "item.dogblockmod.engiantdog_2_spawn_egg": "giant dog 2 Spawn Egg",
+      "block.dogblockmod.whitespacewood_stairs": "Whitespacewood Stairs",
+      "item.dogblockmod.dogshreederstick": "buried dog shreeder stick",
+      "item.dogblockmod.finalbossdog_4life_spawn_egg": "final dog Spawn Egg",
+      "block.dogblockmod.bigdog_4": "big dog 4",
+      "entity.dogblockmod.finalbossdog": "final dog",
+      "subtitles.floorpe": "",
+      "item.dogblockmod.disabledadultdog_11_spawn_egg": "disabled adult dog 11 Spawn Egg",
+      "block.dogblockmod.resistdog_1reverse": "resist dog 1 reverse",
+      "item.dogblockmod.endog_135life_spawn_egg": "entity dog 13 Spawn Egg",
+      "block.dogblockmod.dog_591lives": "Dog 59",
+      "block.dogblockmod.browndoortop": "brown door bottom",
+      "block.dogblockmod.bossblock_2life_4": "bossblock",
+      "block.dogblockmod.bossblock_2life_5": "bossblock",
+      "block.dogblockmod.bossblock_2life_2": "bossblock",
+      "block.dogblockmod.bossblock_2life_3": "bossblock",
+      "block.dogblockmod.bossblock_2life_1": "bossblock",
+      "block.dogblockmod.darkwood_pressure_plate": "Darkwood Pressure Plate",
+      "block.dogblockmod.bossblock_2life_8": "bossblock",
+      "block.dogblockmod.bossblock_2life_9": "bossblock",
+      "biome.dogblockmod.exdog_7biome": "dog4 biome",
+      "block.dogblockmod.bossblock_2life_6": "bossblock",
+      "entity.dogblockmod.endog_1213life": "entity dog 13 - 13 lives",
+      "block.dogblockmod.bossblock_2life_7": "bossblock",
+      "item.dogblockmod.endog_16_spawn_egg": "dog 16 mob Spawn Egg",
+      "block.dogblockmod.dog_35big": "big dog 35",
+      "block.dogblockmod.exdog_1reverse": "ex dog 4",
+      "item.dogblockmod.finalbossdog_3life_spawn_egg": "final dog Spawn Egg",
+      "block.dogblockmod.dogwoods_slab": "Dogwoods Slab",
+      "item.dogblockmod.dog_13tiny_spawn_egg": "tiny dog 13 Spawn Egg",
+      "entity.dogblockmod.endog_1210life": "entity dog 13",
+      "block.dogblockmod.verybigdog_6spawn": "very big dog 6 spawn",
+      "block.dogblockmod.dogwoods_fence_gate": "Dogwoods Fence Gate",
+      "block.dogblockmod.darkdirt": "dark dirt",
+      "item.dogblockmod.orangekey": "orange key",
+      "entity.dogblockmod.resistdog_20": "resist dog 20 mob",
+      "block.dogblockmod.redfloorunbreakable": "unbreakable red floor",
+      "item.dogblockmod.brownkey": "brown key",
+      "entity.dogblockmod.endog_134life": "entity dog 13",
+      "item.dogblockmod.bulkminer": "Bulk miner",
+      "entity.dogblockmod.bigdog_11": "big dog 11",
+      "item.dogblockmod.endog_223life_spawn_egg": "entity dog 22 Spawn Egg",
+      "block.dogblockmod.finaldogpart_1": "final dog",
+      "block.dogblockmod.finaldogpart_2": "final dog",
+      "block.dogblockmod.finaldogpart_3": "final dog",
+      "block.dogblockmod.finaldogpart_4": "final dog",
+      "block.dogblockmod.finaldogpart_5": "final dog",
+      "block.dogblockmod.finaldogpart_6": "final dog",
+      "block.dogblockmod.blackplant": "black plant",
+      "block.dogblockmod.finaldogpart_7": "final dog",
+      "block.dogblockmod.verybigdog_10reverse": "Dog 10",
+      "block.dogblockmod.wolfblockreverse": "Wolfblock",
+      "subtitles.patiencedog_death": "",
+      "subtitles.bossdoghurt": "",
+      "block.dogblockmod.finaldogpart_8": "final dog",
+      "entity.dogblockmod.dog_13big": "dog 13 big",
+      "block.dogblockmod.finaldogpart_9": "final dog",
+      "block.dogblockmod.dog_83lives": "Dog 8",
+      "item.dogblockmod.endog_130life_spawn_egg": "entity dog 13 Spawn Egg",
+      "block.dogblockmod.elevatorsoundblock": "elevator arrived sound effect",
+      "block.dogblockmod.dog_81lives": "Dog 8",
+      "block.dogblockmod.darkliquit": "Dark liquid",
+      "block.dogblockmod.resistdog_3reverse": "resist dog 3",
+      "entity.dogblockmod.abandonedlabbossdogfriend": "abandoned lab boss dog",
+      "item.dogblockmod.dogshreederv_2": "dog shreeder",
+      "block.dogblockmod.dogtrapblockslab": "dog trap block",
+      "biome.dogblockmod.dogtrap_2biome": "dog trap",
+      "block.dogblockmod.dog_310live": "Dog 3",
+      "block.dogblockmod.dog_1spawn": "dog 1 spawn",
+      "entity.dogblockmod.endog_227life": "entity dog 22",
+      "item.dogblockmod.endog_131life_spawn_egg": "entity dog 13 Spawn Egg",
+      "entity.dogblockmod.enwolf_12lives": "wolf 1 - 2 lives",
+      "block.dogblockmod.darkgrass": "dark grass",
+      "block.dogblockmod.dog_33lives": "Dog 3",
+      "block.dogblockmod.reddoorbottom": "red door",
+      "block.dogblockmod.purpledoorbottom": "purple door",
+      "block.dogblockmod.altdog_97": "Dog 97 alt",
+      "block.dogblockmod.redgrass": "red grass",
+      "entity.dogblockmod.veryverybigdog_1": "very very big dog 1",
+      "item.dogblockmod.brownspace": "Floorz 3 Portal Igniter",
+      "block.dogblockmod.dog_8spawn": "dog 8 spawn",
+      "entity.dogblockmod.veryverybigdog_6": "very very big dog 6",
+      "item.dogblockmod.endog_10type_3_spawn_egg": "dog 10 type 4 Spawn Egg",
+      "fluid.dogblockmod.dogbloodblock": "blood",
+      "entity.dogblockmod.portaldog_6life": "portal dog - 6 life",
+      "fluid.dogblockmod.unknownliquid": "unknown liquid 1",
+      "block.dogblockmod.dog_1553life": "dog block",
+      "subtitles.babydogshurt": "",
+      "subtitles.cryingdog": "",
+      "item.dogblockmod.endog_10type_4_spawn_egg": "dog 10 type 5 Spawn Egg",
+      "biome.dogblockmod.floorz_3biome": "floor3Z",
+      "block.dogblockmod.verybigdog_1spawn": "very big dog 1 spawn",
+      "block.dogblockmod.dog_37big": "big dog 37",
+      "item.dogblockmod.endog_222life_spawn_egg": "entity dog 22 Spawn Egg",
+      "subtitles.openbox": "",
+      "block.dogblockmod.blackores_block": "Block of Blackores",
+      "item.dogblockmod.dogshreederblade": "buried dog shreeder blade",
+      "block.dogblockmod.verybiglongdog_1head": "vert big long dog 1 head",
+      "item.dogblockmod.endog_225life_spawn_egg": "entity dog 22 Spawn Egg",
+      "item.dogblockmod.test_2_spawn_egg": "Test 2 Spawn Egg",
+      "item.dogblockmod.endog_21_spawn_egg": "dog 21 mob Spawn Egg",
+      "entity.dogblockmod.test_2": "Test 2",
+      "entity.dogblockmod.test_1": "Test 1",
+      "item.dogblockmod.endog_224life_spawn_egg": "entity dog 22 Spawn Egg",
+      "item.dogblockmod.endog_19_spawn_egg": "dog 19 mob Spawn Egg",
+      "block.dogblockmod.dog_9": "Dog 9",
+      "block.dogblockmod.dog_8": "Dog 8",
+      "block.dogblockmod.dog_1554life": "dog block",
+      "block.dogblockmod.dog_6": "Dog 6",
+      "block.dogblockmod.dog_5": "Dog 5",
+      "block.dogblockmod.dog_4": "Dog 4",
+      "item.dogblockmod.niante": "Niante",
+      "block.dogblockmod.redwallunbreakable": "unbreakable red wall",
+      "block.dogblockmod.dog_2": "Dog 2",
+      "entity.dogblockmod.dog_1tiny": "tiny dog 1",
+      "block.dogblockmod.bluefloorunbreakable": "unbreakable blue floor",
+      "entity.dogblockmod.endog_1211life": "entity dog 13",
+      "item.dogblockmod.theblackout": "Theblackout Portal Igniter",
+      "entity.dogblockmod.endog_226life": "entity dog 22",
+      "block.dogblockmod.tinydog_7spawn": "Tiny dog 7 spawn",
+      "item.dogblockmod.dogliner": "Dogliner",
+      "item.dogblockmod.endog_7_spawn_egg": "Dog 7 Spawn Egg",
+      "advancements.everthingiswhite.descr": "you entered the white space, here, only peace and great moment. dont be afraid. we are here for you",
+      "subtitles.whitezone": "",
+      "block.dogblockmod.dog_37verybig": "very big dog 37",
+      "block.dogblockmod.dog_19": "Dog 19",
+      "item.dogblockmod.bossdog_1_spawn_egg": "boss dog 1 Spawn Egg",
+      "block.dogblockmod.dog_15": "Dog 15",
+      "item.dogblockmod.abandonedlabbossdog_spawn_egg": "abandoned lab boss dog Spawn Egg",
+      "block.dogblockmod.dog_14": "Dog 14",
+      "biome.dogblockmod.exdog_6biome": "dog4 biome",
+      "subtitles.floorr1bgm": "",
+      "block.dogblockmod.dog_11": "Dog 11",
+      "block.dogblockmod.dog_10": "Dog 10",
+      "fluid.dogblockmod.darkliquit": "Dark liquid",
+      "block.dogblockmod.dog_13": "Dog 13",
+      "block.dogblockmod.dog_12": "Dog 12",
+      "block.dogblockmod.dog_31": "Dog 31",
+      "block.dogblockmod.wolfblock_5life": "Wolfblock",
+      "item.dogblockmod.verybigdog_1_spawn_egg": "very big dog 1 Spawn Egg",
+      "entity.dogblockmod.patiencedog_11life": "patience dog",
+      "block.dogblockmod.whiteores_ore": "Whiteores Ore",
+      "item.dogblockmod.endog_138life_spawn_egg": "entity dog 13 Spawn Egg",
+      "item.dogblockmod.endog_226life_spawn_egg": "entity dog 22 Spawn Egg",
+      "block.dogblockmod.dog_29": "Dog 29",
+      "block.dogblockmod.dog_1552life": "dog block",
+      "item.dogblockmod.patiencedog_8life_spawn_egg": "patience dog Spawn Egg",
+      "block.dogblockmod.dog_26": "Dog 26",
+      "item.dogblockmod.dog_13tinyreverse_spawn_egg": "tiny dog 13 Spawn Egg",
+      "block.dogblockmod.dog_25": "Dog 25",
+      "block.dogblockmod.whiteores_block": "Block of Whiteores",
+      "block.dogblockmod.dog_28": "Dog 28",
+      "block.dogblockmod.dog_22": "Dog 22",
+      "item.dogblockmod.floorz_3": "Floorz 3 Portal Igniter",
+      "block.dogblockmod.dog_21": "Dog 21",
+      "block.dogblockmod.dog_24": "Dog 24",
+      "entity.dogblockmod.endog_221life": "entity dog 22",
+      "block.dogblockmod.dog_23": "Dog 23",
+      "biome.dogblockmod.floor_2biome": "Floor 2biome",
+      "entity.dogblockmod.endog_14": "dog 14",
+      "entity.dogblockmod.endog_13": "dog 13",
+      "entity.dogblockmod.endog_11": " dog 11",
+      "entity.dogblockmod.endog_18": "dog 18 mob",
+      "entity.dogblockmod.endog_17": "dog 17 mob",
+      "entity.dogblockmod.endog_16": "dog 16 mob",
+      "item.dogblockmod.finalbossdog_8life_spawn_egg": "final dog Spawn Egg",
+      "item.dogblockmod.endog_9_spawn_egg": "dog 9 Spawn Egg",
+      "entity.dogblockmod.endog_19": "dog 19 mob",
+      "block.dogblockmod.dog_37": "Dog 37",
+      "block.dogblockmod.dog_39": "Dog 39",
+      "block.dogblockmod.dog_33": "Dog 33",
+      "block.dogblockmod.darkwood_stairs": "Darkwood Stairs",
+      "block.dogblockmod.dog_35": "Dog 35",
+      "block.dogblockmod.dog_34": "Dog 34",
+      "entity.dogblockmod.endog_21": "dog 21 mob",
+      "block.dogblockmod.cyandoortop": "green door top",
+      "entity.dogblockmod.endog_20": "dog 20 mob",
+      "block.dogblockmod.brownsquare": "Brown squares",
+      "entity.dogblockmod.endog_25": "dog 25 mob",
+      "entity.dogblockmod.endog_24": "dog 24",
+      "item.dogblockmod.rainbowkey": "rainbow key",
+      "entity.dogblockmod.endog_23": "dog 23",
+      "entity.dogblockmod.endog_22": "entity dog 22",
+      "entity.dogblockmod.endog_29": "dog 29 mob",
+      "entity.dogblockmod.endog_28": "dog 28 mob",
+      "entity.dogblockmod.endog_27": "dog 27 mob",
+      "entity.dogblockmod.endog_26": "dog 26 mob",
+      "entity.dogblockmod.endog_133life": "entity dog 13",
+      "item.dogblockmod.dog_11verytiny_spawn_egg": "very tiny dog 11 Spawn Egg",
+      "block.dogblockmod.blackdoorbottom": "black door",
+      "block.dogblockmod.stairswhite": "white stairs",
+      "item.dogblockmod.endog_22_spawn_egg": "entity dog 22 Spawn Egg",
+      "entity.dogblockmod.dog_1": "Dog 1 ",
+      "block.dogblockmod.dog_1551life": "dog block",
+      "block.dogblockmod.dog_61": "Dog 61",
+      "block.dogblockmod.dog_64": "Dog 64",
+      "block.dogblockmod.dog_63": "Dog 63",
+      "item.dogblockmod.floora_2alt": "Floorz 3 Portal Igniter",
+      "block.dogblockmod.dog_60": "Dog 60",
+      "item.dogblockmod.finalbossdog_6life_spawn_egg": "final dog Spawn Egg",
+      "block.dogblockmod.dog_58": "Dog 58",
+      "item.dogblockmod.enwolf_2_spawn_egg": "wolf 2 Spawn Egg",
+      "block.dogblockmod.dog_55": "Dog 55",
+      "block.dogblockmod.dog_57": "Dog 57",
+      "block.dogblockmod.dog_56": "Dog 56",
+      "item.dogblockmod.dog_1tiny_spawn_egg": "tiny dog 1 Spawn Egg",
+      "block.dogblockmod.dog_73": "Dog 73",
+      "block.dogblockmod.dog_72": "Dog 72",
+      "block.dogblockmod.dog_75": "Dog 75",
+      "block.dogblockmod.dog_74": "Dog 74",
+      "subtitles.harddog_hurt": "",
+      "block.dogblockmod.dog_71": "Dog 71",
+      "block.dogblockmod.dog_70": "Dog 70",
+      "entity.dogblockmod.patiencedog_10life": "patience dog",
+      "block.dogblockmod.whitespacewood_planks": "Whitespacewood Planks",
+      "block.dogblockmod.dog_69": "Dog 69",
+      "block.dogblockmod.dog_66": "Dog 66",
+      "block.dogblockmod.dog_65": "Dog 65",
+      "block.dogblockmod.dog_68": "Dog 68",
+      "block.dogblockmod.dog_67": "Dog 67",
+      "block.dogblockmod.dog_84": "Dog 84",
+      "block.dogblockmod.dog_83": "Dog 83",
+      "block.dogblockmod.dog_86": "Dog 86",
+      "block.dogblockmod.dog_80": "Dog 80",
+      "block.dogblockmod.dog_82": "Dog 82",
+      "block.dogblockmod.dog_81": "Dog 81",
+      "block.dogblockmod.dogwoods_fence": "Dogwoods Fence",
+      "item.dogblockmod.endog_24_spawn_egg": "dog 24 Spawn Egg",
+      "item.dogblockmod.patiencedog_6life_spawn_egg": "patience dog Spawn Egg",
+      "item.dogblockmod.portaldog_1life_spawn_egg": "portal dog Spawn Egg",
+      "block.dogblockmod.transferdoorblue": "transfer door - blue space",
+      "block.dogblockmod.dog_77": "Dog 77",
+      "subtitles.floora1": "",
+      "block.dogblockmod.dog_76": "Dog 76",
+      "block.dogblockmod.dog_79": "Dog 79",
+      "block.dogblockmod.dog_78": "Dog 78",
+      "block.dogblockmod.dog_95": "Dog 95",
+      "block.dogblockmod.dog_94": "Dog 94",
+      "item.dogblockmod.purplekey": "purple key",
+      "block.dogblockmod.dog_97": "Dog 97",
+      "item.dogblockmod.endog_136life_spawn_egg": "entity dog 13 Spawn Egg",
+      "block.dogblockmod.dog_96": "Dog 96",
+      "block.dogblockmod.dog_91": "Dog 91",
+      "block.dogblockmod.dog_90": "Dog 90",
+      "block.dogblockmod.dog_93": "Dog 93",
+      "block.dogblockmod.dogwoods_log": "Dogwoods Log",
+      "block.dogblockmod.dog_92": "Dog 92",
+      "item.dogblockmod.endog_31_spawn_egg": "dog 31 mob Spawn Egg",
+      "biome.dogblockmod.brownspacebiome": "dog trap",
+      "item.dogblockmod.endog_29_spawn_egg": "dog 29 mob Spawn Egg",
+      "block.dogblockmod.biglongdog_1head": "big long dog 1 head",
+      "item.dogblockmod.enwolf_11lives_spawn_egg": "wolf 1 - 1 lives Spawn Egg",
+      "item.dogblockmod.patiencedog_10life_spawn_egg": "patience dog Spawn Egg",
+      "item.dogblockmod.endog_26_spawn_egg": "dog 26 mob Spawn Egg",
+      "subtitles.red_space": "",
+      "item.dogblockmod.enwolf_12lives_spawn_egg": "wolf 1 - 2 lives Spawn Egg",
+      "entity.dogblockmod.enwolf_2formathiasbruh": "wolf 2 for mathias bruh",
+      "block.dogblockmod.darkwood_log": "Darkwood Log",
+      "entity.dogblockmod.patiencedog_1life": "patience dog",
+      "block.dogblockmod.whitespacewood_fence_gate": "Whitespacewood Fence Gate",
+      "entity.dogblockmod.endog_223life": "entity dog 22",
+      "subtitles.mediumdogdeath": "",
+      "block.dogblockmod.bluedoortop": "blue door top",
+      "block.dogblockmod.exdog_1": "ex dog 1",
+      "block.dogblockmod.exdog_2": "ex dog 2",
+      "biome.dogblockmod.whitespambiome": "white space biome",
+      "block.dogblockmod.exdog_3": "ex dog 3",
+      "block.dogblockmod.exdog_4": "ex dog 4",
+      "block.dogblockmod.exdog_5": "ex dog 5",
+      "block.dogblockmod.tinydog_6spawn": "Tiny dog 6 spawn",
+      "entity.dogblockmod.endog_138life": "entity dog 13",
+      "block.dogblockmod.dog_593lives": "Dog 59",
+      "subtitles.bosshurt": "",
+      "item.dogblockmod.darkliquit_bucket": "dark liquid",
+      "block.dogblockmod.brownwallunbreakable": "unbreakable brown wall",
+      "block.dogblockmod.worthlessdog_4": "worthless dog 4",
+      "item.dogblockmod.endog_27_spawn_egg": "dog 27 mob Spawn Egg",
+      "block.dogblockmod.exdog_4reverse": "ex dog 4",
+      "block.dogblockmod.bigdog_1555life": "big dog block 155",
+      "block.dogblockmod.blackexit": "Black block",
+      "block.dogblockmod.ndog_105": "Dog 105",
+      "block.dogblockmod.bigdog_1552life": "big dog block 155",
+      "item.dogblockmod.verybigdog_6_spawn_egg": "very big dog 6 Spawn Egg",
+      "item.dogblockmod.endog_28_spawn_egg": "dog 28 mob Spawn Egg",
+      "subtitles.brown_space": "",
+      "item.dogblockmod.endog_25_spawn_egg": "dog 25 mob Spawn Egg",
+      "block.dogblockmod.n_altdog_97": "Dog 97 alt",
+      "item.dogblockmod.patiencedog_0life_spawn_egg": "patience dog Spawn Egg",
+      "block.dogblockmod.bossblock_2life_10": "bossblock",
+      "block.dogblockmod.bossblock_2life_11": "bossblock",
+      "block.dogblockmod.bossblock_2life_12": "bossblock",
+      "block.dogblockmod.dogwoods_wood": "Dogwoods Wood",
+      "block.dogblockmod.dog_7spawn": "dog 7 spawn",
+      "block.dogblockmod.bigdog_6spawn": "big dog 6 spawn",
+      "block.dogblockmod.yellowdoorbottom": "yellow door",
+      "block.dogblockmod.bossblock_2life_13": "bossblock",
+      "block.dogblockmod.greendoortop": "green door top",
+      "block.dogblockmod.bossblock_2life_14": "boss dog block 2",
+      "item.dogblockmod.endog_2210life_spawn_egg": "entity dog 22 Spawn Egg",
+      "subtitles.bossdogdeath": "",
+      "block.dogblockmod.wolfblokl_3life": "Wolfblock",
+      "block.dogblockmod.bluefloor": "blue floor",
+      "block.dogblockmod.ndog_29": "Dog 29",
+      "block.dogblockmod.ndog_28": "Dog 28",
+      "block.dogblockmod.ndog_25": "Dog 25",
+      "block.dogblockmod.ndog_26": "Dog 26",
+      "block.dogblockmod.ndog_23": "Dog 23",
+      "block.dogblockmod.ndog_24": "Dog 24",
+      "block.dogblockmod.ndog_21": "Dog 21",
+      "block.dogblockmod.ndog_22": "Dog 22",
+      "item.dogblockmod.bossdog_3_spawn_egg": "boss dog 3 Spawn Egg",
+      "entity.dogblockmod.patiencedog_0life": "patience dog",
+      "item.dogblockmod.enwolf_1_spawn_egg": "wolf 1 Spawn Egg",
+      "block.dogblockmod.diamonddogbox": "diamond dog box",
+      "block.dogblockmod.bigdog_1554life": "big dog block 155",
+      "entity.dogblockmod.endog_222life": "entity dog 22",
+      "block.dogblockmod.ndog_38": "Dog 38",
+      "block.dogblockmod.ndog_39": "Dog 39",
+      "entity.dogblockmod.endog_137life": "entity dog 13",
+      "block.dogblockmod.ndog_36": "Dog 36",
+      "block.dogblockmod.ndog_37": "Dog 37",
+      "block.dogblockmod.ndog_34": "Dog 34",
+      "block.dogblockmod.ndog_35": "Dog 35",
+      "block.dogblockmod.ndog_32": "Dog 32",
+      "block.dogblockmod.ndog_33": "Dog 33",
+      "block.dogblockmod.ndog_30": "Dog 30",
+      "biome.dogblockmod.redspacebiome": "dog trap",
+      "block.dogblockmod.ndog_31": "Dog 31",
+      "item.dogblockmod.blackores_ingot": "black ingot",
+      "block.dogblockmod.reddoortop": "red door top",
+      "block.dogblockmod.blackblock": "black",
+      "block.dogblockmod.browndoorbottom": "brown door bottom",
+      "block.dogblockmod.darkwood_planks": "Darkwood Planks",
+      "item.dogblockmod.patiencedog_12life_spawn_egg": "patience dog Spawn Egg",
+      "entity.dogblockmod.portaldog_1life": "portal dog",
+      "block.dogblockmod.dog_82lives": "Dog 8",
+      "block.dogblockmod.resistdog_5reverse": "resist dog 5",
+      "itemGroup.tabstrangedungeon": "secret dungeon",
+      "item.dogblockmod.enwolf_13lives_spawn_egg": "wolf 1 - 3 lives Spawn Egg",
+      "block.dogblockmod.bigdog_1553life": "big dog block 155",
+      "item.dogblockmod.endog_8_spawn_egg": "Dog 8 Spawn Egg",
+      "item.dogblockmod.tameableportaldog_spawn_egg": "tameable portal dog Spawn Egg",
+      "subtitles.floora2altbgm": "",
+      "block.dogblockmod.longdogbody": "long dog 1 body",
+      "block.dogblockmod.brownfloor": "Brown floor",
+      "block.dogblockmod.longdog_1head": "long dog 1 head",
+      "item.dogblockmod.giantdog_6_spawn_egg": "giant dog 6 Spawn Egg",
+      "block.dogblockmod.ndog_19": "Dog 19",
+      "entity.dogblockmod.disabledguarddog_2": "disabled guard dog 2",
+      "block.dogblockmod.ndog_14": "Dog 14",
+      "block.dogblockmod.ndog_15": "Dog 15",
+      "block.dogblockmod.ndog_12": "Dog 12",
+      "block.dogblockmod.brownhole": "Brown hole",
+      "block.dogblockmod.dogbloodblock": "blood",
+      "block.dogblockmod.ndog_13": "Dog 13",
+      "block.dogblockmod.ndog_10": "Dog 10",
+      "block.dogblockmod.ndog_11": "Dog 11",
+      "subtitles.flooraabgm": "",
+      "block.dogblockmod.dog_35verybig": "very big dog 35",
+      "item.dogblockmod.whitestonetools_sword": "Whitestonetools Sword",
+      "item.dogblockmod.floora_1": "Floorz 3 Portal Igniter",
+      "block.dogblockmod.dog_594lives": "Dog 59",
+      "item.dogblockmod.diabox": "diamond box key",
+      "entity.dogblockmod.finalbossdog_1life": "final dog",
+      "block.dogblockmod.ranboxlines": "rainbow lines",
+      "item.dogblockmod.floorr_1": "Floorz 3 Portal Igniter",
+      "entity.dogblockmod.disabledadultdog_11": "disabled adult dog 11",
+      "item.dogblockmod.patiencedog_3life_spawn_egg": "patience dog Spawn Egg",
+      "item.dogblockmod.endog_6_spawn_egg": "Dog 6 Spawn Egg",
+      "block.dogblockmod.blackores_ore": "Blackores Ore",
+      "block.dogblockmod.darkwood_slab": "Darkwood Slab",
+      "entity.dogblockmod.abandonedlabbossdog": "abandoned lab boss dog",
+      "entity.dogblockmod.portaldog_2life": "portal dog",
+      "item.dogblockmod.bossdog_2_spawn_egg": "boss dog 2 Spawn Egg",
+      "item.dogblockmod.finalbossdog_spawn_egg": "final dog Spawn Egg",
+      "item.dogblockmod.portaldog_5life_spawn_egg": "portal dog Spawn Egg",
+      "item.dogblockmod.dogbloodblock_bucket": "dog blood",
+      "block.dogblockmod.wolfblock_2life": "Wolfblock",
+      "item.dogblockmod.disabledguarddog_2_spawn_egg": "disabled guard dog 2 Spawn Egg",
+      "block.dogblockmod.resistdog_2reverse": "resist dog 2 reverse",
+      "entity.dogblockmod.afraidendog_26": "dog 26 mob",
+      "block.dogblockmod.cyandoorbottom": "cyan door",
+      "block.dogblockmod.exitdoorwhite": "exit door of white space",
+      "item.dogblockmod.patiencedog_2life_spawn_egg": "patience dog Spawn Egg",
+      "subtitles.babydogkilled": "",
+      "item.dogblockmod.veryverybigdog_6_spawn_egg": "very very big dog 6 Spawn Egg",
+      "item.dogblockmod.portaldog_6life_spawn_egg": "portal dog - 6 life Spawn Egg",
+      "block.dogblockmod.dog_36lives": "Dog 3",
+      "item.dogblockmod.test_1_spawn_egg": "Test 1 Spawn Egg",
+      "entity.dogblockmod.patiencedog_3life": "patience dog",
+      "item.dogblockmod.endog_10type_5_spawn_egg": "dog 10 type 6 Spawn Egg",
+      "subtitles.nothing": "",
+      "entity.dogblockmod.patiencedog_2life": "patience dog",
+      "item.dogblockmod.endog_1212life_spawn_egg": "entity dog 13 Spawn Egg",
+      "item.dogblockmod.patiencedog_4life_spawn_egg": "patience dog Spawn Egg",
+      "block.dogblockmod.ndog_126": "Dog 126",
+      "block.dogblockmod.ndog_133": "Dog 133",
+      "block.dogblockmod.ndog_132": "Dog 132",
+      "block.dogblockmod.ndog_130": "Dog 130",
+      "block.dogblockmod.xblock": "X block",
       "item.dogblockmod.portaldog_4life_spawn_egg": "portal dog Spawn Egg",
       "block.dogblockmod.bigdog_8spawn": "big dog 8 spawn",
       "biome.dogblockmod.floora_2biome": "floorA1",
       "item.dogblockmod.portalsummoner": "Portal summoner",
       "block.dogblockmod.veryverybigdog_1spawn": "very very big dog 1 spawn",
       "item.dogblockmod.euro_001": "0.01 euro",
+      "item.dogblockmod.endog_23_spawn_egg": "dog 23 Spawn Egg",
       "block.dogblockmod.ndog_2": "Dog 2",
       "item.dogblockmod.enwolf_14lives_spawn_egg": "wolf 1 - 4 lives Spawn Egg",
       "block.dogblockmod.ndog_136": "Dog 136",
-      "entity.dogblockmod.endog_13reverse": "dog 13",
-      "block.dogblockmod.burrieddogshreederstick": "burried dog shreeder stick",
+      "entity.dogblockmod.finalbossdog_10life": "final dog",
       "block.dogblockmod.ndog_142": "Dog 142",
       "block.dogblockmod.ndog_141": "Dog 141",
-      "subtitles.bigdogdeath": "",
-      "item.dogblockmod.endog_134life_spawn_egg": "entity dog 13 Spawn Egg",
-      "subtitles.elevator_done": "",
       "item.dogblockmod.redkey": "red key",
       "biome.dogblockmod.darkbiome": "Dark biome",
       "entity.dogblockmod.endog_10type_1": "dog 10 type 1",
-      "item.dogblockmod.unknownliquid_bucket": "unknown liquit 1 bucket",
       "entity.dogblockmod.dog_8tiny": "tiny dog 8",
-      "block.dogblockmod.verybigdog_9reverse": "very big dog 9 reverse",
-      "block.dogblockmod.bigdog_9": "big dog 9",
       "entity.dogblockmod.verybigdog_6": "very big dog 6",
-      "block.dogblockmod.whitespacewood_log": "Whitespacewood Log",
       "item.dogblockmod.endog_1210life_spawn_egg": "entity dog 13 Spawn Egg",
       "block.dogblockmod.cloudskyblock": "cloud sky block",
       "block.dogblockmod.darkwood_leaves": "Darkwood Leaves",
-      "block.dogblockmod.whitespacewood_stairs": "Whitespacewood Stairs",
-      "item.dogblockmod.dogshreederstick": "buried dog shreeder stick",
       "block.dogblockmod.ndog_146": "Dog 146",
       "entity.dogblockmod.endog_7": "Dog 7",
       "entity.dogblockmod.endog_6": "Dog 6",
@@ -12241,135 +14579,70 @@
       "entity.dogblockmod.endog_9": "dog 9",
       "entity.dogblockmod.endog_8": "Dog 8",
       "block.dogblockmod.ndog_3": "Dog 3",
-      "block.dogblockmod.bigdog_4": "big dog 4",
       "block.dogblockmod.bigdog_1spawn": "big dog 1 spawn",
       "entity.dogblockmod.verybigdog_1": "very big dog 1",
-      "subtitles.floorpe": "",
-      "item.dogblockmod.disabledadultdog_11_spawn_egg": "disabled adult dog 11 Spawn Egg",
-      "block.dogblockmod.resistdog_1reverse": "resist dog 1 reverse",
-      "item.dogblockmod.endog_135life_spawn_egg": "entity dog 13 Spawn Egg",
-      "block.dogblockmod.dog_591lives": "Dog 59",
       "item.dogblockmod.endog_10type_1_spawn_egg": "dog 10 type 1 Spawn Egg",
-      "block.dogblockmod.browndoortop": "brown door bottom",
-      "block.dogblockmod.bossblock_2life_4": "bossblock",
-      "block.dogblockmod.bossblock_2life_5": "bossblock",
-      "block.dogblockmod.bossblock_2life_2": "bossblock",
-      "block.dogblockmod.bossblock_2life_3": "bossblock",
       "entity.dogblockmod.guarddog_1": "guard dog 1",
-      "block.dogblockmod.bossblock_2life_1": "bossblock",
-      "block.dogblockmod.darkwood_pressure_plate": "Darkwood Pressure Plate",
       "item.dogblockmod.endog_1211life_spawn_egg": "entity dog 13 Spawn Egg",
       "entity.dogblockmod.guarddog_2": "guard dog 2",
-      "block.dogblockmod.bossblock_2life_8": "bossblock",
-      "block.dogblockmod.bossblock_2life_9": "bossblock",
-      "biome.dogblockmod.exdog_7biome": "dog4 biome",
-      "block.dogblockmod.bossblock_2life_6": "bossblock",
-      "entity.dogblockmod.endog_1213life": "entity dog 13 - 13 lives",
-      "block.dogblockmod.bossblock_2life_7": "bossblock",
+      "item.dogblockmod.patiencedog_5life_spawn_egg": "patience dog Spawn Egg",
       "block.dogblockmod.whitespacewood_slab": "Whitespacewood Slab",
       "item.dogblockmod.whitestonetools_hoe": "Whitestonetools Hoe",
       "item.dogblockmod.bigdog_8_spawn_egg": "Dog 8 Spawn Egg",
-      "item.dogblockmod.endog_16_spawn_egg": "dog 16 mob Spawn Egg",
-      "block.dogblockmod.dog_35big": "big dog 35",
-      "block.dogblockmod.exdog_1reverse": "ex dog 4",
       "entity.dogblockmod.portaldog_3life": "portal dog",
       "entity.dogblockmod.dog_11verytiny": "very tiny dog 11",
-      "block.dogblockmod.dogwoods_slab": "Dogwoods Slab",
       "block.dogblockmod.bigdog_10reverse": "Dog 10",
-      "item.dogblockmod.dog_13tiny_spawn_egg": "tiny dog 13 Spawn Egg",
-      "entity.dogblockmod.endog_1210life": "entity dog 13",
+      "block.dogblockmod.wolfblock_1life": "Wolfblock",
       "block.dogblockmod.dog_37lives": "Dog 3",
       "item.dogblockmod.portaldog_3life_spawn_egg": "portal dog Spawn Egg",
       "item.dogblockmod.portaldog_spawn_egg": "portal dog Spawn Egg",
       "item.dogblockmod.endog_228life_spawn_egg": "entity dog 22 Spawn Egg",
-      "block.dogblockmod.verybigdog_6spawn": "very big dog 6 spawn",
       "item.dogblockmod.endog_18_spawn_egg": "dog 18 mob Spawn Egg",
-      "block.dogblockmod.dogwoods_fence_gate": "Dogwoods Fence Gate",
       "entity.dogblockmod.disableddog_11": "disabled dog 11",
-      "block.dogblockmod.darkdirt": "dark dirt",
-      "item.dogblockmod.orangekey": "orange key",
       "block.dogblockmod.dog_85lives": "Dog 8",
-      "entity.dogblockmod.resistdog_20": "resist dog 20 mob",
-      "block.dogblockmod.redfloorunbreakable": "unbreakable red floor",
-      "item.dogblockmod.brownkey": "brown key",
       "item.dogblockmod.endog_1213life_spawn_egg": "entity dog 13 - 13 lives Spawn Egg",
-      "entity.dogblockmod.endog_134life": "entity dog 13",
-      "item.dogblockmod.bulkminer": "Bulk miner",
       "block.dogblockmod.dog_98": "Dog 98",
-      "entity.dogblockmod.bigdog_11": "big dog 11",
-      "item.dogblockmod.endog_223life_spawn_egg": "entity dog 22 Spawn Egg",
-      "block.dogblockmod.finaldogpart_1": "final dog",
-      "block.dogblockmod.finaldogpart_2": "final dog",
-      "block.dogblockmod.finaldogpart_3": "final dog",
-      "block.dogblockmod.finaldogpart_4": "final dog",
+      "entity.dogblockmod.finalbossdog_11life": "final dog",
       "block.dogblockmod.yellowore": "ano ore",
-      "block.dogblockmod.finaldogpart_5": "final dog",
-      "block.dogblockmod.finaldogpart_6": "final dog",
-      "block.dogblockmod.blackplant": "black plant",
-      "block.dogblockmod.finaldogpart_7": "final dog",
-      "block.dogblockmod.verybigdog_10reverse": "Dog 10",
       "block.dogblockmod.giantdog_6spawn": "giant 6 spawn",
       "item.dogblockmod.endog_17_spawn_egg": "dog 17 mob Spawn Egg",
-      "subtitles.bossdoghurt": "",
-      "entity.dogblockmod.dog_13big": "dog 13 big",
-      "block.dogblockmod.finaldogpart_8": "final dog",
+      "entity.dogblockmod.finalbossdog_3life": "final dog",
       "block.dogblockmod.exdog_2reverse": "ex dog 2",
-      "block.dogblockmod.finaldogpart_9": "final dog",
-      "block.dogblockmod.dog_83lives": "Dog 8",
       "entity.dogblockmod.tameableportaldog": "tameable portal dog",
       "item.dogblockmod.anogem": "ano gem",
       "item.dogblockmod.floorpc": "Floorz 3 Portal Igniter",
       "item.dogblockmod.bigdog_11_spawn_egg": "big dog 11 Spawn Egg",
-      "item.dogblockmod.endog_130life_spawn_egg": "entity dog 13 Spawn Egg",
       "entity.dogblockmod.endog_131life": "entity dog 13",
-      "block.dogblockmod.elevatorsoundblock": "elevator arrived sound effect",
-      "block.dogblockmod.dog_81lives": "Dog 8",
       "item.dogblockmod.dogshreeder": "dog shreeder",
-      "block.dogblockmod.darkliquit": "Dark liquid",
+      "block.dogblockmod.wolfblock_4life": "Wolfblock",
       "entity.dogblockmod.dog_13bigreverse": "dog 13 big",
-      "block.dogblockmod.resistdog_3reverse": "resist dog 3",
-      "item.dogblockmod.dogshreederv_2": "dog shreeder",
+      "entity.dogblockmod.patiencedog_13life": "patience dog",
       "item.dogblockmod.redspace": "Floorz 3 Portal Igniter",
       "block.dogblockmod.dogtrapblock": "dog trap block",
       "block.dogblockmod.resistdog_7reverse": "resist dog 6 reverse",
-      "block.dogblockmod.dogtrapblockslab": "dog trap block",
-      "biome.dogblockmod.dogtrap_2biome": "dog trap",
-      "block.dogblockmod.dog_310live": "Dog 3",
       "block.dogblockmod.graydoorbottom": "gray door",
-      "block.dogblockmod.dog_1spawn": "dog 1 spawn",
-      "entity.dogblockmod.endog_227life": "entity dog 22",
       "item.dogblockmod.endog_229life_spawn_egg": "entity dog 22 Spawn Egg",
       "subtitles.diamonboxopened": "",
       "item.dogblockmod.guarddog_1_spawn_egg": "guard dog 1 Spawn Egg",
+      "entity.dogblockmod.patiencedog_5life": "patience dog",
       "entity.dogblockmod.portaldog_4life": "portal dog",
-      "item.dogblockmod.endog_131life_spawn_egg": "entity dog 13 Spawn Egg",
       "block.dogblockmod.giantdog_1spawn": "giant 1 spawn",
-      "entity.dogblockmod.enwolf_12lives": "wolf 1 - 2 lives",
-      "block.dogblockmod.darkgrass": "dark grass",
-      "block.dogblockmod.dog_33lives": "Dog 3",
-      "block.dogblockmod.verybiglongdog_1body": "very big long dog 1 body",
       "subtitles.bigdoghurt": "",
-      "block.dogblockmod.reddoorbottom": "red door",
+      "block.dogblockmod.verybiglongdog_1body": "very big long dog 1 body",
       "subtitles.babydoghurt": "",
-      "block.dogblockmod.purpledoorbottom": "purple door",
-      "block.dogblockmod.altdog_97": "Dog 97 alt",
-      "block.dogblockmod.redgrass": "red grass",
-      "entity.dogblockmod.veryverybigdog_1": "very very big dog 1",
-      "item.dogblockmod.brownspace": "Floorz 3 Portal Igniter",
-      "block.dogblockmod.dog_8spawn": "dog 8 spawn",
+      "entity.dogblockmod.endog_31": "dog 31 mob",
+      "entity.dogblockmod.endog_30": "dog 30 mob",
       "block.dogblockmod.blockofanotherdim": "Blockofanotherdim",
       "block.dogblockmod.transferdoorgreen": "transfer door - green space",
-      "entity.dogblockmod.veryverybigdog_6": "very very big dog 6",
-      "item.dogblockmod.endog_10type_3_spawn_egg": "dog 10 type 4 Spawn Egg",
+      "item.dogblockmod.veryharddog_23_spawn_egg": "dog 23 hard Spawn Egg",
+      "item.dogblockmod.abandonedlabbossdogfriend_spawn_egg": "abandoned lab boss dog Spawn Egg",
       "subtitles.fz3bgm": "",
-      "fluid.dogblockmod.dogbloodblock": "blood",
       "item.dogblockmod.cyankey": "cyan key",
-      "entity.dogblockmod.portaldog_6life": "portal dog - 6 life",
       "block.dogblockmod.whitespacewood_fence": "Whitespacewood Fence",
-      "fluid.dogblockmod.unknownliquid": "unknown liquid 1",
       "block.dogblockmod.bigdog_9reverse": "big dog 9 reverse",
       "block.dogblockmod.darkwood_button": "Darkwood Button",
       "biome.dogblockmod.floorra_1biome": "floorRA",
+      "entity.dogblockmod.finalbossdog_2life": "final dog",
       "entity.dogblockmod.bossdog_1": "boss dog 1",
       "entity.dogblockmod.bossdog_2": "boss dog 2",
       "block.dogblockmod.verybigdog_4": "very big dog 9",
@@ -12378,67 +14651,43 @@
       "block.dogblockmod.brownfloorunbreakable": "unbreakable Brown floor",
       "item.dogblockmod.whitestonetools_axe": "Whitestonetools Axe",
       "block.dogblockmod.bluewallunbreakable": "unbreakable blue wall",
-      "subtitles.babydogshurt": "",
       "item.dogblockmod.endog_13reverse_spawn_egg": "dog 13 Spawn Egg",
-      "item.dogblockmod.endog_10type_4_spawn_egg": "dog 10 type 5 Spawn Egg",
       "item.dogblockmod.whitestonetools_shovel": "Whitestonetools Shovel",
       "block.dogblockmod.unknownportal": "unknown portal",
       "block.dogblockmod.verybigdog_9": "vary big dog 9",
-      "biome.dogblockmod.floorz_3biome": "floor3Z",
       "block.dogblockmod.rainbowdoor": "rainbow door",
       "item.dogblockmod.endog_227life_spawn_egg": "entity dog 22 Spawn Egg",
-      "block.dogblockmod.verybigdog_1spawn": "very big dog 1 spawn",
-      "block.dogblockmod.dog_37big": "big dog 37",
       "advancements.yourfirststeps.descr": "you choosed to stay? great, welcome to the 1st floor. here, everything is peacefull and easy, food, sleep, comfort, everything you want to have !, please, dont try to mess up with the glitched object.... or...",
       "item.dogblockmod.greenkey": "green key",
       "item.dogblockmod.graykey": "gray key",
-      "item.dogblockmod.endog_222life_spawn_egg": "entity dog 22 Spawn Egg",
-      "subtitles.openbox": "",
-      "block.dogblockmod.blackores_block": "Block of Blackores",
-      "item.dogblockmod.dogshreederblade": "buried dog shreeder blade",
-      "block.dogblockmod.verybiglongdog_1head": "vert big long dog 1 head",
       "item.dogblockmod.giantdog_1_spawn_egg": "giant big dog 1 Spawn Egg",
-      "item.dogblockmod.endog_225life_spawn_egg": "entity dog 22 Spawn Egg",
+      "item.dogblockmod.finalbossdog_11life_spawn_egg": "final dog Spawn Egg",
       "item.dogblockmod.guarddog_2_spawn_egg": "guard dog 2 Spawn Egg",
-      "item.dogblockmod.endig_10type_2_spawn_egg": "dog 10 type 3 Spawn Egg",
-      "biome.dogblockmod.dogbiome": "Dogbiome",
       "block.dogblockmod.blackdoortop": "black door top",
-      "item.dogblockmod.endog_21_spawn_egg": "dog 21 mob Spawn Egg",
+      "biome.dogblockmod.dogbiome": "Dogbiome",
+      "item.dogblockmod.endig_10type_2_spawn_egg": "dog 10 type 3 Spawn Egg",
       "block.dogblockmod.dogwoods_button": "Dogwoods Button",
       "block.dogblockmod.orangedoortop": "orange door top",
       "block.dogblockmod.dog_35lives": "Dog 3",
+      "entity.dogblockmod.patiencedog_12life": "patience dog",
       "block.dogblockmod.resistdog_8reverse": "resist dog 6 reverse",
       "block.dogblockmod.darkwood_fence": "Darkwood Fence",
-      "item.dogblockmod.endog_224life_spawn_egg": "entity dog 22 Spawn Egg",
       "entity.dogblockmod.portaldog_5life": "portal dog",
       "subtitles.floora1bgm": "",
-      "item.dogblockmod.endog_19_spawn_egg": "dog 19 mob Spawn Egg",
+      "item.dogblockmod.finalbossdog_10life_spawn_egg": "final dog Spawn Egg",
       "item.dogblockmod.floora_2": "Floorz 3 Portal Igniter",
-      "block.dogblockmod.dog_9": "Dog 9",
-      "block.dogblockmod.dog_8": "Dog 8",
-      "block.dogblockmod.dog_6": "Dog 6",
       "subtitles.hescoming": "",
-      "block.dogblockmod.dog_5": "Dog 5",
-      "block.dogblockmod.dog_4": "Dog 4",
-      "item.dogblockmod.niante": "Niante",
-      "block.dogblockmod.redwallunbreakable": "unbreakable red wall",
-      "block.dogblockmod.dog_2": "Dog 2",
-      "entity.dogblockmod.dog_1tiny": "tiny dog 1",
-      "block.dogblockmod.bluefloorunbreakable": "unbreakable blue floor",
+      "entity.dogblockmod.engiantdog_1": "giant dog 1",
+      "entity.dogblockmod.engiantdog_2": "giant dog 2",
       "entity.dogblockmod.dog_11tiny": "tiny dog 11",
-      "entity.dogblockmod.endog_1211life": "entity dog 13",
-      "item.dogblockmod.theblackout": "Theblackout Portal Igniter",
       "biome.dogblockmod.flooraabiome": "floorAA",
-      "entity.dogblockmod.endog_226life": "entity dog 22",
       "item.dogblockmod.floorra": "Floorz 3 Portal Igniter",
-      "block.dogblockmod.tinydog_7spawn": "Tiny dog 7 spawn",
-      "item.dogblockmod.dogliner": "Dogliner",
+      "entity.dogblockmod.patiencedog_4life": "patience dog",
       "entity.dogblockmod.endog_132life": "entity dog 13",
       "block.dogblockmod.whitespacewood_pressure_plate": "Whitespacewood Pressure Plate",
       "block.dogblockmod.bossblock_1life_1": "bossblock",
       "item.dogblockmod.endog_11_spawn_egg": " dog 11 Spawn Egg",
       "block.dogblockmod.bossblock_1life_2": "bossblock",
-      "item.dogblockmod.endog_7_spawn_egg": "Dog 7 Spawn Egg",
       "block.dogblockmod.bossblock_1life_3": "bossblock",
       "block.dogblockmod.bossblock_1life_4": "bossblock",
       "block.dogblockmod.bossblock_1life_5": "bossblock",
@@ -12448,197 +14697,93 @@
       "block.dogblockmod.bossblock_1life_8": "bossblock",
       "block.dogblockmod.bossblock_1life_9": "boss block 1",
       "block.dogblockmod.dog_84lives": "Dog 8",
-      "advancements.everthingiswhite.descr": "you entered the white space, here, only peace and great moment. dont be afraid. we are here for you",
-      "subtitles.whitezone": "",
-      "block.dogblockmod.dog_37verybig": "very big dog 37",
-      "block.dogblockmod.dog_19": "Dog 19",
-      "item.dogblockmod.bossdog_1_spawn_egg": "boss dog 1 Spawn Egg",
       "subtitles.harddog_death": "",
-      "block.dogblockmod.dog_15": "Dog 15",
-      "item.dogblockmod.abandonedlabbossdog_spawn_egg": "abandoned lab boss dog Spawn Egg",
-      "block.dogblockmod.dog_14": "Dog 14",
-      "biome.dogblockmod.exdog_6biome": "dog4 biome",
       "block.dogblockmod.dog_38lives": "Dog 3",
-      "subtitles.floorr1bgm": "",
       "entity.dogblockmod.endog_2210life": "entity dog 22",
-      "block.dogblockmod.dog_11": "Dog 11",
-      "block.dogblockmod.dog_10": "Dog 10",
       "block.dogblockmod.dogwoods_planks": "Dogwoods Planks",
-      "fluid.dogblockmod.darkliquit": "Dark liquid",
-      "block.dogblockmod.dog_13": "Dog 13",
       "item.dogblockmod.endog_129life_spawn_egg": "entity dog 13 Spawn Egg",
-      "block.dogblockmod.dog_12": "Dog 12",
       "item.dogblockmod.dog_13bigreverse_spawn_egg": "dog 13 big Spawn Egg",
-      "block.dogblockmod.dog_31": "Dog 31",
       "block.dogblockmod.transferdooryellow": "transfer door - yellow space",
-      "item.dogblockmod.verybigdog_1_spawn_egg": "very big dog 1 Spawn Egg",
-      "block.dogblockmod.whiteores_ore": "Whiteores Ore",
       "item.dogblockmod.dog_1_spawn_egg": "Dog 1  Spawn Egg",
-      "item.dogblockmod.endog_138life_spawn_egg": "entity dog 13 Spawn Egg",
-      "item.dogblockmod.endog_226life_spawn_egg": "entity dog 22 Spawn Egg",
-      "block.dogblockmod.dog_29": "Dog 29",
       "item.dogblockmod.endog_20_spawn_egg": "dog 20 mob Spawn Egg",
       "entity.dogblockmod.endog_229life": "entity dog 22",
-      "block.dogblockmod.dog_26": "Dog 26",
-      "item.dogblockmod.dog_13tinyreverse_spawn_egg": "tiny dog 13 Spawn Egg",
-      "block.dogblockmod.dog_25": "Dog 25",
       "item.dogblockmod.dogdimention": "dog portal igniter",
-      "block.dogblockmod.whiteores_block": "Block of Whiteores",
-      "block.dogblockmod.dog_28": "Dog 28",
       "item.dogblockmod.dog_11tiny_spawn_egg": "tiny dog 11 Spawn Egg",
-      "block.dogblockmod.dog_22": "Dog 22",
-      "item.dogblockmod.floorz_3": "Floorz 3 Portal Igniter",
-      "block.dogblockmod.dog_21": "Dog 21",
-      "block.dogblockmod.dog_24": "Dog 24",
-      "entity.dogblockmod.endog_221life": "entity dog 22",
-      "block.dogblockmod.dog_23": "Dog 23",
       "block.dogblockmod.dog_592lives": "Dog 59",
-      "biome.dogblockmod.floor_2biome": "Floor 2biome",
-      "entity.dogblockmod.endog_14": "dog 14",
-      "entity.dogblockmod.endog_13": "dog 13",
-      "entity.dogblockmod.endog_11": " dog 11",
-      "entity.dogblockmod.endog_18": "dog 18 mob",
-      "entity.dogblockmod.endog_17": "dog 17 mob",
-      "entity.dogblockmod.endog_16": "dog 16 mob",
-      "item.dogblockmod.endog_9_spawn_egg": "dog 9 Spawn Egg",
-      "entity.dogblockmod.endog_19": "dog 19 mob",
+      "block.dogblockmod.bigdog_155reverse": "big dog block 155",
+      "entity.dogblockmod.patiencedog_7life": "patience dog",
       "fluid.dogblockmod.magicwater": "Magic water",
       "entity.dogblockmod.dog_13tinyreverse": "tiny dog 13",
       "item.dogblockmod.veryverybigdog_1_spawn_egg": "very very big dog 1 Spawn Egg",
-      "block.dogblockmod.dog_37": "Dog 37",
       "entity.dogblockmod.enwolf_15lives": "wolf 1 - 5 lives",
-      "block.dogblockmod.dog_39": "Dog 39",
-      "block.dogblockmod.dog_33": "Dog 33",
-      "block.dogblockmod.darkwood_stairs": "Darkwood Stairs",
-      "block.dogblockmod.dog_35": "Dog 35",
-      "block.dogblockmod.dog_34": "Dog 34",
-      "block.dogblockmod.cyandoortop": "green door top",
+      "entity.dogblockmod.finalbossdog_4life": "final dog",
       "block.dogblockmod.rainbowtransition": "rainbow transition",
-      "entity.dogblockmod.endog_21": "dog 21 mob",
       "block.dogblockmod.whitespacewood_wood": "Whitespacewood Wood",
-      "entity.dogblockmod.endog_20": "dog 20 mob",
-      "block.dogblockmod.brownsquare": "Brown squares",
+      "item.dogblockmod.finalbossdog_7life_spawn_egg": "final dog Spawn Egg",
       "biome.dogblockmod.floorpc_1biome": "floorPC",
       "block.dogblockmod.graydoortop": "gray door top",
-      "item.dogblockmod.rainbowkey": "rainbow key",
-      "entity.dogblockmod.endog_22": "entity dog 22",
       "item.dogblockmod.blackkey": "black key",
       "item.dogblockmod.yellowkey": "yellow key",
-      "item.dogblockmod.dog_11verytiny_spawn_egg": "very tiny dog 11 Spawn Egg",
-      "block.dogblockmod.raindowdoortop": "rainbow bottom top",
       "item.dogblockmod.dogtrap_2": "Floorz 3 Portal Igniter",
-      "entity.dogblockmod.endog_133life": "entity dog 13",
+      "block.dogblockmod.raindowdoortop": "rainbow bottom top",
+      "item.dogblockmod.engiantdog_1_spawn_egg": "giant dog 1 Spawn Egg",
       "item.dogblockmod.bigdog_1_spawn_egg": "big dog 1 Spawn Egg",
-      "block.dogblockmod.blackdoorbottom": "black door",
       "block.dogblockmod.purpledoortop": "purple door top",
-      "block.dogblockmod.stairswhite": "white stairs",
       "block.dogblockmod.dog_39big": "big dog 39",
       "block.dogblockmod.starlysky": "starlysky",
-      "advancements.yourfirststeps.title": "Your first steps...",
       "block.dogblockmod.exdog_3reverse": "ex dog 3",
-      "item.dogblockmod.endog_22_spawn_egg": "entity dog 22 Spawn Egg",
-      "entity.dogblockmod.dog_1": "Dog 1 ",
+      "advancements.yourfirststeps.title": "Your first steps...",
       "block.dogblockmod.bugdogreverse": "bug dog reverse",
       "block.dogblockmod.dog_31lives": "Dog 3",
-      "block.dogblockmod.dog_61": "Dog 61",
-      "block.dogblockmod.dog_64": "Dog 64",
       "block.dogblockmod.white": "White...... ?",
-      "block.dogblockmod.dog_63": "Dog 63",
-      "item.dogblockmod.floora_2alt": "Floorz 3 Portal Igniter",
-      "block.dogblockmod.dog_60": "Dog 60",
+      "item.dogblockmod.afraidendog_26_spawn_egg": "dog 26 mob Spawn Egg",
       "block.dogblockmod.whitespacewood_button": "Whitespacewood Button",
       "item.dogblockmod.endog_137life_spawn_egg": "entity dog 13 Spawn Egg",
       "item.dogblockmod.disableddog_11_spawn_egg": "disabled dog 11 Spawn Egg",
       "block.dogblockmod.dogdimgrass": "fragile grass",
-      "block.dogblockmod.dog_58": "Dog 58",
-      "item.dogblockmod.enwolf_2_spawn_egg": "wolf 2 Spawn Egg",
-      "block.dogblockmod.dog_55": "Dog 55",
-      "block.dogblockmod.dog_57": "Dog 57",
-      "block.dogblockmod.dog_56": "Dog 56",
+      "item.dogblockmod.patiencedog_9life_spawn_egg": "patience dog Spawn Egg",
+      "block.dogblockmod.bigdog_155": "big dog block 155",
       "entity.dogblockmod.endig_10type_2": "dog 10 type 3",
-      "item.dogblockmod.dog_1tiny_spawn_egg": "tiny dog 1 Spawn Egg",
-      "block.dogblockmod.dog_73": "Dog 73",
-      "block.dogblockmod.dog_72": "Dog 72",
-      "block.dogblockmod.dog_75": "Dog 75",
-      "block.dogblockmod.dog_74": "Dog 74",
-      "subtitles.harddog_hurt": "",
-      "block.dogblockmod.dog_71": "Dog 71",
-      "block.dogblockmod.dog_70": "Dog 70",
+      "item.dogblockmod.patiencedog_7life_spawn_egg": "patience dog Spawn Egg",
       "entity.dogblockmod.endog_228life": "entity dog 22",
       "block.dogblockmod.darkwood_wood": "Darkwood Wood",
       "block.dogblockmod.biglongdog_1body": "big long dog 1 body",
-      "block.dogblockmod.whitespacewood_planks": "Whitespacewood Planks",
       "block.dogblockmod.bidog_10": "big dog 10",
-      "block.dogblockmod.dog_69": "Dog 69",
-      "block.dogblockmod.dog_66": "Dog 66",
-      "block.dogblockmod.dog_65": "Dog 65",
-      "block.dogblockmod.dog_68": "Dog 68",
-      "block.dogblockmod.dog_67": "Dog 67",
-      "block.dogblockmod.dog_84": "Dog 84",
-      "block.dogblockmod.dog_83": "Dog 83",
-      "block.dogblockmod.dog_86": "Dog 86",
       "entity.dogblockmod.enwolf_14lives": "wolf 1 - 4 lives",
-      "block.dogblockmod.dog_80": "Dog 80",
       "block.dogblockmod.resistdog_1": "resist dog 1",
       "block.dogblockmod.resistdog_2": "resist dog 2",
-      "block.dogblockmod.dog_82": "Dog 82",
-      "block.dogblockmod.dog_81": "Dog 81",
       "block.dogblockmod.resistdog_5": "resist dog 5",
-      "block.dogblockmod.dogwoods_fence": "Dogwoods Fence",
       "block.dogblockmod.resistdog_6": "resist dog 6",
+      "entity.dogblockmod.finalbossdog_5life": "final dog",
       "block.dogblockmod.resistdog_3": "resist dog 3",
       "block.dogblockmod.resistdog_4": "resist dog 4",
       "block.dogblockmod.dogwoods_pressure_plate": "Dogwoods Pressure Plate",
       "block.dogblockmod.resistdog_7": "resist dog 7",
       "block.dogblockmod.resistdog_8": "resist dog 8",
-      "item.dogblockmod.portaldog_1life_spawn_egg": "portal dog Spawn Egg",
       "block.dogblockmod.dog_6spawn": "dog 6 spawn",
       "block.dogblockmod.resistdog_4reverse": "resist dog 3",
-      "block.dogblockmod.transferdoorblue": "transfer door - blue space",
       "subtitles.babydogdeath": "",
       "block.dogblockmod.blackblocknw": "black block",
       "item.dogblockmod.doglinerprojectile": "Dog liner projectile",
       "biome.dogblockmod.floora_1biome": "floorA1",
       "item.dogblockmod.blackstonepart": "Black stone part",
-      "block.dogblockmod.dog_77": "Dog 77",
-      "block.dogblockmod.dog_76": "Dog 76",
-      "subtitles.floora1": "",
-      "block.dogblockmod.dog_79": "Dog 79",
+      "entity.dogblockmod.patiencedog_6life": "patience dog",
       "block.dogblockmod.blackstone": "Black stone",
-      "block.dogblockmod.dog_78": "Dog 78",
-      "block.dogblockmod.dog_95": "Dog 95",
-      "block.dogblockmod.dog_94": "Dog 94",
-      "item.dogblockmod.purplekey": "purple key",
-      "block.dogblockmod.dog_97": "Dog 97",
-      "item.dogblockmod.endog_136life_spawn_egg": "entity dog 13 Spawn Egg",
-      "block.dogblockmod.dog_96": "Dog 96",
-      "block.dogblockmod.dog_91": "Dog 91",
-      "block.dogblockmod.dog_90": "Dog 90",
-      "block.dogblockmod.dog_93": "Dog 93",
-      "block.dogblockmod.dogwoods_log": "Dogwoods Log",
-      "block.dogblockmod.dog_92": "Dog 92",
-      "biome.dogblockmod.brownspacebiome": "dog trap",
       "block.dogblockmod.rainbowlinesunbreakable": "rainbow lines unbreakable",
       "item.dogblockmod.treekey": "tree key",
       "block.dogblockmod.rainbowportal": "rainbow portal",
-      "block.dogblockmod.biglongdog_1head": "big long dog 1 head",
       "item.dogblockmod.whitespace": "Whitespace Portal Igniter",
       "block.dogblockmod.whitespacedirt": "white space dirt",
-      "item.dogblockmod.enwolf_11lives_spawn_egg": "wolf 1 - 1 lives Spawn Egg",
       "item.dogblockmod.portaldog_2life_spawn_egg": "portal dog Spawn Egg",
       "block.dogblockmod.magicwater": "Magic water",
       "block.dogblockmod.bluedoorbottom": "blue door",
-      "subtitles.red_space": "",
       "block.dogblockmod.dog_140": "Dog 140",
       "block.dogblockmod.dog_141": "Dog 141",
-      "block.dogblockmod.dog_595lives": "Dog 59",
-      "block.dogblockmod.dog_142": "Dog 142",
       "block.dogblockmod.orangedoorbottom": "orange door",
-      "item.dogblockmod.enwolf_12lives_spawn_egg": "wolf 1 - 2 lives Spawn Egg",
-      "item.dogblockmod.flooraa": "Floorz 3 Portal Igniter",
+      "block.dogblockmod.dog_142": "Dog 142",
+      "block.dogblockmod.dog_595lives": "Dog 59",
       "block.dogblockmod.dog_143": "Dog 143",
-      "entity.dogblockmod.enwolf_2formathiasbruh": "wolf 2 for mathias bruh",
-      "block.dogblockmod.darkwood_log": "Darkwood Log",
+      "item.dogblockmod.flooraa": "Floorz 3 Portal Igniter",
       "block.dogblockmod.dog_144": "Dog 144",
       "block.dogblockmod.dog_145": "Dog 145",
       "block.dogblockmod.dog_146": "Dog 146",
@@ -12647,31 +14792,15 @@
       "block.dogblockmod.dog_148": "Dog 148",
       "block.dogblockmod.tinydog_8spawn": "Tiny dog 8 spawn",
       "block.dogblockmod.dog_149": "Dog 149",
-      "block.dogblockmod.whitespacewood_fence_gate": "Whitespacewood Fence Gate",
-      "entity.dogblockmod.endog_223life": "entity dog 22",
       "subtitles.bossdeath": "",
-      "subtitles.mediumdogdeath": "",
-      "block.dogblockmod.bluedoortop": "blue door top",
-      "block.dogblockmod.exdog_1": "ex dog 1",
-      "block.dogblockmod.exdog_2": "ex dog 2",
-      "biome.dogblockmod.whitespambiome": "white space biome",
-      "block.dogblockmod.exdog_3": "ex dog 3",
-      "block.dogblockmod.exdog_4": "ex dog 4",
       "entity.dogblockmod.bigdog_1": "big dog 1",
-      "block.dogblockmod.tinydog_6spawn": "Tiny dog 6 spawn",
-      "block.dogblockmod.exdog_5": "ex dog 5",
-      "entity.dogblockmod.endog_138life": "entity dog 13",
-      "block.dogblockmod.dog_593lives": "Dog 59",
       "entity.dogblockmod.bigdog_8": "Dog 8",
-      "subtitles.bosshurt": "",
+      "item.dogblockmod.finalbossdog_5life_spawn_egg": "final dog Spawn Egg",
       "entity.dogblockmod.bigdog_6": "big dog 6",
-      "item.dogblockmod.darkliquit_bucket": "dark liquid",
       "block.dogblockmod.dog_130": "Dog 130",
       "block.dogblockmod.dog_131": "Dog 131",
-      "block.dogblockmod.brownwallunbreakable": "unbreakable brown wall",
       "block.dogblockmod.dog_132": "Dog 132",
       "block.dogblockmod.dog_133": "Dog 133",
-      "block.dogblockmod.worthlessdog_4": "worthless dog 4",
       "block.dogblockmod.reverse_finaldogpart_3": "final dog",
       "block.dogblockmod.reverse_finaldogpart_4": "final dog",
       "entity.dogblockmod.dog_7tiny": "tiny dog 7",
@@ -12686,46 +14815,33 @@
       "block.dogblockmod.dog_139": "Dog 139",
       "block.dogblockmod.reverse_finaldogpart_9": "final dog",
       "block.dogblockmod.veryverybigdog_6spawn": "very very big dog 6 spawn",
-      "block.dogblockmod.exdog_4reverse": "ex dog 4",
       "block.dogblockmod.reverse_finaldogpart_1": "final dog",
       "item.dogblockmod.bluekey": "blue key",
       "block.dogblockmod.reverse_finaldogpart_2": "final dog",
+      "entity.dogblockmod.patiencedog_8life": "patience dog",
       "entity.dogblockmod.endog_10type_3": "dog 10 type 4",
       "entity.dogblockmod.endog_10type_5": "dog 10 type 6",
       "entity.dogblockmod.endog_10type_4": "dog 10 type 5",
-      "block.dogblockmod.blackexit": "Black block",
-      "block.dogblockmod.ndog_105": "Dog 105",
       "block.dogblockmod.bugdog": "bug dog",
-      "item.dogblockmod.verybigdog_6_spawn_egg": "very big dog 6 Spawn Egg",
       "entity.dogblockmod.enwolf_1": "wolf 1",
+      "item.dogblockmod.finalbossdog_9life_spawn_egg": "final dog Spawn Egg",
       "entity.dogblockmod.enwolf_2": "wolf 2",
       "block.dogblockmod.starlyskyunbreakable": "starlysky unbreakable",
       "block.dogblockmod.dog_9reverse": "Dog 9 reverse",
-      "subtitles.brown_space": "",
-      "block.dogblockmod.n_altdog_97": "Dog 97 alt",
-      "block.dogblockmod.bossblock_2life_10": "bossblock",
-      "block.dogblockmod.bossblock_2life_11": "bossblock",
-      "block.dogblockmod.bossblock_2life_12": "bossblock",
-      "block.dogblockmod.dogwoods_wood": "Dogwoods Wood",
-      "block.dogblockmod.dog_7spawn": "dog 7 spawn",
       "block.dogblockmod.dog_150": "Dog 150",
       "block.dogblockmod.dog_151": "Dog 151",
       "block.dogblockmod.dog_152": "Dog 152",
       "block.dogblockmod.dog_153": "Dog 153",
       "block.dogblockmod.dog_154": "Dog 154",
-      "block.dogblockmod.bigdog_6spawn": "big dog 6 spawn",
+      "block.dogblockmod.dog_155": "dog155",
+      "block.dogblockmod.dog_156": "Dog 156",
       "block.dogblockmod.yellowdoortop": "yellow door top",
-      "block.dogblockmod.yellowdoorbottom": "yellow door",
-      "block.dogblockmod.bossblock_2life_13": "bossblock",
-      "block.dogblockmod.greendoortop": "green door top",
-      "block.dogblockmod.bossblock_2life_14": "boss dog block 2",
       "subtitles.mediumdoghurt": "",
       "item.dogblockmod.floor_2": "Floor 2 Portal Igniter",
+      "entity.dogblockmod.finalbossdog_6life": "final dog",
       "item.dogblockmod.floor_1": "Floor 1 Portal Igniter",
-      "item.dogblockmod.endog_2210life_spawn_egg": "entity dog 22 Spawn Egg",
+      "item.dogblockmod.patiencedog_1life_spawn_egg": "patience dog Spawn Egg",
       "block.dogblockmod.dog_21reverse": "Dog 21",
-      "subtitles.bossdogdeath": "",
-      "block.dogblockmod.bluefloor": "blue floor",
       "block.dogblockmod.dog_85lives_5": "Dog 85",
       "block.dogblockmod.dog_85lives_4": "Dog 85",
       "block.dogblockmod.dog_101": "Dog 101",
@@ -12733,107 +14849,60 @@
       "block.dogblockmod.dog_102": "Dog 102",
       "block.dogblockmod.dog_85lives_2": "Dog 85",
       "block.dogblockmod.dog_103": "Dog 103",
-      "block.dogblockmod.ndog_29": "Dog 29",
       "block.dogblockmod.dog_85lives_1": "Dog 85",
       "block.dogblockmod.dog_104": "Dog 104",
       "block.dogblockmod.dog_105": "Dog 105",
       "block.dogblockmod.dog_106": "Dog 106",
       "biome.dogblockmod.floorr_1biome": "floorA2?",
-      "block.dogblockmod.ndog_28": "Dog 28",
       "block.dogblockmod.dog_107": "Dog 107",
-      "block.dogblockmod.ndog_25": "Dog 25",
       "block.dogblockmod.dog_108": "Dog 108",
-      "block.dogblockmod.ndog_26": "Dog 26",
       "block.dogblockmod.dog_109": "Dog 109",
-      "block.dogblockmod.ndog_23": "Dog 23",
-      "block.dogblockmod.ndog_24": "Dog 24",
       "item.dogblockmod.dog_6tiny_spawn_egg": "tiny dog 6 Spawn Egg",
-      "block.dogblockmod.ndog_21": "Dog 21",
-      "block.dogblockmod.ndog_22": "Dog 22",
       "entity.dogblockmod.dog_6tiny": "tiny dog 6",
-      "item.dogblockmod.bossdog_3_spawn_egg": "boss dog 3 Spawn Egg",
-      "item.dogblockmod.enwolf_1_spawn_egg": "wolf 1 Spawn Egg",
-      "block.dogblockmod.diamonddogbox": "diamond dog box",
-      "entity.dogblockmod.endog_222life": "entity dog 22",
+      "entity.dogblockmod.patiencedog_9life": "patience dog",
       "block.dogblockmod.whitespacegrass": "white space grass",
       "block.dogblockmod.dogwoods_leaves": "Dogwoods Leaves",
-      "block.dogblockmod.ndog_38": "Dog 38",
-      "block.dogblockmod.ndog_39": "Dog 39",
-      "entity.dogblockmod.endog_137life": "entity dog 13",
-      "block.dogblockmod.ndog_36": "Dog 36",
-      "block.dogblockmod.ndog_37": "Dog 37",
       "block.dogblockmod.dog_26reverse": "Dog 26 reverse",
-      "block.dogblockmod.ndog_34": "Dog 34",
       "item.dogblockmod.endog_14_spawn_egg": "dog 14 Spawn Egg",
-      "block.dogblockmod.ndog_35": "Dog 35",
-      "block.dogblockmod.ndog_32": "Dog 32",
       "item.dogblockmod.bigdog_6_spawn_egg": "big dog 6 Spawn Egg",
-      "block.dogblockmod.ndog_33": "Dog 33",
-      "block.dogblockmod.ndog_30": "Dog 30",
-      "biome.dogblockmod.redspacebiome": "dog trap",
-      "block.dogblockmod.ndog_31": "Dog 31",
       "block.dogblockmod.exdog_5reverse": "ex dog 5",
-      "item.dogblockmod.blackores_ingot": "black ingot",
       "block.dogblockmod.dog_34lives": "Dog 3",
       "block.dogblockmod.bluewall": "blue wall",
-      "block.dogblockmod.reddoortop": "red door top",
-      "block.dogblockmod.blackblock": "black",
       "item.dogblockmod.endog_13_spawn_egg": "dog 13 Spawn Egg",
-      "block.dogblockmod.browndoorbottom": "brown door bottom",
-      "block.dogblockmod.darkwood_planks": "Darkwood Planks",
       "block.dogblockmod.sebdog": "dog36",
       "block.dogblockmod.dog_121": "Dog 121",
       "block.dogblockmod.resistdog_5big": "resist dog 5",
       "item.dogblockmod.enwolf_2formathiasbruh_spawn_egg": "wolf 2 for mathias bruh Spawn Egg",
       "block.dogblockmod.dog_122": "Dog 122",
-      "entity.dogblockmod.portaldog_1life": "portal dog",
-      "block.dogblockmod.dog_82lives": "Dog 8",
       "block.dogblockmod.dog_123": "Dog 123",
       "block.dogblockmod.dog_124": "Dog 124",
+      "item.dogblockmod.patiencedog_13life_spawn_egg": "patience dog Spawn Egg",
       "block.dogblockmod.dog_125": "Dog 125",
-      "block.dogblockmod.resistdog_5reverse": "resist dog 5",
       "block.dogblockmod.dog_126": "Dog 126",
       "block.dogblockmod.dog_127": "Dog 127",
       "block.dogblockmod.dog_39live": "Dog 3",
       "block.dogblockmod.dog_128": "Dog 128",
       "block.dogblockmod.dog_129": "Dog 129",
-      "itemGroup.tabstrangedungeon": "secret dungeon",
-      "item.dogblockmod.enwolf_13lives_spawn_egg": "wolf 1 - 3 lives Spawn Egg",
-      "item.dogblockmod.endog_8_spawn_egg": "Dog 8 Spawn Egg",
-      "item.dogblockmod.tameableportaldog_spawn_egg": "tameable portal dog Spawn Egg",
       "item.dogblockmod.magicwater_bucket": "magic water bucket",
+      "block.dogblockmod.wolfblock": "Wolfblock",
+      "entity.dogblockmod.finalbossdog_7life": "final dog",
       "block.dogblockmod.unknownliquid": "unknown liquid 1",
       "item.dogblockmod.dog_8tiny_spawn_egg": "tiny dog 8 Spawn Egg",
-      "subtitles.floora2altbgm": "",
-      "block.dogblockmod.longdogbody": "long dog 1 body",
+      "item.dogblockmod.patiencedog_11life_spawn_egg": "patience dog Spawn Egg",
       "block.dogblockmod.dog_110": "Dog 110",
       "item.dogblockmod.dogtrap": "Floorz 3 Portal Igniter",
       "block.dogblockmod.dog_111": "Dog 111",
       "block.dogblockmod.dog_112": "Dog 112",
       "block.dogblockmod.dog_113": "Dog 113",
       "block.dogblockmod.dog_114": "Dog 114",
-      "block.dogblockmod.brownfloor": "Brown floor",
       "block.dogblockmod.tinydog_1spawn": "Tiny dog 1 spawn",
-      "item.dogblockmod.giantdog_6_spawn_egg": "giant dog 6 Spawn Egg",
-      "block.dogblockmod.longdog_1head": "long dog 1 head",
       "block.dogblockmod.dog_115": "Dog 115",
-      "block.dogblockmod.ndog_19": "Dog 19",
       "block.dogblockmod.dog_116": "Dog 116",
-      "entity.dogblockmod.disabledguarddog_2": "disabled guard dog 2",
       "block.dogblockmod.dog_117": "Dog 117",
       "block.dogblockmod.dog_118": "Dog 118",
-      "block.dogblockmod.ndog_14": "Dog 14",
       "block.dogblockmod.dog_119": "Dog 119",
-      "block.dogblockmod.ndog_15": "Dog 15",
-      "block.dogblockmod.ndog_12": "Dog 12",
-      "block.dogblockmod.brownhole": "Brown hole",
-      "block.dogblockmod.dogbloodblock": "blood",
-      "block.dogblockmod.ndog_13": "Dog 13",
       "block.dogblockmod.whitestone": "White stone",
-      "block.dogblockmod.ndog_10": "Dog 10",
-      "block.dogblockmod.ndog_11": "Dog 11",
-      "block.dogblockmod.dog_10reverse": "Dog 10",
-      "subtitles.flooraabgm": ""
+      "block.dogblockmod.dog_10reverse": "Dog 10"
     }
   },
   "foldersRoot": {
@@ -12894,6 +14963,14 @@
           {
             "name": "endog22",
             "children": []
+          },
+          {
+            "name": "finalbossdog",
+            "children": []
+          },
+          {
+            "name": "patiencedog",
+            "children": []
           }
         ]
       },
@@ -12953,6 +15030,14 @@
       },
       {
         "name": "foodbcimbored",
+        "children": []
+      },
+      {
+        "name": "tests",
+        "children": []
+      },
+      {
+        "name": "wolfblock",
         "children": []
       }
     ]

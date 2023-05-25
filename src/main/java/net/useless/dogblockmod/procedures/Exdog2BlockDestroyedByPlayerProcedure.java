@@ -55,16 +55,7 @@ public class Exdog2BlockDestroyedByPlayerProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((entity.getDisplayName().getString()).equals("mathias777")) {
-			if (Math.random() < 0.02) {
-				if (world instanceof World && !world.isRemote()) {
-					((World) world).playSound(null, new BlockPos(x, y, z),
-							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.shulker.death")),
-							SoundCategory.BLOCKS, (float) 1, (float) 1);
-				} else {
-					((World) world).playSound(x, y, z,
-							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.shulker.death")),
-							SoundCategory.BLOCKS, (float) 1, (float) 1, false);
-				}
+			if (Math.random() < 0.2) {
 				{
 					BlockPos _bp = new BlockPos(x, y, z);
 					BlockState _bs = Blocks.AIR.getDefaultState();
@@ -78,6 +69,15 @@ public class Exdog2BlockDestroyedByPlayerProcedure {
 							}
 					}
 					world.setBlockState(_bp, _bs, 3);
+				}
+				if (world instanceof World && !world.isRemote()) {
+					((World) world).playSound(null, new BlockPos(x, y, z),
+							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.shulker.death")),
+							SoundCategory.BLOCKS, (float) 1, (float) 1);
+				} else {
+					((World) world).playSound(x, y, z,
+							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.shulker.death")),
+							SoundCategory.BLOCKS, (float) 1, (float) 1, false);
 				}
 			} else {
 				{

@@ -51,7 +51,7 @@ public class Dungeon3dogdimationStructure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 850) {
+					if ((random.nextInt(1000000) + 1) <= 1450) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
@@ -65,7 +65,7 @@ public class Dungeon3dogdimationStructure {
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("dogblockmod", "dungeon3"));
+									.getTemplateDefaulted(new ResourceLocation("dogblockmod", "dogdungeon3"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo,

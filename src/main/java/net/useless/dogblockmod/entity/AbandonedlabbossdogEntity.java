@@ -87,7 +87,7 @@ public class AbandonedlabbossdogEntity extends DogblockmodModElements.ModElement
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
-			return CreatureAttribute.UNDEFINED;
+			return CreatureAttribute.UNDEAD;
 		}
 
 		@Override

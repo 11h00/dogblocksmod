@@ -2,10 +2,10 @@
   "_fv": 33,
   "_type": "structure",
   "definition": {
-    "structure": "dungeon3",
+    "structure": "dogdungeon3",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 450,
+    "spawnProbability": 550,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Underground",

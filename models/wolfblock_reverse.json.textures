@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wolfblock_0life"
+      },
+      "name": "default"
+    }
+  }
+}

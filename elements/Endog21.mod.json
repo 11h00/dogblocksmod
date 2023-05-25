@@ -50,10 +50,10 @@
     "attackKnockback": 0.0,
     "knockbackResistance": 100.0,
     "movementSpeed": 0.0,
-    "armorBaseValue": 100.0,
+    "armorBaseValue": 50.0,
     "trackingRange": 170,
     "followRange": 16,
-    "health": 1024,
+    "health": 65,
     "xpAmount": 25,
     "waterMob": false,
     "flyingMob": false,
@@ -84,10 +84,10 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "CUSTOM:harddog_hurt"
+      "value": "entity.shulker.hurt"
     },
     "deathSound": {
-      "value": "CUSTOM:harddog_death"
+      "value": "entity.shulker.death"
     },
     "stepSound": {
       "value": ""

@@ -55,7 +55,7 @@ public class Exdog1BlockDestroyedByPlayerProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((entity.getDisplayName().getString()).equals("mathias777")) {
-			if (Math.random() < 0.02) {
+			if (Math.random() < 0.2) {
 				if (world instanceof World && !world.isRemote()) {
 					((World) world).playSound(null, new BlockPos(x, y, z),
 							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.shulker.death")),
