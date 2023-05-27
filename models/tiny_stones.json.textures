@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "red": {
+      "map": {
+        "0": "red_stone"
+      },
+      "name": "red"
+    },
+    "default": {
+      "map": {
+        "0": ""
+      },
+      "name": "default"
+    },
+    "blue": {
+      "map": {
+        "0": "blue_stone"
+      },
+      "name": "blue"
+    },
+    "yellow": {
+      "map": {
+        "0": "yellow_stone"
+      },
+      "name": "yellow"
+    },
+    "pink": {
+      "map": {
+        "0": "pink_stone"
+      },
+      "name": "pink"
+    },
+    "purple": {
+      "map": {
+        "0": "purple_stone"
+      },
+      "name": "purple"
+    },
+    "white": {
+      "map": {
+        "0": "white_stone"
+      },
+      "name": "white"
+    },
+    "green": {
+      "map": {
+        "0": "green_stone"
+      },
+      "name": "green"
+    }
+  }
+}

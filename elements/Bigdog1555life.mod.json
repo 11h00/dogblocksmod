@@ -37,7 +37,7 @@
     "specialInfo": [],
     "hardness": 85.0,
     "resistance": 0.0,
-    "hasGravity": true,
+    "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Dogtab"

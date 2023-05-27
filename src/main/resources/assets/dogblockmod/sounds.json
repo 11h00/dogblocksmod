@@ -421,5 +421,128 @@
         "stream": false
       }
     ]
+  },
+  "bgmfloor01": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:floor01",
+        "stream": false
+      }
+    ]
+  },
+  "bgmfloor02": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:floor02",
+        "stream": false
+      }
+    ]
+  },
+  "corrupteddoghurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "dogblockmod:dch1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:dch2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:dch3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:dch4",
+        "stream": false
+      }
+    ]
+  },
+  "corrupteddogdeath": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "dogblockmod:dcd1",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:dcd2",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:dcd3",
+        "stream": false
+      },
+      {
+        "name": "dogblockmod:dcd4",
+        "stream": false
+      }
+    ]
+  },
+  "inlove": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:enlove",
+        "stream": false
+      }
+    ]
+  },
+  "patiencedogkilled": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:patiencedogkilled",
+        "stream": false
+      }
+    ]
+  },
+  "finalbossdeath": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:finalbossdeath",
+        "stream": false
+      }
+    ]
+  },
+  "bluezonebgm": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:bluezone",
+        "stream": false
+      }
+    ]
+  },
+  "blackzone": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:blackzonestairs",
+        "stream": false
+      }
+    ]
+  },
+  "blackzonedeep": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:blackzonestairsdeep",
+        "stream": false
+      }
+    ]
+  },
+  "blackzoneverydeep": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:blackzonestairsverydeep",
+        "stream": false
+      }
+    ]
   }
 }

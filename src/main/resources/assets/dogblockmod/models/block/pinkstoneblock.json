@@ -1,0 +1,8 @@
+{
+  "parent": "dogblockmod:custom/tiny_stones",
+  "textures": {
+    "all": "dogblockmod:blocks/pink_stone",
+    "particle": "dogblockmod:blocks/pink_stone",
+    "0": "dogblockmod:blocks/pink_stone"
+  }
+}

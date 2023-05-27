@@ -103,6 +103,27 @@ public class DogblockmodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "patiencedoghurt")));
 		sounds.put(new ResourceLocation("dogblockmod", "patiencedog_death"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "patiencedog_death")));
+		sounds.put(new ResourceLocation("dogblockmod", "bgmfloor01"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "bgmfloor01")));
+		sounds.put(new ResourceLocation("dogblockmod", "bgmfloor02"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "bgmfloor02")));
+		sounds.put(new ResourceLocation("dogblockmod", "corrupteddoghurt"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "corrupteddoghurt")));
+		sounds.put(new ResourceLocation("dogblockmod", "corrupteddogdeath"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "corrupteddogdeath")));
+		sounds.put(new ResourceLocation("dogblockmod", "inlove"), new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "inlove")));
+		sounds.put(new ResourceLocation("dogblockmod", "patiencedogkilled"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "patiencedogkilled")));
+		sounds.put(new ResourceLocation("dogblockmod", "finalbossdeath"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "finalbossdeath")));
+		sounds.put(new ResourceLocation("dogblockmod", "bluezonebgm"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "bluezonebgm")));
+		sounds.put(new ResourceLocation("dogblockmod", "blackzone"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "blackzone")));
+		sounds.put(new ResourceLocation("dogblockmod", "blackzonedeep"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "blackzonedeep")));
+		sounds.put(new ResourceLocation("dogblockmod", "blackzoneverydeep"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "blackzoneverydeep")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("dogblockmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dogblockmod:blocks/rainbox_5",
+    "up": "dogblockmod:blocks/rainbox_5",
+    "north": "dogblockmod:blocks/transparant",
+    "east": "dogblockmod:blocks/transparant",
+    "south": "dogblockmod:blocks/transparant",
+    "west": "dogblockmod:blocks/transparant",
+    "particle": "dogblockmod:blocks/rainbox_5"
+  }
+}

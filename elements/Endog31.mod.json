@@ -84,10 +84,10 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "CUSTOM:harddog_hurt"
+      "value": "entity.shulker.hurt"
     },
     "deathSound": {
-      "value": "CUSTOM:harddog_death"
+      "value": "entity.shulker.death"
     },
     "stepSound": {
       "value": ""

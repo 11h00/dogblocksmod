@@ -2,8 +2,8 @@
   "_fv": 33,
   "_type": "livingentity",
   "definition": {
-    "mobName": "wolf 2 for mathias bruh",
-    "mobLabel": "unnamed wolf for mathias bruh",
+    "mobName": "wolf 2 for akira bruh",
+    "mobLabel": "unnamed wolf for akira bruh",
     "mobModelName": "Modelwolf2",
     "mobModelTexture": "wolf2.png",
     "mobModelGlowTexture": "",
@@ -99,9 +99,6 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "whenMobIsHurt": {
-      "name": "Enwolf2formathiasbruhEntityIsHurt"
-    },
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">4</field><field name=\"max_distance\">65</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field><next><block type=\"fight_as_owner\"><field name=\"condition\">null,null</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.2</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",

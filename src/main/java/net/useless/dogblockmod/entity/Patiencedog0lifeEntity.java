@@ -1,6 +1,7 @@
 
 package net.useless.dogblockmod.entity;
 
+import net.useless.dogblockmod.procedures.PatiencedogkilledProcedure;
 import net.useless.dogblockmod.entity.renderer.Patiencedog0lifeRenderer;
 import net.useless.dogblockmod.DogblockmodModElements;
 
@@ -22,7 +23,13 @@ import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
+
+import java.util.stream.Stream;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 @DogblockmodModElements.ModElement.Tag
 public class Patiencedog0lifeEntity extends DogblockmodModElements.ModElement {
@@ -94,6 +101,21 @@ public class Patiencedog0lifeEntity extends DogblockmodModElements.ModElement {
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dogblockmod:patiencedog_death"));
+		}
+
+		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = source.getTrueSource();
+			Entity entity = this;
+
+			PatiencedogkilledProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

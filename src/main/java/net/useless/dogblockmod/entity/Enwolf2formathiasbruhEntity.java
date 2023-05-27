@@ -1,7 +1,6 @@
 
 package net.useless.dogblockmod.entity;
 
-import net.useless.dogblockmod.procedures.Enwolf2formathiasbruhEntityIsHurtProcedure;
 import net.useless.dogblockmod.entity.renderer.Enwolf2formathiasbruhRenderer;
 import net.useless.dogblockmod.DogblockmodModElements;
 
@@ -53,11 +52,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.AgeableEntity;
 
-import java.util.stream.Stream;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.AbstractMap;
-
 @DogblockmodModElements.ModElement.Tag
 public class Enwolf2formathiasbruhEntity extends DogblockmodModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
@@ -101,7 +95,7 @@ public class Enwolf2formathiasbruhEntity extends DogblockmodModElements.ModEleme
 			super(type, world);
 			experienceValue = 25;
 			setNoAI(false);
-			setCustomName(new StringTextComponent("unnamed wolf for mathias bruh"));
+			setCustomName(new StringTextComponent("unnamed wolf for akira bruh"));
 			setCustomNameVisible(true);
 			enablePersistence();
 		}
@@ -151,19 +145,6 @@ public class Enwolf2formathiasbruhEntity extends DogblockmodModElements.ModEleme
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dogblockmod:mediumdogdeath"));
-		}
-
-		@Override
-		public boolean attackEntityFrom(DamageSource source, float amount) {
-			double x = this.getPosX();
-			double y = this.getPosY();
-			double z = this.getPosZ();
-			Entity entity = this;
-			Entity sourceentity = source.getTrueSource();
-
-			Enwolf2formathiasbruhEntityIsHurtProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			return super.attackEntityFrom(source, amount);
 		}
 
 		@Override

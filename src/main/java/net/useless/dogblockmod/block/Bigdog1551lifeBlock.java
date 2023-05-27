@@ -26,7 +26,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.FallingBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -58,7 +57,7 @@ public class Bigdog1551lifeBlock extends DogblockmodModElements.ModElement {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
 
-	public static class CustomBlock extends FallingBlock {
+	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK)
 					.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("dogblockmod:nothing")),

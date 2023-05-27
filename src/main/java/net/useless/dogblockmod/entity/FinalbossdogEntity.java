@@ -1,6 +1,8 @@
 
 package net.useless.dogblockmod.entity;
 
+import net.useless.dogblockmod.procedures.FinaldogkilledProcedure;
+import net.useless.dogblockmod.item.RainbowkeyItem;
 import net.useless.dogblockmod.entity.renderer.FinalbossdogRenderer;
 import net.useless.dogblockmod.DogblockmodModElements;
 
@@ -16,6 +18,7 @@ import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
+import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
@@ -29,7 +32,13 @@ import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
+
+import java.util.stream.Stream;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 @DogblockmodModElements.ModElement.Tag
 public class FinalbossdogEntity extends DogblockmodModElements.ModElement {
@@ -59,7 +68,7 @@ public class FinalbossdogEntity extends DogblockmodModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.2);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 1024);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 100);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 11);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 13);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			event.put(entity, ammma.create());
 		}
@@ -112,6 +121,11 @@ public class FinalbossdogEntity extends DogblockmodModElements.ModElement {
 			return super.getMountedYOffset() + 1;
 		}
 
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(RainbowkeyItem.block));
+		}
+
 		@Override
 		public net.minecraft.util.SoundEvent getHurtSound(DamageSource ds) {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dogblockmod:harddog_hurt"));
@@ -120,6 +134,21 @@ public class FinalbossdogEntity extends DogblockmodModElements.ModElement {
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dogblockmod:harddog_death"));
+		}
+
+		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = source.getTrueSource();
+			Entity entity = this;
+
+			FinaldogkilledProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }
