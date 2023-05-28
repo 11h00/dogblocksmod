@@ -17337,10 +17337,10 @@
   "workspaceSettings": {
     "modid": "dogblockmod",
     "modName": "the dog block mod",
-    "version": "0.9.1",
+    "version": "1.1",
     "description": "this mod will add dog blocs in your world and much more ",
     "author": "vsilet",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/dog-blocks",
     "license": "Public Domain",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
