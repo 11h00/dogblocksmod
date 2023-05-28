@@ -53,8 +53,8 @@ import net.minecraft.block.Blocks;
 @DogblockmodModElements.ModElement.Tag
 public class EnportaldogtameableEntity extends DogblockmodModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(1f, 1.9000000000000001f)).build("enportaldogtameable").setRegistryName("enportaldogtameable");
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(1f, 2.4f))
+			.build("enportaldogtameable").setRegistryName("enportaldogtameable");
 
 	public EnportaldogtameableEntity(DogblockmodModElements instance) {
 		super(instance, 1252);

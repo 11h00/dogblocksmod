@@ -73,7 +73,7 @@ public class Friendlycorrupteddog7Entity extends DogblockmodModElements.ModEleme
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.4);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 230);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 100);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 0);
