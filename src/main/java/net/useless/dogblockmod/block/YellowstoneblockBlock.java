@@ -2,6 +2,7 @@
 package net.useless.dogblockmod.block;
 
 import net.useless.dogblockmod.itemgroup.StrangedungeonItemGroup;
+import net.useless.dogblockmod.item.YellowstoneItem;
 import net.useless.dogblockmod.DogblockmodModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -81,7 +82,7 @@ public class YellowstoneblockBlock extends DogblockmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(YellowstoneItem.block));
 		}
 	}
 }

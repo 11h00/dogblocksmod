@@ -2,22 +2,22 @@
   "_fv": 33,
   "_type": "livingentity",
   "definition": {
-    "mobName": "abandoned lab boss dog",
+    "mobName": "friendly lab boss dog",
     "mobLabel": "",
     "mobModelName": "Modelabandonedlabbossdog",
     "mobModelTexture": "abandonedlabbossdog.png",
     "mobModelGlowTexture": "",
     "modelWidth": 1.4000000000000001,
-    "modelHeight": 4.5,
+    "modelHeight": 7.5,
     "modelShadowSize": 1.2,
     "mountedYOffset": 0.0,
-    "hasSpawnEgg": false,
+    "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -16724788,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -13369396,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -49,7 +49,7 @@
     "attackStrength": 13,
     "attackKnockback": 0.0,
     "knockbackResistance": 5.5,
-    "movementSpeed": 0.19999999999999998,
+    "movementSpeed": 0.4,
     "armorBaseValue": 15.0,
     "trackingRange": 164,
     "followRange": 16,

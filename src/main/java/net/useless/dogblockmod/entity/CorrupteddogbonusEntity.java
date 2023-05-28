@@ -70,7 +70,7 @@ public class CorrupteddogbonusEntity extends DogblockmodModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 0;
+			experienceValue = 600;
 			setNoAI(true);
 			enablePersistence();
 		}

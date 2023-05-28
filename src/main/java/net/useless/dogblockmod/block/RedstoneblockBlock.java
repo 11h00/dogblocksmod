@@ -2,6 +2,7 @@
 package net.useless.dogblockmod.block;
 
 import net.useless.dogblockmod.itemgroup.StrangedungeonItemGroup;
+import net.useless.dogblockmod.item.RedstoneItem;
 import net.useless.dogblockmod.DogblockmodModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -81,7 +82,7 @@ public class RedstoneblockBlock extends DogblockmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(RedstoneItem.block));
 		}
 	}
 }

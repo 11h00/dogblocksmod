@@ -28,6 +28,7 @@ import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.passive.TameableEntity;
@@ -58,7 +59,7 @@ import java.util.AbstractMap;
 public class AbandonedlabbossdogfriendEntity extends DogblockmodModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(164).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(1.4000000000000001f, 4.5f)).build("abandonedlabbossdogfriend").setRegistryName("abandonedlabbossdogfriend");
+			.size(1.4000000000000001f, 7.5f)).build("abandonedlabbossdogfriend").setRegistryName("abandonedlabbossdogfriend");
 
 	public AbandonedlabbossdogfriendEntity(DogblockmodModElements instance) {
 		super(instance, 1210);
@@ -69,6 +70,8 @@ public class AbandonedlabbossdogfriendEntity extends DogblockmodModElements.ModE
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> entity);
+		elements.items.add(() -> new SpawnEggItem(entity, -16724788, -13369396, new Item.Properties().group(ItemGroup.MISC))
+				.setRegistryName("abandonedlabbossdogfriend_spawn_egg"));
 	}
 
 	@Override
@@ -79,7 +82,7 @@ public class AbandonedlabbossdogfriendEntity extends DogblockmodModElements.ModE
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.2);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.4);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 1000);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 15);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 13);

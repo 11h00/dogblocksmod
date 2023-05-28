@@ -36,7 +36,7 @@
       },
       "biomes": [
         {
-          "biome": "dogblockmod:purplezonebiome",
+          "biome": "dogblockmod:bluezonebiome",
           "parameters": {
             "temperature": 0,
             "humidity": 0,

@@ -544,5 +544,32 @@
         "stream": false
       }
     ]
+  },
+  "bgmfloor12": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:floor12",
+        "stream": false
+      }
+    ]
+  },
+  "waterzonebgm": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:waterzone",
+        "stream": false
+      }
+    ]
+  },
+  "marketplace": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:marketplace",
+        "stream": false
+      }
+    ]
   }
 }

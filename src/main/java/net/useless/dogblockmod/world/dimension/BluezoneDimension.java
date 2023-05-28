@@ -1,7 +1,7 @@
 
 package net.useless.dogblockmod.world.dimension;
 
-import net.useless.dogblockmod.procedures.PurplezonegenstructProcedure;
+import net.useless.dogblockmod.procedures.BluezonegsProcedure;
 import net.useless.dogblockmod.DogblockmodModElements;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -48,9 +48,9 @@ public class BluezoneDimension extends DogblockmodModElements.ModElement {
 	public void init(FMLCommonSetupEvent event) {
 		Set<Block> replaceableBlocks = new HashSet<>();
 		replaceableBlocks.add(Blocks.AIR);
-		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("dogblockmod:purplezonebiome")).getGenerationSettings()
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("dogblockmod:bluezonebiome")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
-		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("dogblockmod:purplezonebiome")).getGenerationSettings()
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("dogblockmod:bluezonebiome")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
 		DeferredWorkQueue.runLater(() -> {
 			try {
@@ -100,7 +100,7 @@ public class BluezoneDimension extends DogblockmodModElements.ModElement {
 		double z = entity.getPosZ();
 		if (event.getTo() == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("dogblockmod:bluezone"))) {
 
-			PurplezonegenstructProcedure
+			BluezonegsProcedure
 					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
 							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
