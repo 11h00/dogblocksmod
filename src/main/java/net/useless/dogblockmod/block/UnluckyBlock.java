@@ -84,7 +84,7 @@ public class UnluckyBlock extends DogblockmodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(this, 0));
 		}
 
 		@Override
@@ -127,7 +127,25 @@ public class UnluckyBlock extends DogblockmodModElements.ModElement {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.STONE)
 				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.AIR)
+			if (blockAt.getBlock() == Blocks.GRANITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.POLISHED_GRANITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.GRANITE_STAIRS)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.DIORITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.DIORITE_SLAB)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.POLISHED_DIORITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.ANDESITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.POLISHED_ANDESITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.DIRT)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.OAK_LEAVES)
 				blockCriteria = true;
 			return blockCriteria;
 		}
