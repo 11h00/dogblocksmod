@@ -6,9 +6,7 @@
     "texture": "dogshreeder",
     "customModelName": "Normal",
     "name": "dog shreeder",
-    "specialInfo": [
-      "next gen tool to destroy dog block even faster"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },

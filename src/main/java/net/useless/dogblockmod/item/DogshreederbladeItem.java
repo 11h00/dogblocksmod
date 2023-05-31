@@ -5,18 +5,12 @@ import net.useless.dogblockmod.DogblockmodModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
-
-import java.util.List;
 
 @DogblockmodModElements.ModElement.Tag
 public class DogshreederbladeItem extends DogblockmodModElements.ModElement {
@@ -51,12 +45,6 @@ public class DogshreederbladeItem extends DogblockmodModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 0F;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("combine this to a stick to get the dog shreeder"));
 		}
 	}
 }

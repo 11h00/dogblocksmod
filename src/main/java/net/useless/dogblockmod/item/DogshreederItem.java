@@ -129,8 +129,6 @@ import net.useless.dogblockmod.DogblockmodModElements;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -140,10 +138,7 @@ import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.ai.attributes.Attribute;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
-
-import java.util.List;
 
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
@@ -160,13 +155,6 @@ public class DogshreederItem extends DogblockmodModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
-			@Override
-			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("This tool can destroy dogblocks"));
-				list.add(new StringTextComponent("even the hardest ones"));
-				list.add(new StringTextComponent("combine 2 dog shreeder to get a better version"));
-			}
 		}.setRegistryName("dogshreeder"));
 	}
 
