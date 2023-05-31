@@ -10,12 +10,8 @@ import net.minecraftforge.fml.network.FMLPlayMessages;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
-import net.minecraftforge.common.MinecraftForge;
 
-import net.minecraft.world.gen.Heightmap;
-import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.ResourceLocation;
@@ -37,10 +33,8 @@ import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.EntityType;
-import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.CreatureAttribute;
-import net.minecraft.block.material.Material;
 
 @DogblockmodModElements.ModElement.Tag
 public class Doghater4Entity extends DogblockmodModElements.ModElement {
@@ -52,7 +46,6 @@ public class Doghater4Entity extends DogblockmodModElements.ModElement {
 		super(instance, 1406);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new Doghater4Renderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
-		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	@Override
@@ -62,16 +55,8 @@ public class Doghater4Entity extends DogblockmodModElements.ModElement {
 				.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("doghater_4_spawn_egg"));
 	}
 
-	@SubscribeEvent
-	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(EntityClassification.CREATURE).add(new MobSpawnInfo.Spawners(entity, 1, 1, 1));
-	}
-
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos,
-						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
 	}
 
 	private static class EntityAttributesRegisterHandler {
@@ -81,7 +66,7 @@ public class Doghater4Entity extends DogblockmodModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.4);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 5);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 35);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 47);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 13);
 			event.put(entity, ammma.create());
 		}
@@ -98,6 +83,7 @@ public class Doghater4Entity extends DogblockmodModElements.ModElement {
 			setNoAI(false);
 			setCustomName(new StringTextComponent("mostposts_wr"));
 			setCustomNameVisible(true);
+			enablePersistence();
 		}
 
 		@Override
@@ -122,14 +108,53 @@ public class Doghater4Entity extends DogblockmodModElements.ModElement {
 			this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Endog36friendlyEntity.CustomEntity.class, false, true));
 			this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Friendlycorrupteddog7Entity.CustomEntity.class, false, true));
 			this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, Corrupteddog15Entity.CustomEntity.class, false, true));
-			this.goalSelector.addGoal(10, new RandomWalkingGoal(this, 1));
-			this.goalSelector.addGoal(11, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(12, new SwimGoal(this));
+			this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, Bossdog1Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, Bossdog2Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, Bossdog2childEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, Bossdog3Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(14, new NearestAttackableTargetGoal(this, Finalbossdog11lifeEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(15, new NearestAttackableTargetGoal(this, Finalbossdog10lifeEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(16, new NearestAttackableTargetGoal(this, Finalbossdog9lifeEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(17, new NearestAttackableTargetGoal(this, Finalbossdog8lifeEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(18, new NearestAttackableTargetGoal(this, Finalbossdog7lifeEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(19, new NearestAttackableTargetGoal(this, Finalbossdog6lifeEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(20, new NearestAttackableTargetGoal(this, Finalbossdog5lifeEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(21, new NearestAttackableTargetGoal(this, Finalbossdog4lifeEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(22, new NearestAttackableTargetGoal(this, Finalbossdog3lifeEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(23, new NearestAttackableTargetGoal(this, Finalbossdog2lifeEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(24, new NearestAttackableTargetGoal(this, Finalbossdog1lifeEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(25, new NearestAttackableTargetGoal(this, FinalbossdogEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(26, new NearestAttackableTargetGoal(this, Dog1Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(27, new NearestAttackableTargetGoal(this, Verybigdog1Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(28, new NearestAttackableTargetGoal(this, FinalbossdogEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(29, new NearestAttackableTargetGoal(this, Veryverybigdog1Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(30, new NearestAttackableTargetGoal(this, Engiantdog1Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(31, new NearestAttackableTargetGoal(this, Giantdog1Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(32, new NearestAttackableTargetGoal(this, Giantdog6Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(33, new NearestAttackableTargetGoal(this, Verybigdog6Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(34, new NearestAttackableTargetGoal(this, Veryverybigdog6Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(35, new NearestAttackableTargetGoal(this, Bigdog6Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(36, new NearestAttackableTargetGoal(this, Endog6Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(37, new NearestAttackableTargetGoal(this, Dog6tinyEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(38, new NearestAttackableTargetGoal(this, Afraidendog26Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(39, new NearestAttackableTargetGoal(this, AbandonedlabbossdogEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(40, new NearestAttackableTargetGoal(this, AbandonedlabbossdogfriendEntity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(41, new NearestAttackableTargetGoal(this, Endog10type5Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(42, new NearestAttackableTargetGoal(this, Endog10type4Entity.CustomEntity.class, false, true));
+			this.targetSelector.addGoal(43, new NearestAttackableTargetGoal(this, Endog10type3Entity.CustomEntity.class, false, true));
+			this.goalSelector.addGoal(44, new RandomWalkingGoal(this, 1));
+			this.goalSelector.addGoal(45, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(46, new SwimGoal(this));
 		}
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEAD;
+		}
+
+		@Override
+		public boolean canDespawn(double distanceToClosestPlayer) {
+			return false;
 		}
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {

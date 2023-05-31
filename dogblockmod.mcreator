@@ -15905,6 +15905,194 @@
       "locked_code": false,
       "registry_name": "doghater_4",
       "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dh1sBlockAdded",
+      "type": "procedure",
+      "sortid": 1407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dh_1s_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dh1s",
+      "type": "block",
+      "sortid": 1407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dh_1s",
+      "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dh2s",
+      "type": "block",
+      "sortid": 1408,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dh_2s",
+      "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dh3s",
+      "type": "block",
+      "sortid": 1409,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dh_3s",
+      "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dh4s",
+      "type": "block",
+      "sortid": 1410,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dh_4s",
+      "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dh4sBlockAdded",
+      "type": "procedure",
+      "sortid": 1411,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dh_4s_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dh3sBlockAdded",
+      "type": "procedure",
+      "sortid": 1412,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dh_3s_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dh2sBlockAdded",
+      "type": "procedure",
+      "sortid": 1413,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dh_2s_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dhc1",
+      "type": "recipe",
+      "sortid": 1407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dhc_1",
+      "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dhc2",
+      "type": "recipe",
+      "sortid": 1414,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dhc_2",
+      "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dhc3",
+      "type": "recipe",
+      "sortid": 1415,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dhc_3",
+      "path": "~/specialdungeon/dogkiller"
+    },
+    {
+      "name": "Dh4",
+      "type": "recipe",
+      "sortid": 1416,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dh_4",
+      "path": "~/specialdungeon/dogkiller"
     }
   ],
   "variable_elements": [
@@ -16766,6 +16954,7 @@
       "block.dogblockmod.exdog_4reverse": "ex dog 4",
       "block.dogblockmod.bigdog_1555life": "big dog block 155",
       "block.dogblockmod.greenfloor": "green floor",
+      "block.dogblockmod.dh_4s": "dog hater spawner",
       "block.dogblockmod.blackexit": "Black block",
       "block.dogblockmod.ndog_105": "Dog 105",
       "block.dogblockmod.bigdog_1552life": "big dog block 155",
@@ -16790,6 +16979,7 @@
       "block.dogblockmod.greendoortop": "green door top",
       "block.dogblockmod.bossblock_2life_14": "boss dog block 2",
       "item.dogblockmod.endog_2210life_spawn_egg": "entity dog 22 Spawn Egg",
+      "block.dogblockmod.dh_2s": "dog hater spawner",
       "subtitles.bossdogdeath": "",
       "block.dogblockmod.wolfblokl_3life": "Wolfblock",
       "block.dogblockmod.bluefloor": "blue floor",
@@ -16801,6 +16991,7 @@
       "block.dogblockmod.ndog_24": "Dog 24",
       "block.dogblockmod.ndog_21": "Dog 21",
       "block.dogblockmod.ndog_22": "Dog 22",
+      "block.dogblockmod.dh_3s": "dog hater spawner",
       "item.dogblockmod.bossdog_3_spawn_egg": "boss dog 3 Spawn Egg",
       "entity.dogblockmod.patiencedog_0life": "patience dog",
       "item.dogblockmod.enwolf_1_spawn_egg": "wolf 1 Spawn Egg",
@@ -16844,6 +17035,7 @@
       "item.dogblockmod.endog_8_spawn_egg": "Dog 8 Spawn Egg",
       "item.dogblockmod.tameableportaldog_spawn_egg": "tameable portal dog Spawn Egg",
       "item.dogblockmod.ps_3full": "Ps3 with controller",
+      "block.dogblockmod.dh_1s": "dog hater spawner",
       "subtitles.floora2altbgm": "",
       "block.dogblockmod.waterdoor": "water door",
       "block.dogblockmod.longdogbody": "long dog 1 body",
