@@ -11,6 +11,24 @@
         "0": "dog21"
       },
       "name": "dog21"
+    },
+    "idk1": {
+      "map": {
+        "0": "idk1"
+      },
+      "name": "idk1"
+    },
+    "idk2": {
+      "map": {
+        "0": "idk2"
+      },
+      "name": "idk2"
+    },
+    "idk3": {
+      "map": {
+        "0": "idk3"
+      },
+      "name": "idk3"
     }
   }
 }
