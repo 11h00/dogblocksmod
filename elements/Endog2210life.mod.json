@@ -46,7 +46,7 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEAD",
-    "attackStrength": 7,
+    "attackStrength": 2,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
     "movementSpeed": 0.25,

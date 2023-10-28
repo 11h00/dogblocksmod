@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:obsidian"
+    },
+    "1": {
+      "item": "dogblockmod:purplestone"
+    },
+    "2": {
+      "item": "minecraft:obsidian"
+    },
+    "3": {
+      "item": "dogblockmod:purplestone"
+    },
+    "4": {
+      "item": "dogblockmod:ndog_13"
+    },
+    "5": {
+      "item": "dogblockmod:purplestone"
+    },
+    "6": {
+      "item": "minecraft:obsidian"
+    },
+    "7": {
+      "item": "dogblockmod:purplestone"
+    },
+    "8": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "dogblockmod:f_8",
+    "count": 1
+  }
+}

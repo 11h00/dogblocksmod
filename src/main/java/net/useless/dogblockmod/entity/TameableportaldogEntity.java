@@ -81,7 +81,7 @@ public class TameableportaldogEntity extends DogblockmodModElements.ModElement {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 650);
-			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 25);
+			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 0);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			event.put(entity, ammma.create());
@@ -120,7 +120,7 @@ public class TameableportaldogEntity extends DogblockmodModElements.ModElement {
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
-			return CreatureAttribute.UNDEFINED;
+			return CreatureAttribute.UNDEAD;
 		}
 
 		@Override

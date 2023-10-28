@@ -60,8 +60,8 @@ public class Endog130lifeEntity extends DogblockmodModElements.ModElement {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.25);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 900);
-			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 65);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 8);
+			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 0);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			event.put(entity, ammma.create());
 		}

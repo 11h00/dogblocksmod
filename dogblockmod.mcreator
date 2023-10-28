@@ -16270,6 +16270,352 @@
         ]
       },
       "path": "~/dogs/idk"
+    },
+    {
+      "name": "Friendlycorrupteddog8",
+      "type": "livingentity",
+      "sortid": 1431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendlycorrupteddog_8",
+      "path": "~/corrupteddogs"
+    },
+    {
+      "name": "Friendlycorrupteddog6",
+      "type": "livingentity",
+      "sortid": 1432,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friendlycorrupteddog_6",
+      "path": "~/corrupteddogs"
+    },
+    {
+      "name": "F6",
+      "type": "block",
+      "sortid": 1433,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_6",
+      "path": "~/corrupteddogs/eggs"
+    },
+    {
+      "name": "F8",
+      "type": "block",
+      "sortid": 1434,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_8",
+      "path": "~/corrupteddogs/eggs"
+    },
+    {
+      "name": "F6BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1435,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_6_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/corrupteddogs/eggs"
+    },
+    {
+      "name": "F8BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1436,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_8_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/corrupteddogs/eggs"
+    },
+    {
+      "name": "Cf6",
+      "type": "recipe",
+      "sortid": 1437,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cf_6",
+      "path": "~/corrupteddogs/eggs"
+    },
+    {
+      "name": "Cf8",
+      "type": "recipe",
+      "sortid": 1438,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cf_8",
+      "path": "~/corrupteddogs/eggs"
+    },
+    {
+      "name": "NCf6",
+      "type": "recipe",
+      "sortid": 1439,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "n_cf_6",
+      "path": "~/corrupteddogs/eggs"
+    },
+    {
+      "name": "Ncf8",
+      "type": "recipe",
+      "sortid": 1440,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ncf_8",
+      "path": "~/corrupteddogs/eggs"
+    },
+    {
+      "name": "Dog157",
+      "type": "block",
+      "sortid": 1441,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_157",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog158",
+      "type": "block",
+      "sortid": 1442,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_158",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog159",
+      "type": "block",
+      "sortid": 1443,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_159",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog160",
+      "type": "block",
+      "sortid": 1444,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_160",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog161",
+      "type": "block",
+      "sortid": 1445,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_161",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog162",
+      "type": "block",
+      "sortid": 1446,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_162",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog163",
+      "type": "block",
+      "sortid": 1447,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_163",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog164",
+      "type": "block",
+      "sortid": 1448,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_164",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog165",
+      "type": "block",
+      "sortid": 1449,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_165",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog166",
+      "type": "block",
+      "sortid": 1450,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_166",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog167",
+      "type": "block",
+      "sortid": 1451,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_167",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog168",
+      "type": "block",
+      "sortid": 1452,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_168",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog169",
+      "type": "block",
+      "sortid": 1453,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_169",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog170",
+      "type": "block",
+      "sortid": 1454,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_170",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog171",
+      "type": "block",
+      "sortid": 1455,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_171",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog172",
+      "type": "block",
+      "sortid": 1456,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_172",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog173",
+      "type": "block",
+      "sortid": 1457,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_173",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog174",
+      "type": "block",
+      "sortid": 1458,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_174",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog175",
+      "type": "block",
+      "sortid": 1459,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_175",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog176",
+      "type": "block",
+      "sortid": 1460,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_176",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog177",
+      "type": "block",
+      "sortid": 1461,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_177",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog178",
+      "type": "block",
+      "sortid": 1462,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_178",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog179",
+      "type": "block",
+      "sortid": 1463,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_179",
+      "path": "~/dogs"
+    },
+    {
+      "name": "Dog180",
+      "type": "block",
+      "sortid": 1464,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_180",
+      "path": "~/dogs"
     }
   ],
   "variable_elements": [
@@ -16694,6 +17040,22 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "toy1",
+      "files": [
+        "toy1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "toy2",
+      "files": [
+        "toy2"
+      ],
+      "category": "master",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -16816,6 +17178,7 @@
       "entity.dogblockmod.endog_1213life": "entity dog 13 - 13 lives",
       "block.dogblockmod.bossblock_2life_6": "bossblock",
       "block.dogblockmod.bossblock_2life_7": "bossblock",
+      "item.dogblockmod.friendlycorrupteddog_6_spawn_egg": "friendly corrupted dog 6 Spawn Egg",
       "item.dogblockmod.endog_16_spawn_egg": "dog 16 mob Spawn Egg",
       "block.dogblockmod.dog_35big": "big dog 35",
       "block.dogblockmod.exdog_1reverse": "ex dog 4",
@@ -16861,6 +17224,8 @@
       "biome.dogblockmod.greenzonebiome": "green biome",
       "block.dogblockmod.dog_81lives": "Dog 8",
       "block.dogblockmod.darkliquit": "Dark liquid",
+      "subtitles.toy2": "",
+      "subtitles.toy1": "",
       "block.dogblockmod.resistdog_3reverse": "resist dog 3",
       "entity.dogblockmod.abandonedlabbossdogfriend": "friendly lab boss dog",
       "item.dogblockmod.dogshreederv_2": "dog shreeder",
@@ -17160,6 +17525,7 @@
       "block.dogblockmod.greendoortop": "green door top",
       "block.dogblockmod.bossblock_2life_14": "boss dog block 2",
       "item.dogblockmod.endog_2210life_spawn_egg": "entity dog 22 Spawn Egg",
+      "block.dogblockmod.f_6": "F6",
       "block.dogblockmod.dh_2s": "dog hater spawner",
       "subtitles.bossdogdeath": "",
       "block.dogblockmod.wolfblokl_3life": "Wolfblock",
@@ -17192,6 +17558,7 @@
       "block.dogblockmod.ndog_30": "Dog 30",
       "biome.dogblockmod.redspacebiome": "dog trap",
       "block.dogblockmod.ndog_31": "Dog 31",
+      "block.dogblockmod.f_8": "F8",
       "item.dogblockmod.blackores_ingot": "black ingot",
       "block.dogblockmod.reddoortop": "red door top",
       "block.dogblockmod.blackblock": "black",
@@ -17281,6 +17648,7 @@
       "block.dogblockmod.idk_2": "idk2",
       "block.dogblockmod.idk_1": "idk1",
       "block.dogblockmod.idk_3": "idk3",
+      "block.dogblockmod.dog_180": "Dog 180",
       "item.dogblockmod.patiencedog_4life_spawn_egg": "patience dog Spawn Egg",
       "item.dogblockmod.friendlycorrupteddog_18_spawn_egg": "friendly corrupted dog 18 Spawn Egg",
       "block.dogblockmod.ndog_126": "Dog 126",
@@ -17297,9 +17665,19 @@
       "item.dogblockmod.endog_23_spawn_egg": "dog 23 Spawn Egg",
       "block.dogblockmod.ndog_2": "Dog 2",
       "block.dogblockmod.cyanhole": "cyan hole",
+      "block.dogblockmod.dog_170": "Dog 170",
+      "block.dogblockmod.dog_171": "Dog 171",
+      "block.dogblockmod.dog_172": "Dog 172",
       "item.dogblockmod.enwolf_14lives_spawn_egg": "wolf 1 - 4 lives Spawn Egg",
+      "block.dogblockmod.dog_173": "Dog 173",
+      "block.dogblockmod.dog_174": "Dog 174",
       "block.dogblockmod.ndog_136": "Dog 136",
       "entity.dogblockmod.finalbossdog_10life": "final dog",
+      "block.dogblockmod.dog_175": "Dog 175",
+      "block.dogblockmod.dog_176": "Dog 176",
+      "block.dogblockmod.dog_177": "Dog 177",
+      "block.dogblockmod.dog_178": "Dog 178",
+      "block.dogblockmod.dog_179": "Dog 179",
       "block.dogblockmod.ndog_142": "Dog 142",
       "block.dogblockmod.ndog_141": "Dog 141",
       "subtitles.marketplace": "",
@@ -17412,6 +17790,7 @@
       "entity.dogblockmod.endog_33": "dog 33 mob",
       "block.dogblockmod.pinkstoneblock": "pink stone block",
       "entity.dogblockmod.endog_37": "dog 37 mob",
+      "item.dogblockmod.friendlycorrupteddog_8_spawn_egg": "friendly corrupted dog 8 Spawn Egg",
       "subtitles.fz3bgm": "",
       "block.dogblockmod.waterzoneportal": "portal water zone",
       "item.dogblockmod.cyankey": "cyan key",
@@ -17494,6 +17873,8 @@
       "item.dogblockmod.endog_129life_spawn_egg": "entity dog 13 Spawn Egg",
       "item.dogblockmod.dog_13bigreverse_spawn_egg": "dog 13 big Spawn Egg",
       "block.dogblockmod.transferdooryellow": "transfer door - yellow space",
+      "entity.dogblockmod.friendlycorrupteddog_8": "friendly corrupted dog 8",
+      "entity.dogblockmod.friendlycorrupteddog_6": "friendly corrupted dog 6",
       "entity.dogblockmod.friendlycorrupteddog_7": "friendly corrupted dog 7",
       "item.dogblockmod.dog_1_spawn_egg": "Dog 1  Spawn Egg",
       "item.dogblockmod.endog_20_spawn_egg": "dog 20 mob Spawn Egg",
@@ -17646,7 +18027,17 @@
       "entity.dogblockmod.endog_10type_4": "dog 10 type 5",
       "biome.dogblockmod.marketplacebiome": "marketplace",
       "item.dogblockmod.endog_36friendly_spawn_egg": "dog 36 friendly mob Spawn Egg",
+      "block.dogblockmod.dog_160": "Dog 160",
+      "block.dogblockmod.dog_161": "Dog 160",
+      "block.dogblockmod.dog_162": "Dog 162",
+      "block.dogblockmod.dog_163": "Dog 163",
       "block.dogblockmod.bugdog": "bug dog",
+      "block.dogblockmod.dog_164": "Dog 164",
+      "block.dogblockmod.dog_165": "Dog 165",
+      "block.dogblockmod.dog_166": "Dog 166",
+      "block.dogblockmod.dog_167": "Dog 167",
+      "block.dogblockmod.dog_168": "Dog 168",
+      "block.dogblockmod.dog_169": "Dog 169",
       "entity.dogblockmod.enwolf_1": "wolf 1",
       "item.dogblockmod.finalbossdog_9life_spawn_egg": "final dog Spawn Egg",
       "entity.dogblockmod.enwolf_2": "wolf 2",
@@ -17661,6 +18052,9 @@
       "block.dogblockmod.dog_155": "dog155",
       "block.dogblockmod.purplesquare": "Purple floor",
       "block.dogblockmod.dog_156": "Dog 156",
+      "block.dogblockmod.dog_157": "Dog 157",
+      "block.dogblockmod.dog_158": "Dog 158",
+      "block.dogblockmod.dog_159": "Dog 159",
       "block.dogblockmod.yellowdoortop": "yellow door top",
       "subtitles.mediumdoghurt": "",
       "item.dogblockmod.floor_2": "Floor 2 Portal Igniter",

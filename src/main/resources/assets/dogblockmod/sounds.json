@@ -571,5 +571,23 @@
         "stream": false
       }
     ]
+  },
+  "toy1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dogblockmod:toy1",
+        "stream": false
+      }
+    ]
+  },
+  "toy2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dogblockmod:toy2",
+        "stream": false
+      }
+    ]
   }
 }
