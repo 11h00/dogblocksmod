@@ -16679,6 +16679,33 @@
       "locked_code": false,
       "registry_name": "endog_44",
       "path": "~/entiti"
+    },
+    {
+      "name": "Casatlebrick",
+      "type": "block",
+      "sortid": 1472,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casatlebrick",
+      "path": "~/specialdungeon/block"
+    },
+    {
+      "name": "Transparentgrid",
+      "type": "block",
+      "sortid": 1473,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transparentgrid",
+      "path": "~/specialdungeon/block"
+    },
+    {
+      "name": "Szone",
+      "type": "block",
+      "sortid": 1474,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "szone",
+      "path": "~/specialdungeon/block"
     }
   ],
   "variable_elements": [
@@ -17158,6 +17185,7 @@
       "subtitles.floora2bgm": "",
       "item.dogblockmod.endog_221life_spawn_egg": "entity dog 22 Spawn Egg",
       "block.dogblockmod.whitespacewood_leaves": "Whitespacewood Leaves",
+      "block.dogblockmod.szone": "Casatlebrick",
       "block.dogblockmod.resistdog_6reverse": "resist dog 6 reverse",
       "block.dogblockmod.nseb": "dog36",
       "block.dogblockmod.darkwood_fence_gate": "Darkwood Fence Gate",
@@ -17281,6 +17309,7 @@
       "entity.dogblockmod.dog_13big": "dog 13 big",
       "block.dogblockmod.finaldogpart_8": "final dog",
       "block.dogblockmod.finaldogpart_9": "final dog",
+      "block.dogblockmod.casatlebrick": "Casatlebrick",
       "block.dogblockmod.dog_83lives": "Dog 8",
       "item.dogblockmod.endog_130life_spawn_egg": "entity dog 13 Spawn Egg",
       "block.dogblockmod.elevatorsoundblock": "elevator arrived sound effect",
@@ -18156,6 +18185,7 @@
       "item.dogblockmod.dog_6tiny_spawn_egg": "tiny dog 6 Spawn Egg",
       "entity.dogblockmod.endog_32sick": "dog 32 mob sick",
       "entity.dogblockmod.dog_6tiny": "tiny dog 6",
+      "block.dogblockmod.transparentgrid": "transparent grid",
       "entity.dogblockmod.patiencedog_9life": "patience dog",
       "block.dogblockmod.whitespacegrass": "white space grass",
       "item.dogblockmod.mcafe": "Mcafe",
@@ -18343,6 +18373,10 @@
           },
           {
             "name": "dogkiller",
+            "children": []
+          },
+          {
+            "name": "block",
             "children": []
           }
         ]
