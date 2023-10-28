@@ -589,5 +589,14 @@
         "stream": false
       }
     ]
+  },
+  "gore": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:gore",
+        "stream": false
+      }
+    ]
   }
 }

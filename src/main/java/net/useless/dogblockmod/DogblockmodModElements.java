@@ -132,6 +132,7 @@ public class DogblockmodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "marketplace")));
 		sounds.put(new ResourceLocation("dogblockmod", "toy1"), new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "toy1")));
 		sounds.put(new ResourceLocation("dogblockmod", "toy2"), new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "toy2")));
+		sounds.put(new ResourceLocation("dogblockmod", "gore"), new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "gore")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("dogblockmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

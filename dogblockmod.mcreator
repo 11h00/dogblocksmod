@@ -16787,6 +16787,87 @@
       "locked_code": false,
       "registry_name": "dog_183",
       "path": "~/dogs"
+    },
+    {
+      "name": "Endog44EntityShakingCondition",
+      "type": "procedure",
+      "sortid": 1484,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_44_entity_shaking_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/entiti"
+    },
+    {
+      "name": "Lowerthan10hp",
+      "type": "procedure",
+      "sortid": 1485,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lowerthan_10hp",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/entiti"
+    },
+    {
+      "name": "Endog45",
+      "type": "livingentity",
+      "sortid": 1486,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_45",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Endog46",
+      "type": "livingentity",
+      "sortid": 1487,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_46",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Endog47",
+      "type": "livingentity",
+      "sortid": 1488,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_47",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Endog48",
+      "type": "livingentity",
+      "sortid": 1489,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_48",
+      "path": "~/entiti"
+    },
+    {
+      "name": "Endog49",
+      "type": "livingentity",
+      "sortid": 1490,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endog_49",
+      "path": "~/entiti"
     }
   ],
   "variable_elements": [
@@ -17227,6 +17308,14 @@
       ],
       "category": "master",
       "subtitle": ""
+    },
+    {
+      "name": "gore",
+      "files": [
+        "gore"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -17440,6 +17529,7 @@
       "block.dogblockmod.verybigdog_1spawn": "very big dog 1 spawn",
       "block.dogblockmod.dog_37big": "big dog 37",
       "item.dogblockmod.pinkstone": "pink stone",
+      "item.dogblockmod.endog_46_spawn_egg": "dog 46 Spawn Egg",
       "item.dogblockmod.endog_222life_spawn_egg": "entity dog 22 Spawn Egg",
       "item.dogblockmod.corrupteddog_14_spawn_egg": "corrupted dog 14 Spawn Egg",
       "subtitles.openbox": "",
@@ -17456,6 +17546,7 @@
       "entity.dogblockmod.test_2": "Test 2",
       "entity.dogblockmod.test_1": "Test 1",
       "entity.dogblockmod.bossdog_2child": "boss dog 2 tameable child",
+      "item.dogblockmod.endog_47_spawn_egg": "dog 47 Spawn Egg",
       "item.dogblockmod.iphone_1": "iphone",
       "item.dogblockmod.endog_224life_spawn_egg": "entity dog 22 Spawn Egg",
       "item.dogblockmod.endog_19_spawn_egg": "dog 19 mob Spawn Egg",
@@ -17501,6 +17592,7 @@
       "block.dogblockmod.wolfblock_5life": "Wolfblock",
       "item.dogblockmod.verybigdog_1_spawn_egg": "very big dog 1 Spawn Egg",
       "entity.dogblockmod.patiencedog_11life": "patience dog",
+      "item.dogblockmod.endog_49_spawn_egg": "dog 48 Spawn Egg",
       "block.dogblockmod.whiteores_ore": "Whiteores Ore",
       "item.dogblockmod.endog_138life_spawn_egg": "entity dog 13 Spawn Egg",
       "item.dogblockmod.endog_226life_spawn_egg": "entity dog 22 Spawn Egg",
@@ -17813,6 +17905,7 @@
       "block.dogblockmod.transferdoorpurple": "transfer door - purple space",
       "item.dogblockmod.portaldog_6life_spawn_egg": "portal dog - 6 life Spawn Egg",
       "block.dogblockmod.purplehole": "Purple floor",
+      "item.dogblockmod.endog_48_spawn_egg": "dog 49 Spawn Egg",
       "block.dogblockmod.dog_36lives": "Dog 3",
       "item.dogblockmod.test_1_spawn_egg": "Test 1 Spawn Egg",
       "entity.dogblockmod.patiencedog_3life": "patience dog",
@@ -17994,12 +18087,17 @@
       "entity.dogblockmod.endog_40": "dog 40",
       "block.dogblockmod.dogwoods_stairs": "Dogwoods Stairs",
       "block.dogblockmod.brownfloorunbreakable": "unbreakable Brown floor",
+      "entity.dogblockmod.endog_47": "dog 47",
       "item.dogblockmod.whitestonetools_axe": "Whitestonetools Axe",
       "block.dogblockmod.bluewallunbreakable": "unbreakable blue wall",
+      "entity.dogblockmod.endog_46": "dog 46",
+      "entity.dogblockmod.endog_45": "dog 45",
       "entity.dogblockmod.endog_44": "dog 44",
       "item.dogblockmod.endog_13reverse_spawn_egg": "dog 13 Spawn Egg",
+      "entity.dogblockmod.endog_49": "dog 48",
       "item.dogblockmod.whitestonetools_shovel": "Whitestonetools Shovel",
       "item.dogblockmod.bluestone": "blue stone",
+      "entity.dogblockmod.endog_48": "dog 49",
       "block.dogblockmod.unknownportal": "unknown portal",
       "block.dogblockmod.verybigdog_9": "vary big dog 9",
       "block.dogblockmod.rainbowdoor": "rainbow door",
@@ -18108,6 +18206,7 @@
       "item.dogblockmod.afraidendog_26_spawn_egg": "dog 26 mob Spawn Egg",
       "block.dogblockmod.whitespacewood_button": "Whitespacewood Button",
       "item.dogblockmod.endog_137life_spawn_egg": "entity dog 13 Spawn Egg",
+      "item.dogblockmod.endog_45_spawn_egg": "dog 45 Spawn Egg",
       "subtitles.inlove": "",
       "item.dogblockmod.disableddog_11_spawn_egg": "disabled dog 11 Spawn Egg",
       "block.dogblockmod.dogdimgrass": "fragile grass",
@@ -18302,6 +18401,7 @@
       "block.dogblockmod.dog_39live": "Dog 3",
       "block.dogblockmod.dog_128": "Dog 128",
       "block.dogblockmod.dog_129": "Dog 129",
+      "subtitles.gore": "",
       "item.dogblockmod.magicwater_bucket": "magic water bucket",
       "block.dogblockmod.wolfblock": "Wolfblock",
       "entity.dogblockmod.finalbossdog_7life": "final dog",

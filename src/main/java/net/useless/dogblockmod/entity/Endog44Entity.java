@@ -1,6 +1,7 @@
 
 package net.useless.dogblockmod.entity;
 
+import net.useless.dogblockmod.procedures.Lowerthan10hpProcedure;
 import net.useless.dogblockmod.entity.renderer.Endog44Renderer;
 import net.useless.dogblockmod.DogblockmodModElements;
 
@@ -34,7 +35,13 @@ import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
+
+import java.util.stream.Stream;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 @DogblockmodModElements.ModElement.Tag
 public class Endog44Entity extends DogblockmodModElements.ModElement {
@@ -96,9 +103,73 @@ public class Endog44Entity extends DogblockmodModElements.ModElement {
 				protected double getAttackReachSqr(LivingEntity entity) {
 					return (double) (4.0 + entity.getWidth() * entity.getWidth());
 				}
+
+				@Override
+				public boolean shouldExecute() {
+					double x = CustomEntity.this.getPosX();
+					double y = CustomEntity.this.getPosY();
+					double z = CustomEntity.this.getPosZ();
+					Entity entity = CustomEntity.this;
+					return super.shouldExecute() && Lowerthan10hpProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+				}
+
+				@Override
+				public boolean shouldContinueExecuting() {
+					double x = CustomEntity.this.getPosX();
+					double y = CustomEntity.this.getPosY();
+					double z = CustomEntity.this.getPosZ();
+					Entity entity = CustomEntity.this;
+					return super.shouldContinueExecuting()
+							&& Lowerthan10hpProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+									.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+				}
+
 			});
-			this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
-			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 0.8));
+			this.targetSelector.addGoal(2, new HurtByTargetGoal(this) {
+				@Override
+				public boolean shouldExecute() {
+					double x = CustomEntity.this.getPosX();
+					double y = CustomEntity.this.getPosY();
+					double z = CustomEntity.this.getPosZ();
+					Entity entity = CustomEntity.this;
+					return super.shouldExecute() && Lowerthan10hpProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+				}
+
+				@Override
+				public boolean shouldContinueExecuting() {
+					double x = CustomEntity.this.getPosX();
+					double y = CustomEntity.this.getPosY();
+					double z = CustomEntity.this.getPosZ();
+					Entity entity = CustomEntity.this;
+					return super.shouldContinueExecuting()
+							&& Lowerthan10hpProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+									.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+				}
+			});
+			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 0.8) {
+				@Override
+				public boolean shouldExecute() {
+					double x = CustomEntity.this.getPosX();
+					double y = CustomEntity.this.getPosY();
+					double z = CustomEntity.this.getPosZ();
+					Entity entity = CustomEntity.this;
+					return super.shouldExecute() && Lowerthan10hpProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+				}
+
+				@Override
+				public boolean shouldContinueExecuting() {
+					double x = CustomEntity.this.getPosX();
+					double y = CustomEntity.this.getPosY();
+					double z = CustomEntity.this.getPosZ();
+					Entity entity = CustomEntity.this;
+					return super.shouldContinueExecuting()
+							&& Lowerthan10hpProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+									.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+				}
+			});
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
 			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
 		}
