@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dogblockmod:blocks/dasurite_ore_block",
+    "particle": "dogblockmod:blocks/dasurite_ore_block"
+  }
+}

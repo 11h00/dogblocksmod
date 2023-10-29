@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.21,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "dogblockmod:dasurite_ore"
+  },
+  "result": {
+    "item": "dogblockmod:dasurite_ingot"
+  }
+}

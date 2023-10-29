@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "dogblockmod:nokai_ingot"
+    },
+    "2": {
+      "item": "dogblockmod:nokai_ingot"
+    },
+    "3": {
+      "item": "dogblockmod:nokai_ingot"
+    },
+    "5": {
+      "item": "dogblockmod:nokai_ingot"
+    }
+  },
+  "result": {
+    "item": "dogblockmod:nokai_armor_boots",
+    "count": 1
+  }
+}

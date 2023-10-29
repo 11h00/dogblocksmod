@@ -1,0 +1,62 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "nokai_head",
+    "enableBody": true,
+    "textureBody": "nokai_body",
+    "enableLeggings": true,
+    "textureLeggings": "nokai_leggings",
+    "enableBoots": true,
+    "textureBoots": "nokai_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "nokai",
+    "helmetName": "Nokai Helmet",
+    "bodyName": "Nokai Chestplate",
+    "leggingsName": "Nokai Leggings",
+    "bootsName": "Nokai Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 88,
+    "damageValueHelmet": 39,
+    "damageValueBody": 65,
+    "damageValueLeggings": 49,
+    "damageValueBoots": 27,
+    "enchantability": 45,
+    "toughness": 6.0,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:NokaiIngot"
+      }
+    ]
+  }
+}

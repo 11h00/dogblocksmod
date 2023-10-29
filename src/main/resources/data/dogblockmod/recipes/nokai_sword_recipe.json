@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "dogblockmod:nokai_ingot"
+    },
+    "1": {
+      "item": "dogblockmod:nokai_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dogblockmod:nokai_sword",
+    "count": 1
+  }
+}

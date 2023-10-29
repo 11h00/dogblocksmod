@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NokaiIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NokaiIngot"
+      },
+      {
+        "value": "CUSTOM:NokaiIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NokaiIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NokaiArmor.boots"
+    },
+    "name": "nokai_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dogblockmod:dasurite_block"
+    }
+  ],
+  "result": {
+    "item": "dogblockmod:dasurite_ingot",
+    "count": 9
+  }
+}
