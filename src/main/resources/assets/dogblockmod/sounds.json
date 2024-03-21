@@ -607,5 +607,77 @@
         "stream": false
       }
     ]
+  },
+  "resist": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "dogblockmod:resist",
+        "stream": false
+      }
+    ]
+  },
+  "floor_clear": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:dungeonfloorclear",
+        "stream": false
+      }
+    ]
+  },
+  "resisthard": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "dogblockmod:resisthard",
+        "stream": false
+      }
+    ]
+  },
+  "resisthard2": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "dogblockmod:resisthard2",
+        "stream": false
+      }
+    ]
+  },
+  "resisthard3": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "dogblockmod:resisthard3",
+        "stream": false
+      }
+    ]
+  },
+  "cyanzone": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:cyan",
+        "stream": false
+      }
+    ]
+  },
+  "floor_null": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dogblockmod:floor_null",
+        "stream": false
+      }
+    ]
+  },
+  "parasite_ded": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "dogblockmod:parasite_ded",
+        "stream": false
+      }
+    ]
   }
 }

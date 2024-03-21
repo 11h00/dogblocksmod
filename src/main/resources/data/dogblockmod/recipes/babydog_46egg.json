@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cyan_dye"
+    },
+    "1": {
+      "item": "minecraft:cyan_wool"
+    },
+    "2": {
+      "item": "minecraft:cyan_dye"
+    },
+    "3": {
+      "item": "minecraft:cyan_shulker_box"
+    },
+    "4": {
+      "item": "dogblockmod:dog_182"
+    },
+    "5": {
+      "item": "minecraft:cyan_shulker_box"
+    },
+    "6": {
+      "item": "minecraft:cyan_dye"
+    },
+    "7": {
+      "item": "minecraft:cyan_wool"
+    },
+    "8": {
+      "item": "minecraft:cyan_dye"
+    }
+  },
+  "result": {
+    "item": "dogblockmod:friendlydog_46egg",
+    "count": 1
+  }
+}

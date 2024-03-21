@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#6"
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      },
+      {
+        "value": "Items.DYE#6"
+      },
+      {
+        "value": "Blocks.CYAN_SHULKER_BOX"
+      },
+      {
+        "value": "CUSTOM:Dog182"
+      },
+      {
+        "value": "Blocks.CYAN_SHULKER_BOX"
+      },
+      {
+        "value": "Items.DYE#6"
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      },
+      {
+        "value": "Items.DYE#6"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Friendlydog46egg"
+    },
+    "name": "babydog_46egg",
+    "namespace": "mod"
+  }
+}

@@ -2,6 +2,7 @@
 package net.useless.dogblockmod.entity;
 
 import net.useless.dogblockmod.procedures.Lowerthan10hpProcedure;
+import net.useless.dogblockmod.procedures.Endog46EntityDiesProcedure;
 import net.useless.dogblockmod.entity.renderer.Endog46Renderer;
 import net.useless.dogblockmod.DogblockmodModElements;
 
@@ -202,6 +203,21 @@ public class Endog46Entity extends DogblockmodModElements.ModElement {
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.shulker.death"));
+		}
+
+		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = source.getTrueSource();
+			Entity entity = this;
+
+			Endog46EntityDiesProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

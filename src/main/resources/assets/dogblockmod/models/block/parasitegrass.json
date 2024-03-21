@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dogblockmod:blocks/parasite_dirt",
+    "up": "dogblockmod:blocks/parasite_gass_top",
+    "north": "dogblockmod:blocks/parasite_grass_left",
+    "east": "dogblockmod:blocks/parasite_grass_left",
+    "south": "dogblockmod:blocks/parasite_grass_left",
+    "west": "dogblockmod:blocks/parasite_grass_left",
+    "particle": "dogblockmod:blocks/parasite_dirt"
+  }
+}

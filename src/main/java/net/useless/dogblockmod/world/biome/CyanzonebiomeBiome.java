@@ -33,8 +33,8 @@ public class CyanzonebiomeBiome extends DogblockmodModElements.ModElement {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-16724737).setWaterColor(-16724737).setWaterFogColor(-16724737)
 						.withSkyColor(-16724737).withFoliageColor(-16724737).withGrassColor(-16724737)
-						.setAmbientSound((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-								.getValue(new ResourceLocation("dogblockmod:bluezonebgm")))
+						.setAmbientSound(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dogblockmod:cyanzone")))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(

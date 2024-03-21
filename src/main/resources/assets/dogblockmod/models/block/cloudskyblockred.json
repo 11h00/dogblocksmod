@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dogblockmod:blocks/cloudskyblock_red",
+    "particle": "dogblockmod:blocks/cloudskyblock_red"
+  }
+}

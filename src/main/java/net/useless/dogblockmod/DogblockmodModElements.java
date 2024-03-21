@@ -135,6 +135,21 @@ public class DogblockmodModElements {
 		sounds.put(new ResourceLocation("dogblockmod", "gore"), new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "gore")));
 		sounds.put(new ResourceLocation("dogblockmod", "hospitalmusic"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "hospitalmusic")));
+		sounds.put(new ResourceLocation("dogblockmod", "resist"), new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "resist")));
+		sounds.put(new ResourceLocation("dogblockmod", "floor_clear"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "floor_clear")));
+		sounds.put(new ResourceLocation("dogblockmod", "resisthard"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "resisthard")));
+		sounds.put(new ResourceLocation("dogblockmod", "resisthard2"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "resisthard2")));
+		sounds.put(new ResourceLocation("dogblockmod", "resisthard3"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "resisthard3")));
+		sounds.put(new ResourceLocation("dogblockmod", "cyanzone"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "cyanzone")));
+		sounds.put(new ResourceLocation("dogblockmod", "floor_null"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "floor_null")));
+		sounds.put(new ResourceLocation("dogblockmod", "parasite_ded"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dogblockmod", "parasite_ded")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("dogblockmod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
